@@ -21,9 +21,9 @@ The following is required:
 Download the repository and install all necessary Julia packages by running the
 following commands in your desired installation directory.
 
-`$ cd /home/<username>/<directory>/`
-`$ git clone jchitpin/reproduce-efm-paper-2022`
-`$ cd reproduce-efm-paper-2022/src/`
+`$ cd /home/<username>/<directory>/`  
+`$ git clone jchitpin/reproduce-efm-paper-2022`  
+`$ cd reproduce-efm-paper-2022/src/`  
 `$ julia install_julia_packages.jl` # or run line by line in Julia REPL
 
 ## Workflow to reproduce results
