@@ -104,7 +104,7 @@ function export_model_to_csv(exportdir)
 
   # Export
   CSV.write(#
-    join([exportdir, "/stoich_uncorrected.csv"]), Tables.table(S), header=false
+    join([exportdir, "/stoich-uncorrected.csv"]), Tables.table(S), header=false
   )
   CSV.write(#
     join([exportdir, "/metabolites.csv"]), Tables.table(mets), header=false

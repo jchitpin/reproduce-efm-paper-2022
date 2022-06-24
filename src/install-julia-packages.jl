@@ -5,6 +5,7 @@
 #     See https://github.com/JuliaPlots/GLMakie.jl for troubleshooting.
 #     It is only required for one optional plotting function in
 #     ElementaryFluxModes.jl.
+#     Note: Gurobi is the only licensed solver that must be manually installed
 # ------------------------------------------------------------------------------
 
 ## INSTALLING ElementaryFluxModes.jl -------------------------------------------

@@ -1,49 +1,61 @@
-# Benchmarking EFM weights by cycle-history Markov chain versus optimization-based methods
+# Uniquely identifying EFM weights by cycle-history Markov chain
 
 This repository contains the scripts necessary to regenerate all figures and
-results from the manuscript by J. G. Chitpin and T. J. Perkins.
+results from the manuscript by J. G. Chitpin and T. J. Perkins. Certain values,
+such as mean reconstruction error for the Markovian weights, are not exported
+as a text file but can be viewed by interactively running the scripts. The
+beginning of each script will list what is computed/exported.
 
-## Hardware requirements
-
-Any architecture that can run the Julia programming language.
-
-
-## Software requirements
+## Requirements
 
 The following is required:
 
 * Julia (minimum version 1.6).
-* A Bash terminal to run the scripts/workflows.
+* Gurobi (must be version 9.12; free academic license available)
+* A shell to run the scripts/workflows.
 * TeX distribution (like TeX Live or MiKTeX) to compile figures.
+
 
 ## Installation
 
 Download the repository and install all necessary Julia packages by running the
 following commands in your desired installation directory.
 
-`$ cd /home/<username>/<directory>/`  
-`$ git clone jchitpin/reproduce-efm-paper-2022`  
-`$ cd reproduce-efm-paper-2022/src/`  
-`$ julia install_julia_packages.jl` # or run line by line in Julia REPL
+1. `$ cd /home/<username>/<directory>/`  
+2. `$ git clone jchitpin/reproduce-efm-paper-2022`  
+3. `$ cd reproduce-efm-paper-2022/src/`  
+4. `$ julia install-julia-packages.jl # or run line by line in Julia REPL`
+
 
 ## Workflow to reproduce results
 
 The scripts in the following subsections should be run in order to regenerate
-the intermediate data files.
+the intermediate data files. All scripts should be run in their current working
+directory (`reproduce-efm-paper-2022/src/`).
 
 ### Figure 1 and 2
 
-1. ``
+1. `$ julia main-efm-weights-example-markov.jl`
+2. `$ julia main-efm-weights-example-optimization.jl`
 
+Figures are generated via:
 
+1. `$ sh figure-01.tex`
+2. `$ sh figure-02.tex`
 
 ### Figure 3
 
+Figure is generated via:
+
+1. `sh figure-03.tex`
 
 ### Figure 4
 
-1. `$ julia main_sphingo_network_validation.jl`
+1. `$ julia main-sphingo-network-validation.jl`
+2. `$ julia main-efm-weights-sphingo-markov.jl`
+3. `$ julia main-efm-weights-sphingo-optimization.jl`
 
+Figures are generated via:
 
 
 ## Reference

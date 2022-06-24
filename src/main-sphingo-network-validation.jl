@@ -23,12 +23,11 @@
 
 ## USER PARAMETERS -------------------------------------------------------------
 # Set working directory containing this script. Example:
-cd("/home/jchitpin/Documents/PhD/Projects/manuscript-01-computations/src/")
+cd("/home/jchitpin/Documents/PhD/Projects/reproduce-efm-paper-2022/src/")
 # ------------------------------------------------------------------------------
 
 ## JULIA PACKAGES AND FUNCTIONS ------------------------------------------------
-# Required packages (attempts to install them if not present)
-using DifferentialEquations, CSV, Tables, Plots, SBML, Plots
+using DifferentialEquations, CSV, Tables, Plots, SBML, Plots, JuMP
 include.(filter(contains(r".jl$"), readdir("functions"; join=true)))
 # ------------------------------------------------------------------------------
 
@@ -38,9 +37,9 @@ include.(filter(contains(r".jl$"), readdir("functions"; join=true)))
 # assumption. These reactions are set to zero in variable stoich and stoich.csv.
 # The wildtype and disease fluxes for these reactions are already zero or were
 # set to zero (Vm1 = 0 and not 0.004 for disease state).
-export_model_to_csv("../data") # metabolites.csv and stoich_uncorrected.csv
+export_model_to_csv("../data") # metabolites.csv and stoich-uncorrected.csv
 mets = CSV.read("../data/metabolites.csv", Tables.matrix, header=false)
-stoich = CSV.read("../data/stoich_uncorrected.csv", Tables.matrix, header=false)
+stoich = CSV.read("../data/stoich-uncorrected.csv", Tables.matrix, header=false)
 stoich_wt = copy(stoich) # stoichiometry matrix identical between conditions
 stoich_ad = copy(stoich)
 # ------------------------------------------------------------------------------
@@ -97,16 +96,16 @@ fluxes_ad = model_ad_fluxes(sol_ad[end])
 idx_neg_wt = findall(<(0), fluxes_wt) # reaction indices with negative fluxes
 stoich_wt[:,idx_neg_wt] = -1 * stoich_wt[:,idx_neg_wt] # flip reaction directions
 fluxes_wt[idx_neg_wt] .= -1 * fluxes_wt[idx_neg_wt] # negative fluxes now positive
-CSV.write("../data/fluxes_wt.csv", Tables.table(fluxes_wt), header = false)
-CSV.write("../data/fluxes_ad.csv", Tables.table(fluxes_ad), header = false)
+CSV.write("../data/fluxes-wt.csv", Tables.table(fluxes_wt), header = false)
 
 # Disease fluxes
 idx_neg_ad = findall(<(0), fluxes_ad) # reaction indices with negative fluxes
 stoich_ad[:,idx_neg_ad] = -1 * stoich_ad[:,idx_neg_ad] # flip reaction directions
 fluxes_ad[idx_neg_ad] .= -1 * fluxes_ad[idx_neg_ad] # flip negatives fluxes
+CSV.write("../data/fluxes-ad.csv", Tables.table(fluxes_ad), header = false)
 
 # Wildtype/disease stoichiometry matrix with corrected reaction directions
 @assert(stoich_wt == stoich_ad)
-CSV.write("../data/stoich_corrected.csv", Tables.table(stoich_wt), header = false)
+CSV.write("../data/stoich-corrected.csv", Tables.table(stoich_wt), header = false)
 # ------------------------------------------------------------------------------
 

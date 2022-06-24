@@ -2,16 +2,17 @@
 # This script does the following:
 # (1) Compute EFM weights in the two example networks by optimization-based
 #     methods across different solvers.
+# (2) Solutions are manually aggregated and inputted into the paper tables.
 # ------------------------------------------------------------------------------
 
 ## USER PARAMETERS -------------------------------------------------------------
 # Set working directory containing this script. Example:
-cd("/home/jchitpin/Documents/PhD/Projects/manuscript-01-computations/src/")
+cd("/home/jchitpin/Documents/PhD/Projects/reproduce-efm-paper-2022/src/")
 # ------------------------------------------------------------------------------
 
 ## JULIA PACKAGES AND FUNCTIONS ------------------------------------------------
-using CSV, Tables
-using JuMP # interface for mathematical optimization (solvers are listed below)
+using Tables, CSV
+using JuMP
 using GLPK, Gurobi, SCIP, COSMO, OSQP, CDDLib, ECOS, ProxSDP, Tulip
 include.(filter(contains(r".jl$"), readdir("functions"; join=true)))
 # ------------------------------------------------------------------------------
@@ -20,45 +21,13 @@ include.(filter(contains(r".jl$"), readdir("functions"; join=true)))
 # Goal is to create system of linear EFM weight equations for example networks
 # 1 and 2 with the following format: A * w == v
 
-# Enumerate EFMs using ElementaryFluxModes and reshape into EFM matrix
-S1 = [#
-    -1 -1  0  0  0  0  0  0  1
-     1  0 -1  0  0  0  0  0  0
-     0  1  0 -1  0  0  0  0  0
-     0  0  1  1 -1 -1  0  0  0
-     0  0  0  0  1  0 -1  0  0
-     0  0  0  0  0  1  0 -1  0
-     0  0  0  0  0  0  1  1 -1
-]
+# Load EFM matrix from ElementaryFluxModes (rows are reactions; cols are EFMs)
+A1 = CSV.read("../data/efm-matrix-example-1.csv", Tables.matrix, header=false)
+A2 = CSV.read("../data/efm-matrix-example-2.csv", Tables.matrix, header=false)
 
-# Steady state fluxes
+# Steady state fluxes for example 1 and 2
 v1 = [2, 2, 2, 2, 2, 2, 2, 2, 4]
-
-# Enumerate EFMs, compute their probabilities and weights
-res1 = steady_state_efm_distribution(S1, v1)
-
-# EFM matrix (rows are reactions; columns are EFMs)
-A1 = reshape_efm_vector(res1.e, S1)
-
-# Stoichiometry matrix (rows are metabolites; cols are reactions)
-S2 = [#
-    -1  0  0  0  0  0  0  0  0  0  1
-     1 -1  1 -1  0  0  0  0  0  0  0
-     0  1 -1  0 -1  1  0  0  0  0  0
-     0  0  0  1  0  0 -1  0  0  0  0
-     0  0  0  0  1 -1  1 -1  1 -1  0
-     0  0  0  0  0  0  0  0  0  1 -1
-     0  0  0  0  0  0  0  1 -1  0  0
-]
-
-# Steady state fluxes
 v2 = [3, 2, 1, 2, 3, 2, 2, 1, 1, 3, 3]
-
-# Enumerate EFMs, compute their probabilities and weights
-res2 = steady_state_efm_distribution(S2, v2)
-
-# EFM matrix (rows are reactions; columns are EFMs)
-A2 = reshape_efm_vector(res2.e, S2)
 
 # Solvers
 milp_solvers, qp_solvers, lp_solvers = load_solvers()

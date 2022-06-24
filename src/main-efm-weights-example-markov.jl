@@ -3,17 +3,18 @@
 # (1) Enumerate and compute EFM weights in the two example networks by
 #     cycle-history Markov chain method.
 # (2) Export EFM matrix.
+# (3) Solutions are manually aggregated and inputted into the paper tables.
 # ------------------------------------------------------------------------------
 
 ## USER PARAMETERS -------------------------------------------------------------
 # Set working directory containing this script. Example:
-cd("/home/jchitpin/Documents/PhD/Projects/manuscript-01-computations/src/")
+cd("/home/jchitpin/Documents/PhD/Projects/reproduce-efm-paper-2022/src/")
 # ------------------------------------------------------------------------------
 
 ## JULIA PACKAGES AND FUNCTIONS ------------------------------------------------
-using ElementaryFluxModes # https://github.com/jchitpin/ElementaryFluxModes.jl
+using ElementaryFluxModes
 using Tables, CSV
-using GLMakie # need to install OpenGL https://github.com/JuliaPlots/GLMakie.jl
+using GLMakie
 # ------------------------------------------------------------------------------
 
 ## EXAMPLE 01 ------------------------------------------------------------------
@@ -49,7 +50,7 @@ tree_plot(#
 # Reshape EFM sequences into matrix and export (for optimization methods)
 A1 = reshape_efm_vector(res1.e, S1)
 CSV.write(#
-  "../data/efm_matrix_example_1.csv",
+  "../data/efm-matrix-example-1.csv",
   Tables.table(A1),
   header=false
 )
@@ -88,7 +89,7 @@ tree_plot(#
 # Reshape EFM sequences into matrix and export (for optimization methods)
 A2 = reshape_efm_vector(res2.e, S2)
 CSV.write(#
-  "../data/efm_matrix_example_2.csv",
+  "../data/efm-matrix-example-2.csv",
   Tables.table(A2),
   header=false
 )
