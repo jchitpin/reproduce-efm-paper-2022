@@ -1,0 +1,54 @@
+\documentclass[varwidth,border=0pt]{standalone}
+
+% Tikz packages
+\usepackage{tikz}
+\usetikzlibrary{%
+  patterns, plotmarks, backgrounds, shapes, arrows, calc, trees, positioning,
+  chains, shapes.geometric, decorations.pathreplacing,
+  decorations.pathmorphing, shapes.arrows, decorations.markings, quotes,
+  arrows.meta, spy, fit, matrix
+}
+
+% General image and colour support
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+% Captions and subcaptions
+\usepackage{caption}
+\usepackage[labelformat=parens]{subcaption}
+\renewcommand\thesubfigure{\alph{subfigure})}
+
+% Define main node type for networks
+\tikzstyle{lnode} = [%
+  circle,
+  draw=black,
+  minimum height=0.65cm,
+  align=center,
+  fill=none,
+  text centered,
+  inner sep=0.5pt,
+  font=\tiny
+]%
+
+\begin{document}
+  \begin{figure}
+    \centering
+    \begin{subfigure}[t]{0.5\textwidth}
+      \caption{}
+      \vspace*{-1.5em}
+      \centering
+      \scalebox{0.75}{\input{input-example-1-network.tex}}\\
+      \vspace*{-1.5em}
+      \scalebox{0.75}{\input{input-example-1-efms.tex}}
+    \end{subfigure}\hfill%
+    \begin{subfigure}[t]{0.5\textwidth}
+      \caption{}
+      \vspace*{-1.5em}
+      \centering
+      \scalebox{0.75}{\input{input-example-2-network.tex}}\\
+      \vspace*{-1.5em}
+      \scalebox{0.75}{\input{input-example-2-efms.tex}}
+    \end{subfigure}
+  \end{figure}
+\end{document}
+

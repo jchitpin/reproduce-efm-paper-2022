@@ -18,17 +18,23 @@ The following is required:
 
 ## Installation
 
-Download the repository and install all necessary Julia packages by running
+Download the repository and install all necessary Julia packages by running the
+following commands in your desired installation directory.
 
-`cd `
-`$ julia `
+`$ cd /home/<username>/<directory>/`
+`$ git clone jchitpin/reproduce-efm-paper-2022`
+`$ cd reproduce-efm-paper-2022/src/`
+`$ julia install_julia_packages.jl` # or run line by line in Julia REPL
 
 ## Workflow to reproduce results
 
-The scripts in the following subsections must be run in order to regenerate
+The scripts in the following subsections should be run in order to regenerate
 the intermediate data files.
 
 ### Figure 1 and 2
+
+1. ``
+
 
 
 ### Figure 3
@@ -36,12 +42,12 @@ the intermediate data files.
 
 ### Figure 4
 
-1. main_efm_weights_example_markov.jl
+1. `$ julia main_sphingo_network_validation.jl`
 
 
-## Authors
 
-J. G. Chitpin and T. J. Perkins.
+## Reference
+
 
 
 ## Acknowledgements
@@ -49,4 +55,7 @@ J. G. Chitpin and T. J. Perkins.
 This work was supported in part by [grant] from [agency]. J.G.C. was
 supported by an NSERC CREATE Matrix Metabolomics Scholarship and
 an NSERC Alexander Graham Bell Canada Graduate Scholarship.
+
+
+
 

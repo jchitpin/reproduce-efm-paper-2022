@@ -1,0 +1,92 @@
+\documentclass[varwidth,border=0pt]{standalone}
+
+% Tikz packages
+\usepackage{tikz}
+\usetikzlibrary{%
+  patterns, plotmarks, backgrounds, shapes, arrows, calc, trees, positioning,
+  chains, shapes.geometric, decorations.pathreplacing,
+  decorations.pathmorphing, shapes.arrows, decorations.markings, quotes,
+  arrows.meta, spy, fit, matrix
+}
+\tikzset{%
+  hexagon/.style={signal,signal to=east and west}
+}
+
+% General image and colour support
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+% Captions and subcaptions
+\usepackage{caption}
+\usepackage[labelformat=parens]{subcaption}
+\renewcommand\thesubfigure{\alph{subfigure})}
+
+% String macros (for reading in tabular data)
+\usepackage{xstring}
+
+%% Define node types
+\tikzstyle{lnode} = [%
+  circle,
+  draw=black,
+  minimum height=0.65cm,
+  align=center,
+  fill=none,
+  text centered,
+  inner sep=0.5pt,
+  font=\tiny
+]%
+\tikzstyle{rx1} = [%
+  circle,
+  draw=black,
+  minimum height=0.10cm,
+  align=center,
+  fill=none,
+  text centered,
+  inner sep=0.5pt,
+  font=\tiny
+]%
+\tikzstyle{rx2} = [%
+  circle,
+  draw=black,
+  minimum height=0.20cm,
+  anchor=center,
+  align=center,
+  fill=white,
+  text centered,
+  inner sep=0.5pt,
+  font=\tiny
+]%
+\tikzstyle{met} = [%
+  rectangle,
+  rounded corners=3pt,
+  draw=black,
+  minimum height=0.5cm,
+  minimum width=1.0cm,
+  align=center,
+  fill=none,
+  text centered,
+  inner sep=0.5pt,
+  font=\tiny
+]%
+\tikzstyle{enz} = [%
+  hexagon,
+  draw=black,
+  minimum height=0.5cm,
+  minimum width=0.75cm,
+  align=center,
+  fill=none,
+  text centered,
+  inner sep=0.0pt,
+  font=\tiny
+]
+
+\begin{document}
+  \begin{figure}
+    \centering
+    \begin{subfigure}{1.0\textwidth}
+      \scalebox{0.35}{\input{input-sphingo-model.tex}}
+    \end{subfigure}
+  \end{figure}
+\end{document}
+
+
