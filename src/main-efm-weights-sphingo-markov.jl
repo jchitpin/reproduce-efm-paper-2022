@@ -14,7 +14,8 @@ cd("/home/jchitpin/Documents/PhD/Projects/reproduce-efm-paper-2022/src/")
 
 ## JULIA PACKAGES AND FUNCTIONS ------------------------------------------------
 using ElementaryFluxModes
-using Tables, CSV
+using Tables, CSV, NumericIO, JuMP
+include.(filter(contains(r".jl$"), readdir("functions"; join=true)))
 # ------------------------------------------------------------------------------
 
 ## LOAD STOICHIOMETRY AND FLUX DATA --------------------------------------------
@@ -22,6 +23,7 @@ stoich_wt = CSV.read("../data/stoich-corrected.csv", Tables.matrix, header=false
 stoich_ad = CSV.read("../data/stoich-corrected.csv", Tables.matrix, header=false)
 fluxes_wt = vec(CSV.read("../data/fluxes-wt.csv", Tables.matrix, header=false))
 fluxes_ad = vec(CSV.read("../data/fluxes-ad.csv", Tables.matrix, header=false))
+mets = vec(CSV.read("../data/metabolites.csv", Tables.matrix, header=false))
 # ------------------------------------------------------------------------------
 
 ## COMPUTING EFM PROBABILITIES BY MARKOV CHAIN ---------------------------------
@@ -91,15 +93,32 @@ CSV.write(#
 )
 # ------------------------------------------------------------------------------
 
-## LOG10 SQUARED RECONSTRUCTION ERROR ------------------------------------------
-# log₁₀(∑((Ax-v)²))/|v| = -6.80 (wildtype)
-error_wt = log10(sum(((A_wt * res_wt.w .- fluxes_wt).^2)) / length(fluxes_wt))
-# log₁₀(∑((Ax-v)²))/|v| = -7.01 (disease)
-error_ad = log10(sum(((A_ad * res_ad.w .- fluxes_ad).^2)) / length(fluxes_ad))
+## LOG10 SQUARED RECONSTRUCTION ERROR FOR INDIVIDUAL FLUXES --------------------
+# log₁₀(∑((Ax-v)²)/|v|) = -6.80 (wildtype)
+error_wt = log10((sum(((A_wt * res_wt.w .- fluxes_wt).^2)) / length(fluxes_wt)))
+# log₁₀(∑((Ax-v)²)/|v|) = -7.01 (disease)
+error_ad = log10((sum(((A_ad * res_ad.w .- fluxes_ad).^2)) / length(fluxes_ad)))
 CSV.write(#
-  "../data/efm-error-wt-ad-markov.csv",
+  "../data/efm-error-ind-wt-ad-markov.csv",
   Tables.table([error_wt, error_ad]),
   header=false
 )
+# ------------------------------------------------------------------------------
+
+## LOG10 SQUARED RECONSTRUCTION ERROR FOR TOTAL FLUXES -------------------------
+# log₁₀(|∑(Ax) - ∑(v)|) = -15.65 (wildtype)
+error_wt_total = log10(abs(sum(A_wt * res_wt.w) - sum(fluxes_wt)))
+# log₁₀(|∑(Ax) - ∑(v)|) = -15.35 (disease)
+error_ad_total = log10(abs(sum(A_ad * res_ad.w) - sum(fluxes_ad)))
+CSV.write(#
+  "../data/efm-error-total-wt-ad-markov.csv",
+  Tables.table([error_wt_total, error_ad_total]),
+  header=false
+)
+# ------------------------------------------------------------------------------
+
+## SUMMARY TABLE FOR MARKOV WEIGHTS FOR WILDTYPE AND DISEASE -------------------
+markov_table(res_wt.w, res_ad.w, res_wt.e, mets, "../data/table-markov-sphingo.csv")
+matrix2table("../data/table-markov-sphingo.csv", "../data/table-markov-sphingo.tex")
 # ------------------------------------------------------------------------------
 

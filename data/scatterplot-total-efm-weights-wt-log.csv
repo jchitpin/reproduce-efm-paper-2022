@@ -1,1211 +1,1211 @@
-x,y,class,solver,efm
-1,-8.581596110737522,Markov,Markov,47
-2,-7.836916462116554,Markov,Markov,1
-3,-7.1725453516499105,Markov,Markov,52
-4,-7.003274663581019,Markov,Markov,3
-5,-6.966714240573178,Markov,Markov,28
-6,-6.935801893868005,Markov,Markov,48
-7,-6.258595014960051,Markov,Markov,42
-8,-6.22203459195221,Markov,Markov,21
-9,-6.191122245247037,Markov,Markov,43
-10,-6.170404961882682,Markov,Markov,20
-11,-5.594223904493407,Markov,Markov,54
-12,-5.557663481485566,Markov,Markov,50
-13,-5.526751134780394,Markov,Markov,35
-14,-5.462353442281149,Markov,Markov,45
-15,-5.388392793416674,Markov,Markov,30
-16,-5.357480446711501,Markov,Markov,32
-17,-5.203333474361409,Markov,Markov,25
-18,-5.002374395654076,Markov,Markov,33
-19,-4.924285834096711,Markov,Markov,13
-20,-4.717673793660181,Markov,Markov,53
-21,-4.643713144795706,Markov,Markov,27
-22,-4.637787364183932,Markov,Markov,8
-23,-4.612800798090533,Markov,Markov,49
-24,-4.555523091718338,Markov,Markov,23
-25,-4.524610745013165,Markov,Markov,18
-26,-4.4586538257404404,Markov,Markov,40
-27,-4.314202395222556,Markov,Markov,26
-28,-4.242513931831758,Markov,Markov,22
-29,-4.053302683193537,Markov,Markov,44
-30,-4.006439232300955,Markov,Markov,10
-31,-3.9793420343290626,Markov,Markov,51
-32,-3.94842968762389,Markov,Markov,36
-33,-3.8840319951246456,Markov,Markov,38
-34,-3.7298850227745524,Markov,Markov,9
-35,-3.4508373825098544,Markov,Markov,14
-36,-3.387492525489732,Markov,Markov,5
-37,-3.248507088123441,Markov,Markov,41
-38,-3.205902356876091,Markov,Markov,16
-39,-3.1393523465036774,Markov,Markov,31
-40,-3.0511622934263087,Markov,Markov,15
-41,-2.9852053741535847,Markov,Markov,24
-42,-2.8407539436356997,Markov,Markov,11
-43,-2.7690654802449024,Markov,Markov,34
-44,-2.4749812360370336,Markov,Markov,46
-45,-2.1561539402652627,Markov,Markov,17
-46,-1.7750586365365846,Markov,Markov,19
-47,-1.6874143147497176,Markov,Markov,37
-48,-1.590575990975766,Markov,Markov,2
-49,-1.532473334663555,Markov,Markov,55
-50,-1.440622411597426,Markov,Markov,7
-51,-1.3488437211820123,Markov,Markov,39
-52,-1.2667915119982534,Markov,Markov,6
-53,-1.2256365457248795,Markov,Markov,12
-54,-1.1090315925305687,Markov,Markov,4
-55,-1.0268934140780532,Markov,Markov,29
-1,-Inf,L2_norm,COSMO,47
-2,-Inf,L2_norm,COSMO,1
-3,-Inf,L2_norm,COSMO,52
-4,-Inf,L2_norm,COSMO,3
-5,-Inf,L2_norm,COSMO,28
-6,-5.505465681918238,L2_norm,COSMO,48
-7,-Inf,L2_norm,COSMO,42
-8,-Inf,L2_norm,COSMO,21
-9,-5.5395410154439535,L2_norm,COSMO,43
-10,-Inf,L2_norm,COSMO,20
-11,-Inf,L2_norm,COSMO,54
-12,-Inf,L2_norm,COSMO,50
-13,-5.669968418727512,L2_norm,COSMO,35
-14,-5.79376744461204,L2_norm,COSMO,45
-15,-Inf,L2_norm,COSMO,30
-16,-5.656751979493437,L2_norm,COSMO,32
-17,-5.706714319089301,L2_norm,COSMO,25
-18,-4.122694022142407,L2_norm,COSMO,33
-19,-5.692902124869597,L2_norm,COSMO,13
-20,-5.863057507518433,L2_norm,COSMO,53
-21,-Inf,L2_norm,COSMO,27
-22,-Inf,L2_norm,COSMO,8
-23,-5.705856453663327,L2_norm,COSMO,49
-24,-Inf,L2_norm,COSMO,23
-25,-5.690424883937263,L2_norm,COSMO,18
-26,-5.76220396196951,L2_norm,COSMO,40
-27,-5.9139899385749475,L2_norm,COSMO,26
-28,-5.988216450518612,L2_norm,COSMO,22
-29,-3.9046385528050833,L2_norm,COSMO,44
-30,-4.0085613797157515,L2_norm,COSMO,10
-31,-3.676154447291102,L2_norm,COSMO,51
-32,-5.913792096173014,L2_norm,COSMO,36
-33,-4.038874996857528,L2_norm,COSMO,38
-34,-3.609640458555123,L2_norm,COSMO,9
-35,-3.44079155012515,L2_norm,COSMO,14
-36,-3.465364588957072,L2_norm,COSMO,5
-37,-3.047828030520115,L2_norm,COSMO,41
-38,-3.2077403994682454,L2_norm,COSMO,16
-39,-3.0690308756931093,L2_norm,COSMO,31
-40,-3.0229694074520883,L2_norm,COSMO,15
-41,-2.9969319809650856,L2_norm,COSMO,24
-42,-2.828631329397772,L2_norm,COSMO,11
-43,-2.7568361826838,L2_norm,COSMO,34
-44,-2.4786329158116134,L2_norm,COSMO,46
-45,-2.1580206746770343,L2_norm,COSMO,17
-46,-1.78569340009237,L2_norm,COSMO,19
-47,-1.6428125996900942,L2_norm,COSMO,37
-48,-1.5924434872424074,L2_norm,COSMO,2
-49,-1.5343432863550583,L2_norm,COSMO,55
-50,-1.4424938176439166,L2_norm,COSMO,7
-51,-1.3507093504183079,L2_norm,COSMO,39
-52,-1.2686603807566113,L2_norm,COSMO,6
-53,-1.2275074260448395,L2_norm,COSMO,12
-54,-1.110902338160684,L2_norm,COSMO,4
-55,-1.0287633918654095,L2_norm,COSMO,29
-1,-Inf,L2_norm,OSQP,47
-2,-Inf,L2_norm,OSQP,1
-3,-Inf,L2_norm,OSQP,52
-4,-Inf,L2_norm,OSQP,3
-5,-Inf,L2_norm,OSQP,28
-6,-Inf,L2_norm,OSQP,48
-7,-4.379482033411107,L2_norm,OSQP,42
-8,-Inf,L2_norm,OSQP,21
-9,-Inf,L2_norm,OSQP,43
-10,-Inf,L2_norm,OSQP,20
-11,-3.1787580473165105,L2_norm,OSQP,54
-12,-Inf,L2_norm,OSQP,50
-13,-Inf,L2_norm,OSQP,35
-14,-3.4651785794245726,L2_norm,OSQP,45
-15,-Inf,L2_norm,OSQP,30
-16,-Inf,L2_norm,OSQP,32
-17,-Inf,L2_norm,OSQP,25
-18,-3.5243436636841947,L2_norm,OSQP,33
-19,-Inf,L2_norm,OSQP,13
-20,-3.1470627384296432,L2_norm,OSQP,53
-21,-Inf,L2_norm,OSQP,27
-22,-Inf,L2_norm,OSQP,8
-23,-Inf,L2_norm,OSQP,49
-24,-Inf,L2_norm,OSQP,23
-25,-Inf,L2_norm,OSQP,18
-26,-Inf,L2_norm,OSQP,40
-27,-Inf,L2_norm,OSQP,26
-28,-Inf,L2_norm,OSQP,22
-29,-2.874974768050126,L2_norm,OSQP,44
-30,-4.009526178855213,L2_norm,OSQP,10
-31,-3.3193008000256268,L2_norm,OSQP,51
-32,-Inf,L2_norm,OSQP,36
-33,-2.9456583262736413,L2_norm,OSQP,38
-34,-3.039769059270012,L2_norm,OSQP,9
-35,-3.0692781364871307,L2_norm,OSQP,14
-36,-3.936584875277402,L2_norm,OSQP,5
-37,-2.165063875991944,L2_norm,OSQP,41
-38,-3.2076105195860833,L2_norm,OSQP,16
-39,-2.8229211795220603,L2_norm,OSQP,31
-40,-2.8461762534550124,L2_norm,OSQP,15
-41,-2.8919022880130143,L2_norm,OSQP,24
-42,-2.7228149269692166,L2_norm,OSQP,11
-43,-2.6693127683406948,L2_norm,OSQP,34
-44,-2.6727915825476916,L2_norm,OSQP,46
-45,-2.1581218111436233,L2_norm,OSQP,17
-46,-1.981585405541752,L2_norm,OSQP,19
-47,-1.6429024255436837,L2_norm,OSQP,37
-48,-1.5925124005322695,L2_norm,OSQP,2
-49,-1.534423427601601,L2_norm,OSQP,55
-50,-1.4425854331482404,L2_norm,OSQP,7
-51,-1.3507934480900154,L2_norm,OSQP,39
-52,-1.2687443025531657,L2_norm,OSQP,6
-53,-1.2275943350597052,L2_norm,OSQP,12
-54,-1.1109909296991716,L2_norm,OSQP,4
-55,-1.0288479033150535,L2_norm,OSQP,29
-1,-Inf,qp_max_spa,COSMO,47
-2,-Inf,qp_max_spa,COSMO,1
-3,-Inf,qp_max_spa,COSMO,52
-4,-Inf,qp_max_spa,COSMO,3
-5,-Inf,qp_max_spa,COSMO,28
-6,-Inf,qp_max_spa,COSMO,48
-7,-Inf,qp_max_spa,COSMO,42
-8,-Inf,qp_max_spa,COSMO,21
-9,-Inf,qp_max_spa,COSMO,43
-10,-Inf,qp_max_spa,COSMO,20
-11,-4.812371388445608,qp_max_spa,COSMO,54
-12,-Inf,qp_max_spa,COSMO,50
-13,-Inf,qp_max_spa,COSMO,35
-14,-Inf,qp_max_spa,COSMO,45
-15,-Inf,qp_max_spa,COSMO,30
-16,-Inf,qp_max_spa,COSMO,32
-17,-Inf,qp_max_spa,COSMO,25
-18,-4.65069428262399,qp_max_spa,COSMO,33
-19,-Inf,qp_max_spa,COSMO,13
-20,-Inf,qp_max_spa,COSMO,53
-21,-Inf,qp_max_spa,COSMO,27
-22,-5.510238280889296,qp_max_spa,COSMO,8
-23,-Inf,qp_max_spa,COSMO,49
-24,-Inf,qp_max_spa,COSMO,23
-25,-Inf,qp_max_spa,COSMO,18
-26,-Inf,qp_max_spa,COSMO,40
-27,-Inf,qp_max_spa,COSMO,26
-28,-Inf,qp_max_spa,COSMO,22
-29,-3.858700215531886,qp_max_spa,COSMO,44
-30,-4.008379079816085,qp_max_spa,COSMO,10
-31,-3.777996961247937,qp_max_spa,COSMO,51
-32,-Inf,qp_max_spa,COSMO,36
-33,-3.9802698165065213,qp_max_spa,COSMO,38
-34,-3.619562947107996,qp_max_spa,COSMO,9
-35,-3.437795466218438,qp_max_spa,COSMO,14
-36,-3.4028123367987506,qp_max_spa,COSMO,5
-37,-3.0329315321924266,qp_max_spa,COSMO,41
-38,-3.2077611629703915,qp_max_spa,COSMO,16
-39,-3.070391384129577,qp_max_spa,COSMO,31
-40,-3.0244425678464966,qp_max_spa,COSMO,15
-41,-2.992411422958538,qp_max_spa,COSMO,24
-42,-2.828032768492137,qp_max_spa,COSMO,11
-43,-2.756360036695784,qp_max_spa,COSMO,34
-44,-2.4771307328485253,qp_max_spa,COSMO,46
-45,-2.1580199494910226,qp_max_spa,COSMO,17
-46,-1.7865229317146554,qp_max_spa,COSMO,19
-47,-1.6428125699215332,qp_max_spa,COSMO,37
-48,-1.5924471030216154,qp_max_spa,COSMO,2
-49,-1.534344925468863,qp_max_spa,COSMO,55
-50,-1.442493913984926,qp_max_spa,COSMO,7
-51,-1.350710457565552,qp_max_spa,COSMO,39
-52,-1.268662645133866,qp_max_spa,COSMO,6
-53,-1.2275079021581348,qp_max_spa,COSMO,12
-54,-1.1109029095150502,qp_max_spa,COSMO,4
-55,-1.0287644607337105,qp_max_spa,COSMO,29
-1,-Inf,qp_max_spa,OSQP,47
-2,-Inf,qp_max_spa,OSQP,1
-3,-Inf,qp_max_spa,OSQP,52
-4,-Inf,qp_max_spa,OSQP,3
-5,-Inf,qp_max_spa,OSQP,28
-6,-Inf,qp_max_spa,OSQP,48
-7,-4.5771282529674835,qp_max_spa,OSQP,42
-8,-Inf,qp_max_spa,OSQP,21
-9,-Inf,qp_max_spa,OSQP,43
-10,-Inf,qp_max_spa,OSQP,20
-11,-3.3004555879322197,qp_max_spa,OSQP,54
-12,-Inf,qp_max_spa,OSQP,50
-13,-Inf,qp_max_spa,OSQP,35
-14,-Inf,qp_max_spa,OSQP,45
-15,-Inf,qp_max_spa,OSQP,30
-16,-Inf,qp_max_spa,OSQP,32
-17,-Inf,qp_max_spa,OSQP,25
-18,-3.3614205880308985,qp_max_spa,OSQP,33
-19,-Inf,qp_max_spa,OSQP,13
-20,-Inf,qp_max_spa,OSQP,53
-21,-Inf,qp_max_spa,OSQP,27
-22,-Inf,qp_max_spa,OSQP,8
-23,-Inf,qp_max_spa,OSQP,49
-24,-Inf,qp_max_spa,OSQP,23
-25,-Inf,qp_max_spa,OSQP,18
-26,-Inf,qp_max_spa,OSQP,40
-27,-Inf,qp_max_spa,OSQP,26
-28,-Inf,qp_max_spa,OSQP,22
-29,-3.020664765894045,qp_max_spa,OSQP,44
-30,-4.008399505061244,qp_max_spa,OSQP,10
-31,-3.7364184460460534,qp_max_spa,OSQP,51
-32,-Inf,qp_max_spa,OSQP,36
-33,-3.2377674278959634,qp_max_spa,OSQP,38
-34,-3.4034913704446232,qp_max_spa,OSQP,9
-35,-3.3695010152171947,qp_max_spa,OSQP,14
-36,-Inf,qp_max_spa,OSQP,5
-37,-2.511800440011741,qp_max_spa,OSQP,41
-38,-3.2077574867723366,qp_max_spa,OSQP,16
-39,-2.894883014248144,qp_max_spa,OSQP,31
-40,-2.958954839084965,qp_max_spa,OSQP,15
-41,-2.97992058900206,qp_max_spa,OSQP,24
-42,-2.761725842597013,qp_max_spa,OSQP,11
-43,-2.6996242406245363,qp_max_spa,OSQP,34
-44,-2.645278255257781,qp_max_spa,OSQP,46
-45,-2.158020151722744,qp_max_spa,OSQP,17
-46,-1.8477754878018195,qp_max_spa,OSQP,19
-47,-1.6428126099077736,qp_max_spa,OSQP,37
-48,-1.5924470017567716,qp_max_spa,OSQP,2
-49,-1.534344886446508,qp_max_spa,OSQP,55
-50,-1.4424939047549545,qp_max_spa,OSQP,7
-51,-1.350710428815533,qp_max_spa,OSQP,39
-52,-1.2686624222636433,qp_max_spa,OSQP,6
-53,-1.227507854746495,qp_max_spa,OSQP,12
-54,-1.1109034097720234,qp_max_spa,OSQP,4
-55,-1.0287646099478964,qp_max_spa,OSQP,29
-1,-6.095358786378385,lp_max_spa,GLPK,47
-2,-Inf,lp_max_spa,GLPK,1
-3,-Inf,lp_max_spa,GLPK,52
-4,-5.038597301255621,lp_max_spa,GLPK,3
-5,-4.702204622488442,lp_max_spa,GLPK,28
-6,-4.261680941787795,lp_max_spa,GLPK,48
-7,-5.286076944190715,lp_max_spa,GLPK,42
-8,-4.81402333841802,lp_max_spa,GLPK,21
-9,-4.299757712046007,lp_max_spa,GLPK,43
-10,-4.504027315148241,lp_max_spa,GLPK,20
-11,-Inf,lp_max_spa,GLPK,54
-12,-5.9712995670417595,lp_max_spa,GLPK,50
-13,-4.458446992081978,lp_max_spa,GLPK,35
-14,-Inf,lp_max_spa,GLPK,45
-15,-4.54356041270555,lp_max_spa,GLPK,30
-16,-4.203193048302863,lp_max_spa,GLPK,32
-17,-4.0245435583905635,lp_max_spa,GLPK,25
-18,-Inf,lp_max_spa,GLPK,33
-19,-4.093754742526878,lp_max_spa,GLPK,13
-20,-Inf,lp_max_spa,GLPK,53
-21,-4.618008263748528,lp_max_spa,GLPK,27
-22,-4.38547140955378,lp_max_spa,GLPK,8
-23,-4.236284323262559,lp_max_spa,GLPK,49
-24,-4.299743077619545,lp_max_spa,GLPK,23
-25,-4.072999926899272,lp_max_spa,GLPK,18
-26,-4.046190775687985,lp_max_spa,GLPK,40
-27,-4.172775443130804,lp_max_spa,GLPK,26
-28,-4.152241657137813,lp_max_spa,GLPK,22
-29,-Inf,lp_max_spa,GLPK,44
-30,-4.009532294003346,lp_max_spa,GLPK,10
-31,-4.973171655932313,lp_max_spa,GLPK,51
-32,-4.369677520403968,lp_max_spa,GLPK,36
-33,-4.264665711020524,lp_max_spa,GLPK,38
-34,-4.819026546066056,lp_max_spa,GLPK,9
-35,-3.5472153266704263,lp_max_spa,GLPK,14
-36,-3.3597925092869874,lp_max_spa,GLPK,5
-37,-4.075185535731928,lp_max_spa,GLPK,41
-38,-3.2077661771682493,lp_max_spa,GLPK,16
-39,-3.245833563811119,lp_max_spa,GLPK,31
-40,-3.109592576198071,lp_max_spa,GLPK,15
-41,-2.976214761962174,lp_max_spa,GLPK,24
-42,-2.848865467565822,lp_max_spa,GLPK,11
-43,-2.774236826020646,lp_max_spa,GLPK,34
-44,-2.442890878328032,lp_max_spa,GLPK,46
-45,-2.158138787075376,lp_max_spa,GLPK,17
-46,-1.7648150977799797,lp_max_spa,GLPK,19
-47,-1.6429202264382676,lp_max_spa,GLPK,37
-48,-1.592531209323609,lp_max_spa,GLPK,2
-49,-1.5344432654097462,lp_max_spa,GLPK,55
-50,-1.4426017142546665,lp_max_spa,GLPK,7
-51,-1.35081161461669,lp_max_spa,GLPK,39
-52,-1.268762145075071,lp_max_spa,GLPK,6
-53,-1.22761126001984,lp_max_spa,GLPK,12
-54,-1.1110071441107243,lp_max_spa,GLPK,4
-55,-1.028864819251233,lp_max_spa,GLPK,29
-1,-Inf,lp_max_spa,Gurobi,47
-2,-Inf,lp_max_spa,Gurobi,1
-3,-Inf,lp_max_spa,Gurobi,52
-4,-Inf,lp_max_spa,Gurobi,3
-5,-3.928460770283088,lp_max_spa,Gurobi,28
-6,-Inf,lp_max_spa,Gurobi,48
-7,-Inf,lp_max_spa,Gurobi,42
-8,-Inf,lp_max_spa,Gurobi,21
-9,-Inf,lp_max_spa,Gurobi,43
-10,-Inf,lp_max_spa,Gurobi,20
-11,-Inf,lp_max_spa,Gurobi,54
-12,-Inf,lp_max_spa,Gurobi,50
-13,-Inf,lp_max_spa,Gurobi,35
-14,-Inf,lp_max_spa,Gurobi,45
-15,-Inf,lp_max_spa,Gurobi,30
-16,-Inf,lp_max_spa,Gurobi,32
-17,-3.665507336192435,lp_max_spa,Gurobi,25
-18,-Inf,lp_max_spa,Gurobi,33
-19,-Inf,lp_max_spa,Gurobi,13
-20,-Inf,lp_max_spa,Gurobi,53
-21,-Inf,lp_max_spa,Gurobi,27
-22,-4.434526285860291,lp_max_spa,Gurobi,8
-23,-Inf,lp_max_spa,Gurobi,49
-24,-4.315943248779795,lp_max_spa,Gurobi,23
-25,-Inf,lp_max_spa,Gurobi,18
-26,-Inf,lp_max_spa,Gurobi,40
-27,-Inf,lp_max_spa,Gurobi,26
-28,-Inf,lp_max_spa,Gurobi,22
-29,-Inf,lp_max_spa,Gurobi,44
-30,-4.008310674848841,lp_max_spa,Gurobi,10
-31,-Inf,lp_max_spa,Gurobi,51
-32,-Inf,lp_max_spa,Gurobi,36
-33,-Inf,lp_max_spa,Gurobi,38
-34,-Inf,lp_max_spa,Gurobi,9
-35,-3.4383530334877097,lp_max_spa,Gurobi,14
-36,-3.37894813229749,lp_max_spa,Gurobi,5
-37,-3.177684875749281,lp_max_spa,Gurobi,41
-38,-3.207763143306621,lp_max_spa,Gurobi,16
-39,-3.089039734907684,lp_max_spa,Gurobi,31
-40,-3.048232077776438,lp_max_spa,Gurobi,15
-41,-2.9827985132340964,lp_max_spa,Gurobi,24
-42,-2.8282656903322216,lp_max_spa,Gurobi,11
-43,-2.756577282260625,lp_max_spa,Gurobi,34
-44,-2.4379060725375785,lp_max_spa,Gurobi,46
-45,-2.1580198988597434,lp_max_spa,Gurobi,17
-46,-1.7795984275276566,lp_max_spa,Gurobi,19
-47,-1.6428126895565207,lp_max_spa,Gurobi,37
-48,-1.5924470357668206,lp_max_spa,Gurobi,2
-49,-1.5343448228053682,lp_max_spa,Gurobi,55
-50,-1.4424939045309342,lp_max_spa,Gurobi,7
-51,-1.3507103856122133,lp_max_spa,Gurobi,39
-52,-1.2686627173870035,lp_max_spa,Gurobi,6
-53,-1.2275078860219748,lp_max_spa,Gurobi,12
-54,-1.110902932827664,lp_max_spa,Gurobi,4
-55,-1.0287644545287478,lp_max_spa,Gurobi,29
-1,-Inf,lp_max_spa,SCIP,47
-2,-4.434524809174055,lp_max_spa,SCIP,1
-3,-Inf,lp_max_spa,SCIP,52
-4,-Inf,lp_max_spa,SCIP,3
-5,-Inf,lp_max_spa,SCIP,28
-6,-Inf,lp_max_spa,SCIP,48
-7,-Inf,lp_max_spa,SCIP,42
-8,-4.090789468465122,lp_max_spa,SCIP,21
-9,-Inf,lp_max_spa,SCIP,43
-10,-Inf,lp_max_spa,SCIP,20
-11,-Inf,lp_max_spa,SCIP,54
-12,-Inf,lp_max_spa,SCIP,50
-13,-Inf,lp_max_spa,SCIP,35
-14,-Inf,lp_max_spa,SCIP,45
-15,-Inf,lp_max_spa,SCIP,30
-16,-4.656320589144929,lp_max_spa,SCIP,32
-17,-Inf,lp_max_spa,SCIP,25
-18,-Inf,lp_max_spa,SCIP,33
-19,-Inf,lp_max_spa,SCIP,13
-20,-Inf,lp_max_spa,SCIP,53
-21,-Inf,lp_max_spa,SCIP,27
-22,-Inf,lp_max_spa,SCIP,8
-23,-Inf,lp_max_spa,SCIP,49
-24,-4.315900402441231,lp_max_spa,SCIP,23
-25,-3.048232139752531,lp_max_spa,SCIP,18
-26,-Inf,lp_max_spa,SCIP,40
-27,-Inf,lp_max_spa,SCIP,26
-28,-Inf,lp_max_spa,SCIP,22
-29,-Inf,lp_max_spa,SCIP,44
-30,-4.008310674848841,lp_max_spa,SCIP,10
-31,-Inf,lp_max_spa,SCIP,51
-32,-7.211831869815676,lp_max_spa,SCIP,36
-33,-Inf,lp_max_spa,SCIP,38
-34,-3.5060102784968135,lp_max_spa,SCIP,9
-35,-3.438349024566876,lp_max_spa,SCIP,14
-36,-3.37894813229749,lp_max_spa,SCIP,5
-37,-Inf,lp_max_spa,SCIP,41
-38,-3.207763143306621,lp_max_spa,SCIP,16
-39,-3.100998141865937,lp_max_spa,SCIP,31
-40,-Inf,lp_max_spa,SCIP,15
-41,-3.0247813740788407,lp_max_spa,SCIP,24
-42,-2.8282656903322216,lp_max_spa,SCIP,11
-43,-2.756577282260625,lp_max_spa,SCIP,34
-44,-2.4379060725375785,lp_max_spa,SCIP,46
-45,-2.1580198988597434,lp_max_spa,SCIP,17
-46,-1.7625707267360597,lp_max_spa,SCIP,19
-47,-1.6428126895565207,lp_max_spa,SCIP,37
-48,-1.5924470357668206,lp_max_spa,SCIP,2
-49,-1.5343448228053682,lp_max_spa,SCIP,55
-50,-1.4424939045309342,lp_max_spa,SCIP,7
-51,-1.3507103856122133,lp_max_spa,SCIP,39
-52,-1.2686627173870035,lp_max_spa,SCIP,6
-53,-1.2275078860219748,lp_max_spa,SCIP,12
-54,-1.110902932827664,lp_max_spa,SCIP,4
-55,-1.0287644545287478,lp_max_spa,SCIP,29
-1,-18.369239441885043,lp_max_spa,CDDLib,47
-2,-Inf,lp_max_spa,CDDLib,1
-3,-Inf,lp_max_spa,CDDLib,52
-4,-Inf,lp_max_spa,CDDLib,3
-5,-Inf,lp_max_spa,CDDLib,28
-6,-Inf,lp_max_spa,CDDLib,48
-7,-Inf,lp_max_spa,CDDLib,42
-8,-Inf,lp_max_spa,CDDLib,21
-9,-Inf,lp_max_spa,CDDLib,43
-10,-4.43452628586026,lp_max_spa,CDDLib,20
-11,-Inf,lp_max_spa,CDDLib,54
-12,-Inf,lp_max_spa,CDDLib,50
-13,-Inf,lp_max_spa,CDDLib,35
-14,-3.928454008969232,lp_max_spa,CDDLib,45
-15,-3.8878892823794327,lp_max_spa,CDDLib,30
-16,-Inf,lp_max_spa,CDDLib,32
-17,-Inf,lp_max_spa,CDDLib,25
-18,-Inf,lp_max_spa,CDDLib,33
-19,-3.438347959474544,lp_max_spa,CDDLib,13
-20,-17.98940118452697,lp_max_spa,CDDLib,53
-21,-18.243557232982862,lp_max_spa,CDDLib,27
-22,-Inf,lp_max_spa,CDDLib,8
-23,-17.158628229775488,lp_max_spa,CDDLib,49
-24,-Inf,lp_max_spa,CDDLib,23
-25,-Inf,lp_max_spa,CDDLib,18
-26,-Inf,lp_max_spa,CDDLib,40
-27,-Inf,lp_max_spa,CDDLib,26
-28,-3.2576287035914935,lp_max_spa,CDDLib,22
-29,-Inf,lp_max_spa,CDDLib,44
-30,-4.008310674848848,lp_max_spa,CDDLib,10
-31,-Inf,lp_max_spa,CDDLib,51
-32,-Inf,lp_max_spa,CDDLib,36
-33,-4.062686264548922,lp_max_spa,CDDLib,38
-34,-Inf,lp_max_spa,CDDLib,9
-35,-Inf,lp_max_spa,CDDLib,14
-36,-3.37894804928604,lp_max_spa,CDDLib,5
-37,-Inf,lp_max_spa,CDDLib,41
-38,-3.207763161933725,lp_max_spa,CDDLib,16
-39,-3.2228569860626046,lp_max_spa,CDDLib,31
-40,-3.0426655813043135,lp_max_spa,CDDLib,15
-41,-2.9008638451774074,lp_max_spa,CDDLib,24
-42,-2.8282656903322207,lp_max_spa,CDDLib,11
-43,-2.9211801497747114,lp_max_spa,CDDLib,34
-44,-2.4379049645480158,lp_max_spa,CDDLib,46
-45,-2.1580198988597434,lp_max_spa,CDDLib,17
-46,-1.7625709399826899,lp_max_spa,CDDLib,19
-47,-1.6428126895565205,lp_max_spa,CDDLib,37
-48,-1.5924470357668203,lp_max_spa,CDDLib,2
-49,-1.5343449564182716,lp_max_spa,CDDLib,55
-50,-1.4424939045309342,lp_max_spa,CDDLib,7
-51,-1.3507104762565307,lp_max_spa,CDDLib,39
-52,-1.2686627173870035,lp_max_spa,CDDLib,6
-53,-1.2275078860219748,lp_max_spa,CDDLib,12
-54,-1.110902932827664,lp_max_spa,CDDLib,4
-55,-1.0287644561853335,lp_max_spa,CDDLib,29
-1,-5.509285666782581,lp_max_spa,ECOS,47
-2,-5.521068298794119,lp_max_spa,ECOS,1
-3,-5.460257687947381,lp_max_spa,ECOS,52
-4,-5.308109550611163,lp_max_spa,ECOS,3
-5,-5.1259421931577,lp_max_spa,ECOS,28
-6,-4.9175582259660775,lp_max_spa,ECOS,48
-7,-5.329512431288662,lp_max_spa,ECOS,42
-8,-5.094245346894645,lp_max_spa,ECOS,21
-9,-4.847417970976145,lp_max_spa,ECOS,43
-10,-5.341183677726647,lp_max_spa,ECOS,20
-11,-5.306354720912569,lp_max_spa,ECOS,54
-12,-5.027133721241595,lp_max_spa,ECOS,50
-13,-4.7856438511648784,lp_max_spa,ECOS,35
-14,-4.901978392237909,lp_max_spa,ECOS,45
-15,-4.681627264551543,lp_max_spa,ECOS,30
-16,-4.329045827047562,lp_max_spa,ECOS,32
-17,-4.343270095886753,lp_max_spa,ECOS,25
-18,-5.463772035842331,lp_max_spa,ECOS,33
-19,-4.127325532614709,lp_max_spa,ECOS,13
-20,-4.845524988404698,lp_max_spa,ECOS,53
-21,-4.5252935803431305,lp_max_spa,ECOS,27
-22,-5.3317680666937175,lp_max_spa,ECOS,8
-23,-4.022739137780444,lp_max_spa,ECOS,49
-24,-4.5411133185316395,lp_max_spa,ECOS,23
-25,-4.011250657535006,lp_max_spa,ECOS,18
-26,-4.002410208431611,lp_max_spa,ECOS,40
-27,-3.971328328182273,lp_max_spa,ECOS,26
-28,-3.9578590213931246,lp_max_spa,ECOS,22
-29,-4.857754340568853,lp_max_spa,ECOS,44
-30,-4.008351705713167,lp_max_spa,ECOS,10
-31,-4.478855062343249,lp_max_spa,ECOS,51
-32,-3.923215765802564,lp_max_spa,ECOS,36
-33,-4.044275680357248,lp_max_spa,ECOS,38
-34,-4.043682083459502,lp_max_spa,ECOS,9
-35,-3.537806299707487,lp_max_spa,ECOS,14
-36,-3.3825362397386582,lp_max_spa,ECOS,5
-37,-4.1266431339124585,lp_max_spa,ECOS,41
-38,-3.2077596134717483,lp_max_spa,ECOS,16
-39,-3.2476436924218874,lp_max_spa,ECOS,31
-40,-3.090198054787924,lp_max_spa,ECOS,15
-41,-2.9908797744358173,lp_max_spa,ECOS,24
-42,-2.8606874028756963,lp_max_spa,ECOS,11
-43,-2.7847976786926516,lp_max_spa,ECOS,34
-44,-2.462465175391865,lp_max_spa,ECOS,46
-45,-2.1580198866389346,lp_max_spa,ECOS,17
-46,-1.7644528987869412,lp_max_spa,ECOS,19
-47,-1.6428125900168724,lp_max_spa,ECOS,37
-48,-1.5924470568765927,lp_max_spa,ECOS,2
-49,-1.5343448529994665,lp_max_spa,ECOS,55
-50,-1.4424938720583411,lp_max_spa,ECOS,7
-51,-1.3507104069452356,lp_max_spa,ECOS,39
-52,-1.2686626914848962,lp_max_spa,ECOS,6
-53,-1.2275078621633715,lp_max_spa,ECOS,12
-54,-1.110902917292905,lp_max_spa,ECOS,4
-55,-1.0287644438552397,lp_max_spa,ECOS,29
-1,-Inf,lp_max_spa,OSQP,47
-2,-Inf,lp_max_spa,OSQP,1
-3,-Inf,lp_max_spa,OSQP,52
-4,-4.434524809174055,lp_max_spa,OSQP,3
-5,-Inf,lp_max_spa,OSQP,28
-6,-Inf,lp_max_spa,OSQP,48
-7,-Inf,lp_max_spa,OSQP,42
-8,-3.9286986176636867,lp_max_spa,OSQP,21
-9,-Inf,lp_max_spa,OSQP,43
-10,-Inf,lp_max_spa,OSQP,20
-11,-Inf,lp_max_spa,OSQP,54
-12,-Inf,lp_max_spa,OSQP,50
-13,-Inf,lp_max_spa,OSQP,35
-14,-Inf,lp_max_spa,OSQP,45
-15,-Inf,lp_max_spa,OSQP,30
-16,-Inf,lp_max_spa,OSQP,32
-17,-3.5269849631683923,lp_max_spa,OSQP,25
-18,-Inf,lp_max_spa,OSQP,33
-19,-3.438349024566876,lp_max_spa,OSQP,13
-20,-Inf,lp_max_spa,OSQP,53
-21,-Inf,lp_max_spa,OSQP,27
-22,-Inf,lp_max_spa,OSQP,8
-23,-Inf,lp_max_spa,OSQP,49
-24,-4.935165339652131,lp_max_spa,OSQP,23
-25,-3.5928239390489463,lp_max_spa,OSQP,18
-26,-Inf,lp_max_spa,OSQP,40
-27,-Inf,lp_max_spa,OSQP,26
-28,-Inf,lp_max_spa,OSQP,22
-29,-Inf,lp_max_spa,OSQP,44
-30,-4.008305661896752,lp_max_spa,OSQP,10
-31,-Inf,lp_max_spa,OSQP,51
-32,-Inf,lp_max_spa,OSQP,36
-33,-Inf,lp_max_spa,OSQP,38
-34,-Inf,lp_max_spa,OSQP,9
-35,-Inf,lp_max_spa,OSQP,14
-36,-3.37894813229749,lp_max_spa,OSQP,5
-37,-Inf,lp_max_spa,OSQP,41
-38,-3.2077631302502483,lp_max_spa,OSQP,16
-39,-3.1090976915518,lp_max_spa,OSQP,31
-40,-3.1699318489666672,lp_max_spa,OSQP,15
-41,-3.0180695917324383,lp_max_spa,OSQP,24
-42,-2.8282659147415528,lp_max_spa,OSQP,11
-43,-2.7565767939683674,lp_max_spa,OSQP,34
-44,-2.4379060868509583,lp_max_spa,OSQP,46
-45,-2.1580198988597434,lp_max_spa,OSQP,17
-46,-1.7625707267360597,lp_max_spa,OSQP,19
-47,-1.6428126895565207,lp_max_spa,OSQP,37
-48,-1.5924470357668206,lp_max_spa,OSQP,2
-49,-1.5343448162823536,lp_max_spa,OSQP,55
-50,-1.4424939045309342,lp_max_spa,OSQP,7
-51,-1.3507103844412414,lp_max_spa,OSQP,39
-52,-1.2686627167430526,lp_max_spa,OSQP,6
-53,-1.2275078860219748,lp_max_spa,OSQP,12
-54,-1.1109029335285796,lp_max_spa,OSQP,4
-55,-1.0287644545287478,lp_max_spa,OSQP,29
-1,-4.982478942053268,lp_max_spa,ProxSDP,47
-2,-Inf,lp_max_spa,ProxSDP,1
-3,-Inf,lp_max_spa,ProxSDP,52
-4,-4.682255069787012,lp_max_spa,ProxSDP,3
-5,-4.900228996065745,lp_max_spa,ProxSDP,28
-6,-4.207312985548933,lp_max_spa,ProxSDP,48
-7,-Inf,lp_max_spa,ProxSDP,42
-8,-Inf,lp_max_spa,ProxSDP,21
-9,-4.428623500824653,lp_max_spa,ProxSDP,43
-10,-Inf,lp_max_spa,ProxSDP,20
-11,-Inf,lp_max_spa,ProxSDP,54
-12,-Inf,lp_max_spa,ProxSDP,50
-13,-4.429096768454046,lp_max_spa,ProxSDP,35
-14,-4.86175692679563,lp_max_spa,ProxSDP,45
-15,-4.639109689772142,lp_max_spa,ProxSDP,30
-16,-4.140169995446193,lp_max_spa,ProxSDP,32
-17,-4.133889142869201,lp_max_spa,ProxSDP,25
-18,-Inf,lp_max_spa,ProxSDP,33
-19,-3.70100334033705,lp_max_spa,ProxSDP,13
-20,-Inf,lp_max_spa,ProxSDP,53
-21,-4.115596547824065,lp_max_spa,ProxSDP,27
-22,-4.336081221143116,lp_max_spa,ProxSDP,8
-23,-4.321986878809299,lp_max_spa,ProxSDP,49
-24,-4.150839511848046,lp_max_spa,ProxSDP,23
-25,-4.311874052859215,lp_max_spa,ProxSDP,18
-26,-4.312476109769245,lp_max_spa,ProxSDP,40
-27,-4.313376263835115,lp_max_spa,ProxSDP,26
-28,-4.313631858659254,lp_max_spa,ProxSDP,22
-29,-Inf,lp_max_spa,ProxSDP,44
-30,-4.224503558692451,lp_max_spa,ProxSDP,10
-31,-4.139286040043399,lp_max_spa,ProxSDP,51
-32,-4.322357063794482,lp_max_spa,ProxSDP,36
-33,-4.617601407391511,lp_max_spa,ProxSDP,38
-34,-4.599011965036294,lp_max_spa,ProxSDP,9
-35,-3.82168005266353,lp_max_spa,ProxSDP,14
-36,-3.382730807531184,lp_max_spa,ProxSDP,5
-37,-4.313060723721008,lp_max_spa,ProxSDP,41
-38,-3.300046792720401,lp_max_spa,ProxSDP,16
-39,-3.231791915675445,lp_max_spa,ProxSDP,31
-40,-3.077385622553414,lp_max_spa,ProxSDP,15
-41,-2.9554529653182757,lp_max_spa,ProxSDP,24
-42,-2.843787667935584,lp_max_spa,ProxSDP,11
-43,-2.76951777862973,lp_max_spa,ProxSDP,34
-44,-2.4500864643359206,lp_max_spa,ProxSDP,46
-45,-2.1529220439503742,lp_max_spa,ProxSDP,17
-46,-1.7640823025429258,lp_max_spa,ProxSDP,19
-47,-1.6429213719950146,lp_max_spa,ProxSDP,37
-48,-1.5925055361947509,lp_max_spa,ProxSDP,2
-49,-1.534487985150825,lp_max_spa,ProxSDP,55
-50,-1.4424939048855527,lp_max_spa,ProxSDP,7
-51,-1.3508041800034734,lp_max_spa,ProxSDP,39
-52,-1.2686373510978577,lp_max_spa,ProxSDP,6
-53,-1.2274924617210787,lp_max_spa,ProxSDP,12
-54,-1.1109165407235986,lp_max_spa,ProxSDP,4
-55,-1.028776335127287,lp_max_spa,ProxSDP,29
-1,-22.53464988844198,lp_max_spa,Tulip,47
-2,-22.49948240001286,lp_max_spa,Tulip,1
-3,-22.539385688783106,lp_max_spa,Tulip,52
-4,-22.361604337230336,lp_max_spa,Tulip,3
-5,-22.50669084728435,lp_max_spa,Tulip,28
-6,-22.371041576701042,lp_max_spa,Tulip,48
-7,-22.29398341548532,lp_max_spa,Tulip,42
-8,-22.37906890431536,lp_max_spa,Tulip,21
-9,-22.304366302987457,lp_max_spa,Tulip,43
-10,-22.243068383383296,lp_max_spa,Tulip,20
-11,-22.410795624389184,lp_max_spa,Tulip,54
-12,-22.409546497077525,lp_max_spa,Tulip,50
-13,-22.33780747548671,lp_max_spa,Tulip,35
-14,-22.24328735941395,lp_max_spa,Tulip,45
-15,-22.27787681869928,lp_max_spa,Tulip,30
-16,-21.987163507462828,lp_max_spa,Tulip,32
-17,-21.960779872287524,lp_max_spa,Tulip,25
-18,-23.147441275580565,lp_max_spa,Tulip,33
-19,-21.816799978028442,lp_max_spa,Tulip,13
-20,-22.097572696352625,lp_max_spa,Tulip,53
-21,-22.2121041859334,lp_max_spa,Tulip,27
-22,-22.141153446601198,lp_max_spa,Tulip,8
-23,-21.761028830635887,lp_max_spa,Tulip,49
-24,-21.740107952724838,lp_max_spa,Tulip,23
-25,-21.71813926272839,lp_max_spa,Tulip,18
-26,-21.716040252441626,lp_max_spa,Tulip,40
-27,-21.661357411586444,lp_max_spa,Tulip,26
-28,-21.635866280979776,lp_max_spa,Tulip,22
-29,-22.082061885494856,lp_max_spa,Tulip,44
-30,-4.008310674848841,lp_max_spa,Tulip,10
-31,-23.174893386183154,lp_max_spa,Tulip,51
-32,-21.696153883772308,lp_max_spa,Tulip,36
-33,-21.69554215863968,lp_max_spa,Tulip,38
-34,-21.631231130681748,lp_max_spa,Tulip,9
-35,-21.18387153880238,lp_max_spa,Tulip,14
-36,-21.0723726913604,lp_max_spa,Tulip,5
-37,-21.39352954972727,lp_max_spa,Tulip,41
-38,-3.207763143306621,lp_max_spa,Tulip,16
-39,-20.97977039656274,lp_max_spa,Tulip,31
-40,-20.854162593183705,lp_max_spa,Tulip,15
-41,-20.728553796439613,lp_max_spa,Tulip,24
-42,-20.600224733255097,lp_max_spa,Tulip,11
-43,-20.535400289888255,lp_max_spa,Tulip,34
-44,-20.20226703565455,lp_max_spa,Tulip,46
-45,-2.1580198988597434,lp_max_spa,Tulip,17
-46,-19.529805232012347,lp_max_spa,Tulip,19
-47,-1.6428126895565207,lp_max_spa,Tulip,37
-48,-1.5924470357668206,lp_max_spa,Tulip,2
-49,-1.5343448228053682,lp_max_spa,Tulip,55
-50,-1.4424939045309342,lp_max_spa,Tulip,7
-51,-1.3507103856122133,lp_max_spa,Tulip,39
-52,-1.2686627173870035,lp_max_spa,Tulip,6
-53,-1.2275078860219748,lp_max_spa,Tulip,12
-54,-1.110902932827664,lp_max_spa,Tulip,4
-55,-1.0287644545287478,lp_max_spa,Tulip,29
-1,-Inf,lp_min_spa,GLPK,47
-2,-Inf,lp_min_spa,GLPK,1
-3,-Inf,lp_min_spa,GLPK,52
-4,-5.080545342485123,lp_min_spa,GLPK,3
-5,-4.717231535622325,lp_min_spa,GLPK,28
-6,-4.267826777331205,lp_min_spa,GLPK,48
-7,-5.400332814145658,lp_min_spa,GLPK,42
-8,-4.844287617901172,lp_min_spa,GLPK,21
-9,-4.309571474249239,lp_min_spa,GLPK,43
-10,-4.531503782797087,lp_min_spa,GLPK,20
-11,-Inf,lp_min_spa,GLPK,54
-12,-5.410335476240614,lp_min_spa,GLPK,50
-13,-4.424803078070842,lp_min_spa,GLPK,35
-14,-Inf,lp_min_spa,GLPK,45
-15,-4.54814607096207,lp_min_spa,GLPK,30
-16,-4.205603505621746,lp_min_spa,GLPK,32
-17,-4.025560663272986,lp_min_spa,GLPK,25
-18,-Inf,lp_min_spa,GLPK,33
-19,-4.101530537915237,lp_min_spa,GLPK,13
-20,-Inf,lp_min_spa,GLPK,53
-21,-4.630036193885214,lp_min_spa,GLPK,27
-22,-4.380279401437175,lp_min_spa,GLPK,8
-23,-4.241538405155157,lp_min_spa,GLPK,49
-24,-4.31277346923159,lp_min_spa,GLPK,23
-25,-4.080108050129324,lp_min_spa,GLPK,18
-26,-4.048964075545529,lp_min_spa,GLPK,40
-27,-4.175141495186954,lp_min_spa,GLPK,26
-28,-4.143166426425058,lp_min_spa,GLPK,22
-29,-Inf,lp_min_spa,GLPK,44
-30,-4.008928183945317,lp_min_spa,GLPK,10
-31,-4.862563323203243,lp_min_spa,GLPK,51
-32,-4.33804476328073,lp_min_spa,GLPK,36
-33,-4.239415427814898,lp_min_spa,GLPK,38
-34,-4.744705143224329,lp_min_spa,GLPK,9
-35,-3.544715844613545,lp_min_spa,GLPK,14
-36,-3.3610749787640306,lp_min_spa,GLPK,5
-37,-4.0794452080319905,lp_min_spa,GLPK,41
-38,-3.2076624516942025,lp_min_spa,GLPK,16
-39,-3.23758669858511,lp_min_spa,GLPK,31
-40,-3.106882493403765,lp_min_spa,GLPK,15
-41,-2.9770211005599836,lp_min_spa,GLPK,24
-42,-2.8487693362274604,lp_min_spa,GLPK,11
-43,-2.7746189228831883,lp_min_spa,GLPK,34
-44,-2.4451899110491992,lp_min_spa,GLPK,46
-45,-2.1581283053218603,lp_min_spa,GLPK,17
-46,-1.7647932768967274,lp_min_spa,GLPK,19
-47,-1.6429169129563288,lp_min_spa,GLPK,37
-48,-1.5925321686157974,lp_min_spa,GLPK,2
-49,-1.5344403159480435,lp_min_spa,GLPK,55
-50,-1.44259894539803,lp_min_spa,GLPK,7
-51,-1.350809682151769,lp_min_spa,GLPK,39
-52,-1.2687604539957469,lp_min_spa,GLPK,6
-53,-1.2276094153090942,lp_min_spa,GLPK,12
-54,-1.1110064188334063,lp_min_spa,GLPK,4
-55,-1.028864281996395,lp_min_spa,GLPK,29
-1,-Inf,lp_min_spa,Gurobi,47
-2,-Inf,lp_min_spa,Gurobi,1
-3,-Inf,lp_min_spa,Gurobi,52
-4,-Inf,lp_min_spa,Gurobi,3
-5,-Inf,lp_min_spa,Gurobi,28
-6,-Inf,lp_min_spa,Gurobi,48
-7,-Inf,lp_min_spa,Gurobi,42
-8,-Inf,lp_min_spa,Gurobi,21
-9,-Inf,lp_min_spa,Gurobi,43
-10,-Inf,lp_min_spa,Gurobi,20
-11,-4.434526285860291,lp_min_spa,Gurobi,54
-12,-Inf,lp_min_spa,Gurobi,50
-13,-Inf,lp_min_spa,Gurobi,35
-14,-Inf,lp_min_spa,Gurobi,45
-15,-Inf,lp_min_spa,Gurobi,30
-16,-Inf,lp_min_spa,Gurobi,32
-17,-Inf,lp_min_spa,Gurobi,25
-18,-Inf,lp_min_spa,Gurobi,33
-19,-Inf,lp_min_spa,Gurobi,13
-20,-Inf,lp_min_spa,Gurobi,53
-21,-Inf,lp_min_spa,Gurobi,27
-22,-Inf,lp_min_spa,Gurobi,8
-23,-Inf,lp_min_spa,Gurobi,49
-24,-Inf,lp_min_spa,Gurobi,23
-25,-Inf,lp_min_spa,Gurobi,18
-26,-Inf,lp_min_spa,Gurobi,40
-27,-Inf,lp_min_spa,Gurobi,26
-28,-Inf,lp_min_spa,Gurobi,22
-29,-3.928460770283104,lp_min_spa,Gurobi,44
-30,-4.008310674848841,lp_min_spa,Gurobi,10
-31,-3.887895323510516,lp_min_spa,Gurobi,51
-32,-3.037624732169587,lp_min_spa,Gurobi,36
-33,-3.476349430862615,lp_min_spa,Gurobi,38
-34,-Inf,lp_min_spa,Gurobi,9
-35,-3.4383530334877097,lp_min_spa,Gurobi,14
-36,-3.37894813229749,lp_min_spa,Gurobi,5
-37,-Inf,lp_min_spa,Gurobi,41
-38,-3.207763143306621,lp_min_spa,Gurobi,16
-39,-3.222855747057174,lp_min_spa,Gurobi,31
-40,-3.0253968422464177,lp_min_spa,Gurobi,15
-41,-2.900864435488555,lp_min_spa,Gurobi,24
-42,-2.8282656903322216,lp_min_spa,Gurobi,11
-43,-2.756577282260625,lp_min_spa,Gurobi,34
-44,-2.611332327296372,lp_min_spa,Gurobi,46
-45,-2.1580198988597434,lp_min_spa,Gurobi,17
-46,-1.7625707196062872,lp_min_spa,Gurobi,19
-47,-1.6428126895565207,lp_min_spa,Gurobi,37
-48,-1.5924470357668206,lp_min_spa,Gurobi,2
-49,-1.5343448228053682,lp_min_spa,Gurobi,55
-50,-1.4424939045309342,lp_min_spa,Gurobi,7
-51,-1.3507103856122133,lp_min_spa,Gurobi,39
-52,-1.2686627173870035,lp_min_spa,Gurobi,6
-53,-1.2275078860219748,lp_min_spa,Gurobi,12
-54,-1.110902932827664,lp_min_spa,Gurobi,4
-55,-1.0287644545287478,lp_min_spa,Gurobi,29
-1,-Inf,lp_min_spa,SCIP,47
-2,-Inf,lp_min_spa,SCIP,1
-3,-Inf,lp_min_spa,SCIP,52
-4,-Inf,lp_min_spa,SCIP,3
-5,-Inf,lp_min_spa,SCIP,28
-6,-Inf,lp_min_spa,SCIP,48
-7,-Inf,lp_min_spa,SCIP,42
-8,-7.779376959448743,lp_min_spa,SCIP,21
-9,-Inf,lp_min_spa,SCIP,43
-10,-Inf,lp_min_spa,SCIP,20
-11,-4.434524809174055,lp_min_spa,SCIP,54
-12,-Inf,lp_min_spa,SCIP,50
-13,-3.9286986176636867,lp_min_spa,SCIP,35
-14,-Inf,lp_min_spa,SCIP,45
-15,-Inf,lp_min_spa,SCIP,30
-16,-Inf,lp_min_spa,SCIP,32
-17,-Inf,lp_min_spa,SCIP,25
-18,-Inf,lp_min_spa,SCIP,33
-19,-3.438349024566876,lp_min_spa,SCIP,13
-20,-Inf,lp_min_spa,SCIP,53
-21,-3.8879456137897375,lp_min_spa,SCIP,27
-22,-Inf,lp_min_spa,SCIP,8
-23,-Inf,lp_min_spa,SCIP,49
-24,-Inf,lp_min_spa,SCIP,23
-25,-3.3618022096469735,lp_min_spa,SCIP,18
-26,-Inf,lp_min_spa,SCIP,40
-27,-Inf,lp_min_spa,SCIP,26
-28,-Inf,lp_min_spa,SCIP,22
-29,-Inf,lp_min_spa,SCIP,44
-30,-4.008310674848841,lp_min_spa,SCIP,10
-31,-Inf,lp_min_spa,SCIP,51
-32,-Inf,lp_min_spa,SCIP,36
-33,-3.4763246239152297,lp_min_spa,SCIP,38
-34,-Inf,lp_min_spa,SCIP,9
-35,-Inf,lp_min_spa,SCIP,14
-36,-3.37894813229749,lp_min_spa,SCIP,5
-37,-Inf,lp_min_spa,SCIP,41
-38,-3.207763143306621,lp_min_spa,SCIP,16
-39,-3.32875808385126,lp_min_spa,SCIP,31
-40,-3.293713224807571,lp_min_spa,SCIP,15
-41,-2.9008659217763704,lp_min_spa,SCIP,24
-42,-2.8282656903322216,lp_min_spa,SCIP,11
-43,-2.756577282260625,lp_min_spa,SCIP,34
-44,-2.456704561392531,lp_min_spa,SCIP,46
-45,-2.1580198988597434,lp_min_spa,SCIP,17
-46,-1.7625707267360597,lp_min_spa,SCIP,19
-47,-1.6428126895565207,lp_min_spa,SCIP,37
-48,-1.5924470357668206,lp_min_spa,SCIP,2
-49,-1.5343448228053682,lp_min_spa,SCIP,55
-50,-1.4424939045309342,lp_min_spa,SCIP,7
-51,-1.3507103856122133,lp_min_spa,SCIP,39
-52,-1.2686627173870035,lp_min_spa,SCIP,6
-53,-1.2275078860219748,lp_min_spa,SCIP,12
-54,-1.110902932827664,lp_min_spa,SCIP,4
-55,-1.0287644545287478,lp_min_spa,SCIP,29
-1,-Inf,lp_min_spa,CDDLib,47
-2,-Inf,lp_min_spa,CDDLib,1
-3,-Inf,lp_min_spa,CDDLib,52
-4,-Inf,lp_min_spa,CDDLib,3
-5,-Inf,lp_min_spa,CDDLib,28
-6,-Inf,lp_min_spa,CDDLib,48
-7,-19.240419569844963,lp_min_spa,CDDLib,42
-8,-Inf,lp_min_spa,CDDLib,21
-9,-18.227531640630676,lp_min_spa,CDDLib,43
-10,-Inf,lp_min_spa,CDDLib,20
-11,-4.4345248091784075,lp_min_spa,CDDLib,54
-12,-17.16455639186133,lp_min_spa,CDDLib,50
-13,-Inf,lp_min_spa,CDDLib,35
-14,-Inf,lp_min_spa,CDDLib,45
-15,-Inf,lp_min_spa,CDDLib,30
-16,-Inf,lp_min_spa,CDDLib,32
-17,-Inf,lp_min_spa,CDDLib,25
-18,-Inf,lp_min_spa,CDDLib,33
-19,-Inf,lp_min_spa,CDDLib,13
-20,-Inf,lp_min_spa,CDDLib,53
-21,-Inf,lp_min_spa,CDDLib,27
-22,-Inf,lp_min_spa,CDDLib,8
-23,-Inf,lp_min_spa,CDDLib,49
-24,-3.8878897909819248,lp_min_spa,CDDLib,23
-25,-Inf,lp_min_spa,CDDLib,18
-26,-Inf,lp_min_spa,CDDLib,40
-27,-18.691185013351976,lp_min_spa,CDDLib,26
-28,-Inf,lp_min_spa,CDDLib,22
-29,-3.9284889549000166,lp_min_spa,CDDLib,44
-30,-4.008305661896758,lp_min_spa,CDDLib,10
-31,-Inf,lp_min_spa,CDDLib,51
-32,-3.037625238824955,lp_min_spa,CDDLib,36
-33,-3.4763582345652244,lp_min_spa,CDDLib,38
-34,-Inf,lp_min_spa,CDDLib,9
-35,-3.438349024566876,lp_min_spa,CDDLib,14
-36,-3.3789480492860258,lp_min_spa,CDDLib,5
-37,-Inf,lp_min_spa,CDDLib,41
-38,-3.207763143306621,lp_min_spa,CDDLib,16
-39,-3.222897493629339,lp_min_spa,CDDLib,31
-40,-3.0895110308464377,lp_min_spa,CDDLib,15
-41,-2.900863845177356,lp_min_spa,CDDLib,24
-42,-2.8282652361591722,lp_min_spa,CDDLib,11
-43,-2.7565768137729965,lp_min_spa,CDDLib,34
-44,-2.5889351413113126,lp_min_spa,CDDLib,46
-45,-2.1580198988597434,lp_min_spa,CDDLib,17
-46,-1.7625707267360597,lp_min_spa,CDDLib,19
-47,-1.6428116242586182,lp_min_spa,CDDLib,37
-48,-1.592447046967122,lp_min_spa,CDDLib,2
-49,-1.534345660194076,lp_min_spa,CDDLib,55
-50,-1.4424939045309342,lp_min_spa,CDDLib,7
-51,-1.350710937361423,lp_min_spa,CDDLib,39
-52,-1.2686627173870035,lp_min_spa,CDDLib,6
-53,-1.2275078974104032,lp_min_spa,CDDLib,12
-54,-1.1109029335285796,lp_min_spa,CDDLib,4
-55,-1.0287644554818496,lp_min_spa,CDDLib,29
-1,-5.509339424154272,lp_min_spa,ECOS,47
-2,-5.521090231087005,lp_min_spa,ECOS,1
-3,-5.46026667065205,lp_min_spa,ECOS,52
-4,-5.3082199420562945,lp_min_spa,ECOS,3
-5,-5.125954281030543,lp_min_spa,ECOS,28
-6,-4.917600862018235,lp_min_spa,ECOS,48
-7,-5.329584942850652,lp_min_spa,ECOS,42
-8,-5.094244417528706,lp_min_spa,ECOS,21
-9,-4.8474649525126985,lp_min_spa,ECOS,43
-10,-5.3412439482837994,lp_min_spa,ECOS,20
-11,-5.306393549215314,lp_min_spa,ECOS,54
-12,-5.027124735795887,lp_min_spa,ECOS,50
-13,-4.78567960085019,lp_min_spa,ECOS,35
-14,-4.9019966187911,lp_min_spa,ECOS,45
-15,-4.681629632517943,lp_min_spa,ECOS,30
-16,-4.329047747555195,lp_min_spa,ECOS,32
-17,-4.343269121449762,lp_min_spa,ECOS,25
-18,-5.4635652453055545,lp_min_spa,ECOS,33
-19,-4.127320665737802,lp_min_spa,ECOS,13
-20,-4.84550324675425,lp_min_spa,ECOS,53
-21,-4.525296694428589,lp_min_spa,ECOS,27
-22,-5.332005567541386,lp_min_spa,ECOS,8
-23,-4.022744741483026,lp_min_spa,ECOS,49
-24,-4.54111088861847,lp_min_spa,ECOS,23
-25,-4.011254894154655,lp_min_spa,ECOS,18
-26,-4.00241599472123,lp_min_spa,ECOS,40
-27,-3.971330751956662,lp_min_spa,ECOS,26
-28,-3.95785873406252,lp_min_spa,ECOS,22
-29,-4.85770007512766,lp_min_spa,ECOS,44
-30,-4.0083662798664665,lp_min_spa,ECOS,10
-31,-4.4788449530643115,lp_min_spa,ECOS,51
-32,-3.92321463775757,lp_min_spa,ECOS,36
-33,-4.044273990978788,lp_min_spa,ECOS,38
-34,-4.043677674648895,lp_min_spa,ECOS,9
-35,-3.5378138324569237,lp_min_spa,ECOS,14
-36,-3.3825386410110885,lp_min_spa,ECOS,5
-37,-4.126621820309478,lp_min_spa,ECOS,41
-38,-3.2077618391936635,lp_min_spa,ECOS,16
-39,-3.2476413648542772,lp_min_spa,ECOS,31
-40,-3.0901982323236226,lp_min_spa,ECOS,15
-41,-2.9908802823055494,lp_min_spa,ECOS,24
-42,-2.860686827300191,lp_min_spa,ECOS,11
-43,-2.784797821524244,lp_min_spa,ECOS,34
-44,-2.462465461895776,lp_min_spa,ECOS,46
-45,-2.1580201261569862,lp_min_spa,ECOS,17
-46,-1.7644530180899967,lp_min_spa,ECOS,19
-47,-1.6428126680155644,lp_min_spa,ECOS,37
-48,-1.5924470369176633,lp_min_spa,ECOS,2
-49,-1.5343449252161974,lp_min_spa,ECOS,55
-50,-1.4424939372763426,lp_min_spa,ECOS,7
-51,-1.3507104542607282,lp_min_spa,ECOS,39
-52,-1.2686627325525461,lp_min_spa,ECOS,6
-53,-1.227507906428675,lp_min_spa,ECOS,12
-54,-1.1109029347275894,lp_min_spa,ECOS,4
-55,-1.0287644572460781,lp_min_spa,ECOS,29
-1,-Inf,lp_min_spa,OSQP,47
-2,-Inf,lp_min_spa,OSQP,1
-3,-Inf,lp_min_spa,OSQP,52
-4,-4.434524809174055,lp_min_spa,OSQP,3
-5,-Inf,lp_min_spa,OSQP,28
-6,-Inf,lp_min_spa,OSQP,48
-7,-Inf,lp_min_spa,OSQP,42
-8,-3.9286986176636867,lp_min_spa,OSQP,21
-9,-Inf,lp_min_spa,OSQP,43
-10,-Inf,lp_min_spa,OSQP,20
-11,-Inf,lp_min_spa,OSQP,54
-12,-Inf,lp_min_spa,OSQP,50
-13,-Inf,lp_min_spa,OSQP,35
-14,-Inf,lp_min_spa,OSQP,45
-15,-Inf,lp_min_spa,OSQP,30
-16,-Inf,lp_min_spa,OSQP,32
-17,-3.5269849631683923,lp_min_spa,OSQP,25
-18,-Inf,lp_min_spa,OSQP,33
-19,-3.438349024566876,lp_min_spa,OSQP,13
-20,-Inf,lp_min_spa,OSQP,53
-21,-Inf,lp_min_spa,OSQP,27
-22,-Inf,lp_min_spa,OSQP,8
-23,-Inf,lp_min_spa,OSQP,49
-24,-4.935165339652131,lp_min_spa,OSQP,23
-25,-3.5928239390489463,lp_min_spa,OSQP,18
-26,-Inf,lp_min_spa,OSQP,40
-27,-Inf,lp_min_spa,OSQP,26
-28,-Inf,lp_min_spa,OSQP,22
-29,-Inf,lp_min_spa,OSQP,44
-30,-4.008305661896752,lp_min_spa,OSQP,10
-31,-Inf,lp_min_spa,OSQP,51
-32,-Inf,lp_min_spa,OSQP,36
-33,-Inf,lp_min_spa,OSQP,38
-34,-Inf,lp_min_spa,OSQP,9
-35,-Inf,lp_min_spa,OSQP,14
-36,-3.37894813229749,lp_min_spa,OSQP,5
-37,-Inf,lp_min_spa,OSQP,41
-38,-3.2077631302502483,lp_min_spa,OSQP,16
-39,-3.1090976915518,lp_min_spa,OSQP,31
-40,-3.1699318489666672,lp_min_spa,OSQP,15
-41,-3.0180695917324383,lp_min_spa,OSQP,24
-42,-2.8282659147415528,lp_min_spa,OSQP,11
-43,-2.7565767939683674,lp_min_spa,OSQP,34
-44,-2.4379060868509583,lp_min_spa,OSQP,46
-45,-2.1580198988597434,lp_min_spa,OSQP,17
-46,-1.7625707267360597,lp_min_spa,OSQP,19
-47,-1.6428126895565207,lp_min_spa,OSQP,37
-48,-1.5924470357668206,lp_min_spa,OSQP,2
-49,-1.5343448162823536,lp_min_spa,OSQP,55
-50,-1.4424939045309342,lp_min_spa,OSQP,7
-51,-1.3507103844412414,lp_min_spa,OSQP,39
-52,-1.2686627167430526,lp_min_spa,OSQP,6
-53,-1.2275078860219748,lp_min_spa,OSQP,12
-54,-1.1109029335285796,lp_min_spa,OSQP,4
-55,-1.0287644545287478,lp_min_spa,OSQP,29
-1,-5.572536573861454,lp_min_spa,ProxSDP,47
-2,-Inf,lp_min_spa,ProxSDP,1
-3,-Inf,lp_min_spa,ProxSDP,52
-4,-4.590344202595539,lp_min_spa,ProxSDP,3
-5,-4.571387312217972,lp_min_spa,ProxSDP,28
-6,-4.233425521029985,lp_min_spa,ProxSDP,48
-7,-4.995414219549893,lp_min_spa,ProxSDP,42
-8,-4.948767822692366,lp_min_spa,ProxSDP,21
-9,-4.36810699215758,lp_min_spa,ProxSDP,43
-10,-4.964623411764454,lp_min_spa,ProxSDP,20
-11,-5.0005151124522635,lp_min_spa,ProxSDP,54
-12,-4.953346493799608,lp_min_spa,ProxSDP,50
-13,-4.369304807088878,lp_min_spa,ProxSDP,35
-14,-Inf,lp_min_spa,ProxSDP,45
-15,-4.302446012306736,lp_min_spa,ProxSDP,30
-16,-4.089218377720953,lp_min_spa,ProxSDP,32
-17,-4.086541152184935,lp_min_spa,ProxSDP,25
-18,-Inf,lp_min_spa,ProxSDP,33
-19,-4.180798783453252,lp_min_spa,ProxSDP,13
-20,-Inf,lp_min_spa,ProxSDP,53
-21,-4.465215209537971,lp_min_spa,ProxSDP,27
-22,-4.38468496568722,lp_min_spa,ProxSDP,8
-23,-4.181430835474252,lp_min_spa,ProxSDP,49
-24,-4.4559031851408575,lp_min_spa,ProxSDP,23
-25,-4.176561306160765,lp_min_spa,ProxSDP,18
-26,-4.178122713104859,lp_min_spa,ProxSDP,40
-27,-4.180179545562527,lp_min_spa,ProxSDP,26
-28,-4.180057060187762,lp_min_spa,ProxSDP,22
-29,-Inf,lp_min_spa,ProxSDP,44
-30,-4.217997425371382,lp_min_spa,ProxSDP,10
-31,-4.466713680604314,lp_min_spa,ProxSDP,51
-32,-4.182209776262818,lp_min_spa,ProxSDP,36
-33,-4.794899342859638,lp_min_spa,ProxSDP,38
-34,-4.781472483052253,lp_min_spa,ProxSDP,9
-35,-3.522378859536038,lp_min_spa,ProxSDP,14
-36,-3.353224588148678,lp_min_spa,ProxSDP,5
-37,-4.179635228362001,lp_min_spa,ProxSDP,41
-38,-3.301999216662767,lp_min_spa,ProxSDP,16
-39,-3.2306228461149162,lp_min_spa,ProxSDP,31
-40,-3.0754562833456274,lp_min_spa,ProxSDP,15
-41,-2.963816993406004,lp_min_spa,ProxSDP,24
-42,-2.850386476253534,lp_min_spa,ProxSDP,11
-43,-2.775399058524581,lp_min_spa,ProxSDP,34
-44,-2.4505885227013695,lp_min_spa,ProxSDP,46
-45,-2.1529773147920745,lp_min_spa,ProxSDP,17
-46,-1.764519573817358,lp_min_spa,ProxSDP,19
-47,-1.6428772268016008,lp_min_spa,ProxSDP,37
-48,-1.592515912608717,lp_min_spa,ProxSDP,2
-49,-1.534477335982156,lp_min_spa,ProxSDP,55
-50,-1.4424939048853627,lp_min_spa,ProxSDP,7
-51,-1.3507972035654867,lp_min_spa,ProxSDP,39
-52,-1.2686639406119329,lp_min_spa,ProxSDP,6
-53,-1.227473965618101,lp_min_spa,ProxSDP,12
-54,-1.110928375992738,lp_min_spa,ProxSDP,4
-55,-1.0287622520813096,lp_min_spa,ProxSDP,29
-1,-21.87091336065223,lp_min_spa,Tulip,47
-2,-21.868144820850354,lp_min_spa,Tulip,1
-3,-21.837386939834715,lp_min_spa,Tulip,52
-4,-21.791336338986408,lp_min_spa,Tulip,3
-5,-21.12467590088906,lp_min_spa,Tulip,28
-6,-21.033758638361174,lp_min_spa,Tulip,48
-7,-21.79147402593952,lp_min_spa,Tulip,42
-8,-21.083320966463507,lp_min_spa,Tulip,21
-9,-20.991583151519052,lp_min_spa,Tulip,43
-10,-21.716096371301607,lp_min_spa,Tulip,20
-11,-21.760284647885186,lp_min_spa,Tulip,54
-12,-21.126885473009683,lp_min_spa,Tulip,50
-13,-21.011801568656146,lp_min_spa,Tulip,35
-14,-20.995011300010535,lp_min_spa,Tulip,45
-15,-20.68888614396385,lp_min_spa,Tulip,30
-16,-20.343905703135903,lp_min_spa,Tulip,32
-17,-20.385532901306647,lp_min_spa,Tulip,25
-18,-21.972148605391002,lp_min_spa,Tulip,33
-19,-20.2330191379567,lp_min_spa,Tulip,13
-20,-20.92898141909193,lp_min_spa,Tulip,53
-21,-20.77055476789895,lp_min_spa,Tulip,27
-22,-21.530565135224535,lp_min_spa,Tulip,8
-23,-20.054452307909315,lp_min_spa,Tulip,49
-24,-21.096641472171445,lp_min_spa,Tulip,23
-25,-20.06739302183552,lp_min_spa,Tulip,18
-26,-20.072274745183872,lp_min_spa,Tulip,40
-27,-20.05258200528411,lp_min_spa,Tulip,26
-28,-20.01849473731407,lp_min_spa,Tulip,22
-29,-20.93801410577647,lp_min_spa,Tulip,44
-30,-4.008310674848841,lp_min_spa,Tulip,10
-31,-21.006508022798844,lp_min_spa,Tulip,51
-32,-20.01560275235876,lp_min_spa,Tulip,36
-33,-20.11137779244597,lp_min_spa,Tulip,38
-34,-20.18416743583379,lp_min_spa,Tulip,9
-35,-19.60544434485363,lp_min_spa,Tulip,14
-36,-19.45498864386169,lp_min_spa,Tulip,5
-37,-20.034141672373483,lp_min_spa,Tulip,41
-38,-3.207763143306621,lp_min_spa,Tulip,16
-39,-19.290184682953146,lp_min_spa,Tulip,31
-40,-19.12815345811235,lp_min_spa,Tulip,15
-41,-19.014665624138576,lp_min_spa,Tulip,24
-42,-18.881710376601944,lp_min_spa,Tulip,11
-43,-18.795817516341003,lp_min_spa,Tulip,34
-44,-18.47708786502002,lp_min_spa,Tulip,46
-45,-2.1580198988597434,lp_min_spa,Tulip,17
-46,-17.77617416015278,lp_min_spa,Tulip,19
-47,-1.6428126895565207,lp_min_spa,Tulip,37
-48,-1.5924470357668206,lp_min_spa,Tulip,2
-49,-1.5343448228053682,lp_min_spa,Tulip,55
-50,-1.4424939045309342,lp_min_spa,Tulip,7
-51,-1.3507103856122133,lp_min_spa,Tulip,39
-52,-1.2686627173870035,lp_min_spa,Tulip,6
-53,-1.2275078860219748,lp_min_spa,Tulip,12
-54,-1.110902932827664,lp_min_spa,Tulip,4
-55,-1.0287644545287478,lp_min_spa,Tulip,29
-1,-Inf,milp,Gurobi,47
-2,-Inf,milp,Gurobi,1
-3,-Inf,milp,Gurobi,52
-4,-4.434524809174055,milp,Gurobi,3
-5,-3.9286982953267198,milp,Gurobi,28
-6,-Inf,milp,Gurobi,48
-7,-Inf,milp,Gurobi,42
-8,-Inf,milp,Gurobi,21
-9,-Inf,milp,Gurobi,43
-10,-Inf,milp,Gurobi,20
-11,-Inf,milp,Gurobi,54
-12,-Inf,milp,Gurobi,50
-13,-Inf,milp,Gurobi,35
-14,-Inf,milp,Gurobi,45
-15,-4.935167914399129,milp,Gurobi,30
-16,-3.775403593110413,milp,Gurobi,32
-17,-Inf,milp,Gurobi,25
-18,-Inf,milp,Gurobi,33
-19,-3.4383530334877097,milp,Gurobi,13
-20,-Inf,milp,Gurobi,53
-21,-Inf,milp,Gurobi,27
-22,-Inf,milp,Gurobi,8
-23,-3.4147317209247756,milp,Gurobi,49
-24,-Inf,milp,Gurobi,23
-25,-Inf,milp,Gurobi,18
-26,-Inf,milp,Gurobi,40
-27,-Inf,milp,Gurobi,26
-28,-Inf,milp,Gurobi,22
-29,-Inf,milp,Gurobi,44
-30,-4.008310674848841,milp,Gurobi,10
-31,-Inf,milp,Gurobi,51
-32,-Inf,milp,Gurobi,36
-33,-Inf,milp,Gurobi,38
-34,-Inf,milp,Gurobi,9
-35,-Inf,milp,Gurobi,14
-36,-3.3789480492860258,milp,Gurobi,5
-37,-Inf,milp,Gurobi,41
-38,-3.207763143306621,milp,Gurobi,16
-39,-3.6702003965161163,milp,Gurobi,31
-40,-3.025366313804094,milp,Gurobi,15
-41,-2.900863845177407,milp,Gurobi,24
-42,-2.8282659147415528,milp,Gurobi,11
-43,-2.756577282260625,milp,Gurobi,34
-44,-2.4379060725375785,milp,Gurobi,46
-45,-2.1580198988597434,milp,Gurobi,17
-46,-1.7625707196062872,milp,Gurobi,19
-47,-1.6428126895565207,milp,Gurobi,37
-48,-1.5924470357668206,milp,Gurobi,2
-49,-1.5343448228053682,milp,Gurobi,55
-50,-1.4424939045309342,milp,Gurobi,7
-51,-1.3507103856122133,milp,Gurobi,39
-52,-1.2686627173870035,milp,Gurobi,6
-53,-1.2275078860219748,milp,Gurobi,12
-54,-1.110902932827664,milp,Gurobi,4
-55,-1.0287644545287478,milp,Gurobi,29
+x	y	class	solver	efm
+1	-8.581596110737522	Markov	Markov	47
+2	-7.836916462116554	Markov	Markov	1
+3	-7.1725453516499105	Markov	Markov	52
+4	-7.003274663581019	Markov	Markov	3
+5	-6.966714240573178	Markov	Markov	28
+6	-6.935801893868005	Markov	Markov	48
+7	-6.258595014960051	Markov	Markov	42
+8	-6.22203459195221	Markov	Markov	21
+9	-6.191122245247037	Markov	Markov	43
+10	-6.170404961882682	Markov	Markov	20
+11	-5.594223904493407	Markov	Markov	54
+12	-5.557663481485566	Markov	Markov	50
+13	-5.526751134780394	Markov	Markov	35
+14	-5.462353442281149	Markov	Markov	45
+15	-5.388392793416674	Markov	Markov	30
+16	-5.357480446711501	Markov	Markov	32
+17	-5.203333474361409	Markov	Markov	25
+18	-5.002374395654076	Markov	Markov	33
+19	-4.924285834096711	Markov	Markov	13
+20	-4.717673793660181	Markov	Markov	53
+21	-4.643713144795706	Markov	Markov	27
+22	-4.637787364183932	Markov	Markov	8
+23	-4.612800798090533	Markov	Markov	49
+24	-4.555523091718338	Markov	Markov	23
+25	-4.524610745013165	Markov	Markov	18
+26	-4.4586538257404404	Markov	Markov	40
+27	-4.314202395222556	Markov	Markov	26
+28	-4.242513931831758	Markov	Markov	22
+29	-4.053302683193537	Markov	Markov	44
+30	-4.006439232300955	Markov	Markov	10
+31	-3.9793420343290626	Markov	Markov	51
+32	-3.94842968762389	Markov	Markov	36
+33	-3.8840319951246456	Markov	Markov	38
+34	-3.7298850227745524	Markov	Markov	9
+35	-3.4508373825098544	Markov	Markov	14
+36	-3.387492525489732	Markov	Markov	5
+37	-3.248507088123441	Markov	Markov	41
+38	-3.205902356876091	Markov	Markov	16
+39	-3.1393523465036774	Markov	Markov	31
+40	-3.0511622934263087	Markov	Markov	15
+41	-2.9852053741535847	Markov	Markov	24
+42	-2.8407539436356997	Markov	Markov	11
+43	-2.7690654802449024	Markov	Markov	34
+44	-2.4749812360370336	Markov	Markov	46
+45	-2.1561539402652627	Markov	Markov	17
+46	-1.7750586365365846	Markov	Markov	19
+47	-1.6874143147497176	Markov	Markov	37
+48	-1.590575990975766	Markov	Markov	2
+49	-1.532473334663555	Markov	Markov	55
+50	-1.440622411597426	Markov	Markov	7
+51	-1.3488437211820123	Markov	Markov	39
+52	-1.2667915119982534	Markov	Markov	6
+53	-1.2256365457248795	Markov	Markov	12
+54	-1.1090315925305687	Markov	Markov	4
+55	-1.0268934140780532	Markov	Markov	29
+1	-900.0	L2_norm	COSMO	47
+2	-900.0	L2_norm	COSMO	1
+3	-900.0	L2_norm	COSMO	52
+4	-900.0	L2_norm	COSMO	3
+5	-900.0	L2_norm	COSMO	28
+6	-5.505465681918238	L2_norm	COSMO	48
+7	-900.0	L2_norm	COSMO	42
+8	-900.0	L2_norm	COSMO	21
+9	-5.5395410154439535	L2_norm	COSMO	43
+10	-900.0	L2_norm	COSMO	20
+11	-900.0	L2_norm	COSMO	54
+12	-900.0	L2_norm	COSMO	50
+13	-5.669968418727512	L2_norm	COSMO	35
+14	-5.79376744461204	L2_norm	COSMO	45
+15	-900.0	L2_norm	COSMO	30
+16	-5.656751979493437	L2_norm	COSMO	32
+17	-5.706714319089301	L2_norm	COSMO	25
+18	-4.122694022142407	L2_norm	COSMO	33
+19	-5.692902124869597	L2_norm	COSMO	13
+20	-5.863057507518433	L2_norm	COSMO	53
+21	-900.0	L2_norm	COSMO	27
+22	-900.0	L2_norm	COSMO	8
+23	-5.705856453663327	L2_norm	COSMO	49
+24	-900.0	L2_norm	COSMO	23
+25	-5.690424883937263	L2_norm	COSMO	18
+26	-5.76220396196951	L2_norm	COSMO	40
+27	-5.9139899385749475	L2_norm	COSMO	26
+28	-5.988216450518612	L2_norm	COSMO	22
+29	-3.9046385528050833	L2_norm	COSMO	44
+30	-4.0085613797157515	L2_norm	COSMO	10
+31	-3.676154447291102	L2_norm	COSMO	51
+32	-5.913792096173014	L2_norm	COSMO	36
+33	-4.038874996857528	L2_norm	COSMO	38
+34	-3.609640458555123	L2_norm	COSMO	9
+35	-3.44079155012515	L2_norm	COSMO	14
+36	-3.465364588957072	L2_norm	COSMO	5
+37	-3.047828030520115	L2_norm	COSMO	41
+38	-3.2077403994682454	L2_norm	COSMO	16
+39	-3.0690308756931093	L2_norm	COSMO	31
+40	-3.0229694074520883	L2_norm	COSMO	15
+41	-2.9969319809650856	L2_norm	COSMO	24
+42	-2.828631329397772	L2_norm	COSMO	11
+43	-2.7568361826838	L2_norm	COSMO	34
+44	-2.4786329158116134	L2_norm	COSMO	46
+45	-2.1580206746770343	L2_norm	COSMO	17
+46	-1.78569340009237	L2_norm	COSMO	19
+47	-1.6428125996900942	L2_norm	COSMO	37
+48	-1.5924434872424074	L2_norm	COSMO	2
+49	-1.5343432863550583	L2_norm	COSMO	55
+50	-1.4424938176439166	L2_norm	COSMO	7
+51	-1.3507093504183079	L2_norm	COSMO	39
+52	-1.2686603807566113	L2_norm	COSMO	6
+53	-1.2275074260448395	L2_norm	COSMO	12
+54	-1.110902338160684	L2_norm	COSMO	4
+55	-1.0287633918654095	L2_norm	COSMO	29
+1	-900.0	L2_norm	OSQP	47
+2	-900.0	L2_norm	OSQP	1
+3	-900.0	L2_norm	OSQP	52
+4	-900.0	L2_norm	OSQP	3
+5	-900.0	L2_norm	OSQP	28
+6	-900.0	L2_norm	OSQP	48
+7	-4.379482033411107	L2_norm	OSQP	42
+8	-900.0	L2_norm	OSQP	21
+9	-900.0	L2_norm	OSQP	43
+10	-900.0	L2_norm	OSQP	20
+11	-3.1787580473165105	L2_norm	OSQP	54
+12	-900.0	L2_norm	OSQP	50
+13	-900.0	L2_norm	OSQP	35
+14	-3.4651785794245726	L2_norm	OSQP	45
+15	-900.0	L2_norm	OSQP	30
+16	-900.0	L2_norm	OSQP	32
+17	-900.0	L2_norm	OSQP	25
+18	-3.5243436636841947	L2_norm	OSQP	33
+19	-900.0	L2_norm	OSQP	13
+20	-3.1470627384296432	L2_norm	OSQP	53
+21	-900.0	L2_norm	OSQP	27
+22	-900.0	L2_norm	OSQP	8
+23	-900.0	L2_norm	OSQP	49
+24	-900.0	L2_norm	OSQP	23
+25	-900.0	L2_norm	OSQP	18
+26	-900.0	L2_norm	OSQP	40
+27	-900.0	L2_norm	OSQP	26
+28	-900.0	L2_norm	OSQP	22
+29	-2.874974768050126	L2_norm	OSQP	44
+30	-4.009526178855213	L2_norm	OSQP	10
+31	-3.3193008000256268	L2_norm	OSQP	51
+32	-900.0	L2_norm	OSQP	36
+33	-2.9456583262736413	L2_norm	OSQP	38
+34	-3.039769059270012	L2_norm	OSQP	9
+35	-3.0692781364871307	L2_norm	OSQP	14
+36	-3.936584875277402	L2_norm	OSQP	5
+37	-2.165063875991944	L2_norm	OSQP	41
+38	-3.2076105195860833	L2_norm	OSQP	16
+39	-2.8229211795220603	L2_norm	OSQP	31
+40	-2.8461762534550124	L2_norm	OSQP	15
+41	-2.8919022880130143	L2_norm	OSQP	24
+42	-2.7228149269692166	L2_norm	OSQP	11
+43	-2.6693127683406948	L2_norm	OSQP	34
+44	-2.6727915825476916	L2_norm	OSQP	46
+45	-2.1581218111436233	L2_norm	OSQP	17
+46	-1.981585405541752	L2_norm	OSQP	19
+47	-1.6429024255436837	L2_norm	OSQP	37
+48	-1.5925124005322695	L2_norm	OSQP	2
+49	-1.534423427601601	L2_norm	OSQP	55
+50	-1.4425854331482404	L2_norm	OSQP	7
+51	-1.3507934480900154	L2_norm	OSQP	39
+52	-1.2687443025531657	L2_norm	OSQP	6
+53	-1.2275943350597052	L2_norm	OSQP	12
+54	-1.1109909296991716	L2_norm	OSQP	4
+55	-1.0288479033150535	L2_norm	OSQP	29
+1	-900.0	qp_max_spa	COSMO	47
+2	-900.0	qp_max_spa	COSMO	1
+3	-900.0	qp_max_spa	COSMO	52
+4	-900.0	qp_max_spa	COSMO	3
+5	-900.0	qp_max_spa	COSMO	28
+6	-900.0	qp_max_spa	COSMO	48
+7	-900.0	qp_max_spa	COSMO	42
+8	-900.0	qp_max_spa	COSMO	21
+9	-900.0	qp_max_spa	COSMO	43
+10	-900.0	qp_max_spa	COSMO	20
+11	-4.812371388445608	qp_max_spa	COSMO	54
+12	-900.0	qp_max_spa	COSMO	50
+13	-900.0	qp_max_spa	COSMO	35
+14	-900.0	qp_max_spa	COSMO	45
+15	-900.0	qp_max_spa	COSMO	30
+16	-900.0	qp_max_spa	COSMO	32
+17	-900.0	qp_max_spa	COSMO	25
+18	-4.65069428262399	qp_max_spa	COSMO	33
+19	-900.0	qp_max_spa	COSMO	13
+20	-900.0	qp_max_spa	COSMO	53
+21	-900.0	qp_max_spa	COSMO	27
+22	-5.510238280889296	qp_max_spa	COSMO	8
+23	-900.0	qp_max_spa	COSMO	49
+24	-900.0	qp_max_spa	COSMO	23
+25	-900.0	qp_max_spa	COSMO	18
+26	-900.0	qp_max_spa	COSMO	40
+27	-900.0	qp_max_spa	COSMO	26
+28	-900.0	qp_max_spa	COSMO	22
+29	-3.858700215531886	qp_max_spa	COSMO	44
+30	-4.008379079816085	qp_max_spa	COSMO	10
+31	-3.777996961247937	qp_max_spa	COSMO	51
+32	-900.0	qp_max_spa	COSMO	36
+33	-3.9802698165065213	qp_max_spa	COSMO	38
+34	-3.619562947107996	qp_max_spa	COSMO	9
+35	-3.437795466218438	qp_max_spa	COSMO	14
+36	-3.4028123367987506	qp_max_spa	COSMO	5
+37	-3.0329315321924266	qp_max_spa	COSMO	41
+38	-3.2077611629703915	qp_max_spa	COSMO	16
+39	-3.070391384129577	qp_max_spa	COSMO	31
+40	-3.0244425678464966	qp_max_spa	COSMO	15
+41	-2.992411422958538	qp_max_spa	COSMO	24
+42	-2.828032768492137	qp_max_spa	COSMO	11
+43	-2.756360036695784	qp_max_spa	COSMO	34
+44	-2.4771307328485253	qp_max_spa	COSMO	46
+45	-2.1580199494910226	qp_max_spa	COSMO	17
+46	-1.7865229317146554	qp_max_spa	COSMO	19
+47	-1.6428125699215332	qp_max_spa	COSMO	37
+48	-1.5924471030216154	qp_max_spa	COSMO	2
+49	-1.534344925468863	qp_max_spa	COSMO	55
+50	-1.442493913984926	qp_max_spa	COSMO	7
+51	-1.350710457565552	qp_max_spa	COSMO	39
+52	-1.268662645133866	qp_max_spa	COSMO	6
+53	-1.2275079021581348	qp_max_spa	COSMO	12
+54	-1.1109029095150502	qp_max_spa	COSMO	4
+55	-1.0287644607337105	qp_max_spa	COSMO	29
+1	-900.0	qp_max_spa	OSQP	47
+2	-900.0	qp_max_spa	OSQP	1
+3	-900.0	qp_max_spa	OSQP	52
+4	-900.0	qp_max_spa	OSQP	3
+5	-900.0	qp_max_spa	OSQP	28
+6	-900.0	qp_max_spa	OSQP	48
+7	-4.5771282529674835	qp_max_spa	OSQP	42
+8	-900.0	qp_max_spa	OSQP	21
+9	-900.0	qp_max_spa	OSQP	43
+10	-900.0	qp_max_spa	OSQP	20
+11	-3.3004555879322197	qp_max_spa	OSQP	54
+12	-900.0	qp_max_spa	OSQP	50
+13	-900.0	qp_max_spa	OSQP	35
+14	-900.0	qp_max_spa	OSQP	45
+15	-900.0	qp_max_spa	OSQP	30
+16	-900.0	qp_max_spa	OSQP	32
+17	-900.0	qp_max_spa	OSQP	25
+18	-3.3614205880308985	qp_max_spa	OSQP	33
+19	-900.0	qp_max_spa	OSQP	13
+20	-900.0	qp_max_spa	OSQP	53
+21	-900.0	qp_max_spa	OSQP	27
+22	-900.0	qp_max_spa	OSQP	8
+23	-900.0	qp_max_spa	OSQP	49
+24	-900.0	qp_max_spa	OSQP	23
+25	-900.0	qp_max_spa	OSQP	18
+26	-900.0	qp_max_spa	OSQP	40
+27	-900.0	qp_max_spa	OSQP	26
+28	-900.0	qp_max_spa	OSQP	22
+29	-3.020664765894045	qp_max_spa	OSQP	44
+30	-4.008399505061244	qp_max_spa	OSQP	10
+31	-3.7364184460460534	qp_max_spa	OSQP	51
+32	-900.0	qp_max_spa	OSQP	36
+33	-3.2377674278959634	qp_max_spa	OSQP	38
+34	-3.4034913704446232	qp_max_spa	OSQP	9
+35	-3.3695010152171947	qp_max_spa	OSQP	14
+36	-900.0	qp_max_spa	OSQP	5
+37	-2.511800440011741	qp_max_spa	OSQP	41
+38	-3.2077574867723366	qp_max_spa	OSQP	16
+39	-2.894883014248144	qp_max_spa	OSQP	31
+40	-2.958954839084965	qp_max_spa	OSQP	15
+41	-2.97992058900206	qp_max_spa	OSQP	24
+42	-2.761725842597013	qp_max_spa	OSQP	11
+43	-2.6996242406245363	qp_max_spa	OSQP	34
+44	-2.645278255257781	qp_max_spa	OSQP	46
+45	-2.158020151722744	qp_max_spa	OSQP	17
+46	-1.8477754878018195	qp_max_spa	OSQP	19
+47	-1.6428126099077736	qp_max_spa	OSQP	37
+48	-1.5924470017567716	qp_max_spa	OSQP	2
+49	-1.534344886446508	qp_max_spa	OSQP	55
+50	-1.4424939047549545	qp_max_spa	OSQP	7
+51	-1.350710428815533	qp_max_spa	OSQP	39
+52	-1.2686624222636433	qp_max_spa	OSQP	6
+53	-1.227507854746495	qp_max_spa	OSQP	12
+54	-1.1109034097720234	qp_max_spa	OSQP	4
+55	-1.0287646099478964	qp_max_spa	OSQP	29
+1	-6.095358786378385	lp_max_spa	GLPK	47
+2	-900.0	lp_max_spa	GLPK	1
+3	-900.0	lp_max_spa	GLPK	52
+4	-5.038597301255621	lp_max_spa	GLPK	3
+5	-4.702204622488442	lp_max_spa	GLPK	28
+6	-4.261680941787795	lp_max_spa	GLPK	48
+7	-5.286076944190715	lp_max_spa	GLPK	42
+8	-4.81402333841802	lp_max_spa	GLPK	21
+9	-4.299757712046007	lp_max_spa	GLPK	43
+10	-4.504027315148241	lp_max_spa	GLPK	20
+11	-900.0	lp_max_spa	GLPK	54
+12	-5.9712995670417595	lp_max_spa	GLPK	50
+13	-4.458446992081978	lp_max_spa	GLPK	35
+14	-900.0	lp_max_spa	GLPK	45
+15	-4.54356041270555	lp_max_spa	GLPK	30
+16	-4.203193048302863	lp_max_spa	GLPK	32
+17	-4.0245435583905635	lp_max_spa	GLPK	25
+18	-900.0	lp_max_spa	GLPK	33
+19	-4.093754742526878	lp_max_spa	GLPK	13
+20	-900.0	lp_max_spa	GLPK	53
+21	-4.618008263748528	lp_max_spa	GLPK	27
+22	-4.38547140955378	lp_max_spa	GLPK	8
+23	-4.236284323262559	lp_max_spa	GLPK	49
+24	-4.299743077619545	lp_max_spa	GLPK	23
+25	-4.072999926899272	lp_max_spa	GLPK	18
+26	-4.046190775687985	lp_max_spa	GLPK	40
+27	-4.172775443130804	lp_max_spa	GLPK	26
+28	-4.152241657137813	lp_max_spa	GLPK	22
+29	-900.0	lp_max_spa	GLPK	44
+30	-4.009532294003346	lp_max_spa	GLPK	10
+31	-4.973171655932313	lp_max_spa	GLPK	51
+32	-4.369677520403968	lp_max_spa	GLPK	36
+33	-4.264665711020524	lp_max_spa	GLPK	38
+34	-4.819026546066056	lp_max_spa	GLPK	9
+35	-3.5472153266704263	lp_max_spa	GLPK	14
+36	-3.3597925092869874	lp_max_spa	GLPK	5
+37	-4.075185535731928	lp_max_spa	GLPK	41
+38	-3.2077661771682493	lp_max_spa	GLPK	16
+39	-3.245833563811119	lp_max_spa	GLPK	31
+40	-3.109592576198071	lp_max_spa	GLPK	15
+41	-2.976214761962174	lp_max_spa	GLPK	24
+42	-2.848865467565822	lp_max_spa	GLPK	11
+43	-2.774236826020646	lp_max_spa	GLPK	34
+44	-2.442890878328032	lp_max_spa	GLPK	46
+45	-2.158138787075376	lp_max_spa	GLPK	17
+46	-1.7648150977799797	lp_max_spa	GLPK	19
+47	-1.6429202264382676	lp_max_spa	GLPK	37
+48	-1.592531209323609	lp_max_spa	GLPK	2
+49	-1.5344432654097462	lp_max_spa	GLPK	55
+50	-1.4426017142546665	lp_max_spa	GLPK	7
+51	-1.35081161461669	lp_max_spa	GLPK	39
+52	-1.268762145075071	lp_max_spa	GLPK	6
+53	-1.22761126001984	lp_max_spa	GLPK	12
+54	-1.1110071441107243	lp_max_spa	GLPK	4
+55	-1.028864819251233	lp_max_spa	GLPK	29
+1	-900.0	lp_max_spa	Gurobi	47
+2	-900.0	lp_max_spa	Gurobi	1
+3	-900.0	lp_max_spa	Gurobi	52
+4	-900.0	lp_max_spa	Gurobi	3
+5	-3.928460770283088	lp_max_spa	Gurobi	28
+6	-900.0	lp_max_spa	Gurobi	48
+7	-900.0	lp_max_spa	Gurobi	42
+8	-900.0	lp_max_spa	Gurobi	21
+9	-900.0	lp_max_spa	Gurobi	43
+10	-900.0	lp_max_spa	Gurobi	20
+11	-900.0	lp_max_spa	Gurobi	54
+12	-900.0	lp_max_spa	Gurobi	50
+13	-900.0	lp_max_spa	Gurobi	35
+14	-900.0	lp_max_spa	Gurobi	45
+15	-900.0	lp_max_spa	Gurobi	30
+16	-900.0	lp_max_spa	Gurobi	32
+17	-3.665507336192435	lp_max_spa	Gurobi	25
+18	-900.0	lp_max_spa	Gurobi	33
+19	-900.0	lp_max_spa	Gurobi	13
+20	-900.0	lp_max_spa	Gurobi	53
+21	-900.0	lp_max_spa	Gurobi	27
+22	-4.434526285860291	lp_max_spa	Gurobi	8
+23	-900.0	lp_max_spa	Gurobi	49
+24	-4.315943248779795	lp_max_spa	Gurobi	23
+25	-900.0	lp_max_spa	Gurobi	18
+26	-900.0	lp_max_spa	Gurobi	40
+27	-900.0	lp_max_spa	Gurobi	26
+28	-900.0	lp_max_spa	Gurobi	22
+29	-900.0	lp_max_spa	Gurobi	44
+30	-4.008310674848841	lp_max_spa	Gurobi	10
+31	-900.0	lp_max_spa	Gurobi	51
+32	-900.0	lp_max_spa	Gurobi	36
+33	-900.0	lp_max_spa	Gurobi	38
+34	-900.0	lp_max_spa	Gurobi	9
+35	-3.4383530334877097	lp_max_spa	Gurobi	14
+36	-3.37894813229749	lp_max_spa	Gurobi	5
+37	-3.177684875749281	lp_max_spa	Gurobi	41
+38	-3.207763143306621	lp_max_spa	Gurobi	16
+39	-3.089039734907684	lp_max_spa	Gurobi	31
+40	-3.048232077776438	lp_max_spa	Gurobi	15
+41	-2.9827985132340964	lp_max_spa	Gurobi	24
+42	-2.8282656903322216	lp_max_spa	Gurobi	11
+43	-2.756577282260625	lp_max_spa	Gurobi	34
+44	-2.4379060725375785	lp_max_spa	Gurobi	46
+45	-2.1580198988597434	lp_max_spa	Gurobi	17
+46	-1.7795984275276566	lp_max_spa	Gurobi	19
+47	-1.6428126895565207	lp_max_spa	Gurobi	37
+48	-1.5924470357668206	lp_max_spa	Gurobi	2
+49	-1.5343448228053682	lp_max_spa	Gurobi	55
+50	-1.4424939045309342	lp_max_spa	Gurobi	7
+51	-1.3507103856122133	lp_max_spa	Gurobi	39
+52	-1.2686627173870035	lp_max_spa	Gurobi	6
+53	-1.2275078860219748	lp_max_spa	Gurobi	12
+54	-1.110902932827664	lp_max_spa	Gurobi	4
+55	-1.0287644545287478	lp_max_spa	Gurobi	29
+1	-900.0	lp_max_spa	SCIP	47
+2	-4.434524809174055	lp_max_spa	SCIP	1
+3	-900.0	lp_max_spa	SCIP	52
+4	-900.0	lp_max_spa	SCIP	3
+5	-900.0	lp_max_spa	SCIP	28
+6	-900.0	lp_max_spa	SCIP	48
+7	-900.0	lp_max_spa	SCIP	42
+8	-4.090789468465122	lp_max_spa	SCIP	21
+9	-900.0	lp_max_spa	SCIP	43
+10	-900.0	lp_max_spa	SCIP	20
+11	-900.0	lp_max_spa	SCIP	54
+12	-900.0	lp_max_spa	SCIP	50
+13	-900.0	lp_max_spa	SCIP	35
+14	-900.0	lp_max_spa	SCIP	45
+15	-900.0	lp_max_spa	SCIP	30
+16	-4.656320589144929	lp_max_spa	SCIP	32
+17	-900.0	lp_max_spa	SCIP	25
+18	-900.0	lp_max_spa	SCIP	33
+19	-900.0	lp_max_spa	SCIP	13
+20	-900.0	lp_max_spa	SCIP	53
+21	-900.0	lp_max_spa	SCIP	27
+22	-900.0	lp_max_spa	SCIP	8
+23	-900.0	lp_max_spa	SCIP	49
+24	-4.315900402441231	lp_max_spa	SCIP	23
+25	-3.048232139752531	lp_max_spa	SCIP	18
+26	-900.0	lp_max_spa	SCIP	40
+27	-900.0	lp_max_spa	SCIP	26
+28	-900.0	lp_max_spa	SCIP	22
+29	-900.0	lp_max_spa	SCIP	44
+30	-4.008310674848841	lp_max_spa	SCIP	10
+31	-900.0	lp_max_spa	SCIP	51
+32	-7.211831869815676	lp_max_spa	SCIP	36
+33	-900.0	lp_max_spa	SCIP	38
+34	-3.5060102784968135	lp_max_spa	SCIP	9
+35	-3.438349024566876	lp_max_spa	SCIP	14
+36	-3.37894813229749	lp_max_spa	SCIP	5
+37	-900.0	lp_max_spa	SCIP	41
+38	-3.207763143306621	lp_max_spa	SCIP	16
+39	-3.100998141865937	lp_max_spa	SCIP	31
+40	-900.0	lp_max_spa	SCIP	15
+41	-3.0247813740788407	lp_max_spa	SCIP	24
+42	-2.8282656903322216	lp_max_spa	SCIP	11
+43	-2.756577282260625	lp_max_spa	SCIP	34
+44	-2.4379060725375785	lp_max_spa	SCIP	46
+45	-2.1580198988597434	lp_max_spa	SCIP	17
+46	-1.7625707267360597	lp_max_spa	SCIP	19
+47	-1.6428126895565207	lp_max_spa	SCIP	37
+48	-1.5924470357668206	lp_max_spa	SCIP	2
+49	-1.5343448228053682	lp_max_spa	SCIP	55
+50	-1.4424939045309342	lp_max_spa	SCIP	7
+51	-1.3507103856122133	lp_max_spa	SCIP	39
+52	-1.2686627173870035	lp_max_spa	SCIP	6
+53	-1.2275078860219748	lp_max_spa	SCIP	12
+54	-1.110902932827664	lp_max_spa	SCIP	4
+55	-1.0287644545287478	lp_max_spa	SCIP	29
+1	-900.0	lp_max_spa	CDDLib	47
+2	-900.0	lp_max_spa	CDDLib	1
+3	-900.0	lp_max_spa	CDDLib	52
+4	-900.0	lp_max_spa	CDDLib	3
+5	-900.0	lp_max_spa	CDDLib	28
+6	-900.0	lp_max_spa	CDDLib	48
+7	-900.0	lp_max_spa	CDDLib	42
+8	-900.0	lp_max_spa	CDDLib	21
+9	-900.0	lp_max_spa	CDDLib	43
+10	-4.43452628586026	lp_max_spa	CDDLib	20
+11	-900.0	lp_max_spa	CDDLib	54
+12	-900.0	lp_max_spa	CDDLib	50
+13	-900.0	lp_max_spa	CDDLib	35
+14	-3.928454008969232	lp_max_spa	CDDLib	45
+15	-3.8878892823794327	lp_max_spa	CDDLib	30
+16	-900.0	lp_max_spa	CDDLib	32
+17	-900.0	lp_max_spa	CDDLib	25
+18	-900.0	lp_max_spa	CDDLib	33
+19	-3.438347959474544	lp_max_spa	CDDLib	13
+20	-900.0	lp_max_spa	CDDLib	53
+21	-900.0	lp_max_spa	CDDLib	27
+22	-900.0	lp_max_spa	CDDLib	8
+23	-900.0	lp_max_spa	CDDLib	49
+24	-900.0	lp_max_spa	CDDLib	23
+25	-900.0	lp_max_spa	CDDLib	18
+26	-900.0	lp_max_spa	CDDLib	40
+27	-900.0	lp_max_spa	CDDLib	26
+28	-3.2576287035914935	lp_max_spa	CDDLib	22
+29	-900.0	lp_max_spa	CDDLib	44
+30	-4.008310674848848	lp_max_spa	CDDLib	10
+31	-900.0	lp_max_spa	CDDLib	51
+32	-900.0	lp_max_spa	CDDLib	36
+33	-4.062686264548922	lp_max_spa	CDDLib	38
+34	-900.0	lp_max_spa	CDDLib	9
+35	-900.0	lp_max_spa	CDDLib	14
+36	-3.37894804928604	lp_max_spa	CDDLib	5
+37	-900.0	lp_max_spa	CDDLib	41
+38	-3.207763161933725	lp_max_spa	CDDLib	16
+39	-3.2228569860626046	lp_max_spa	CDDLib	31
+40	-3.0426655813043135	lp_max_spa	CDDLib	15
+41	-2.9008638451774074	lp_max_spa	CDDLib	24
+42	-2.8282656903322207	lp_max_spa	CDDLib	11
+43	-2.9211801497747114	lp_max_spa	CDDLib	34
+44	-2.4379049645480158	lp_max_spa	CDDLib	46
+45	-2.1580198988597434	lp_max_spa	CDDLib	17
+46	-1.7625709399826899	lp_max_spa	CDDLib	19
+47	-1.6428126895565205	lp_max_spa	CDDLib	37
+48	-1.5924470357668203	lp_max_spa	CDDLib	2
+49	-1.5343449564182716	lp_max_spa	CDDLib	55
+50	-1.4424939045309342	lp_max_spa	CDDLib	7
+51	-1.3507104762565307	lp_max_spa	CDDLib	39
+52	-1.2686627173870035	lp_max_spa	CDDLib	6
+53	-1.2275078860219748	lp_max_spa	CDDLib	12
+54	-1.110902932827664	lp_max_spa	CDDLib	4
+55	-1.0287644561853335	lp_max_spa	CDDLib	29
+1	-5.509285666782581	lp_max_spa	ECOS	47
+2	-5.521068298794119	lp_max_spa	ECOS	1
+3	-5.460257687947381	lp_max_spa	ECOS	52
+4	-5.308109550611163	lp_max_spa	ECOS	3
+5	-5.1259421931577	lp_max_spa	ECOS	28
+6	-4.9175582259660775	lp_max_spa	ECOS	48
+7	-5.329512431288662	lp_max_spa	ECOS	42
+8	-5.094245346894645	lp_max_spa	ECOS	21
+9	-4.847417970976145	lp_max_spa	ECOS	43
+10	-5.341183677726647	lp_max_spa	ECOS	20
+11	-5.306354720912569	lp_max_spa	ECOS	54
+12	-5.027133721241595	lp_max_spa	ECOS	50
+13	-4.7856438511648784	lp_max_spa	ECOS	35
+14	-4.901978392237909	lp_max_spa	ECOS	45
+15	-4.681627264551543	lp_max_spa	ECOS	30
+16	-4.329045827047562	lp_max_spa	ECOS	32
+17	-4.343270095886753	lp_max_spa	ECOS	25
+18	-5.463772035842331	lp_max_spa	ECOS	33
+19	-4.127325532614709	lp_max_spa	ECOS	13
+20	-4.845524988404698	lp_max_spa	ECOS	53
+21	-4.5252935803431305	lp_max_spa	ECOS	27
+22	-5.3317680666937175	lp_max_spa	ECOS	8
+23	-4.022739137780444	lp_max_spa	ECOS	49
+24	-4.5411133185316395	lp_max_spa	ECOS	23
+25	-4.011250657535006	lp_max_spa	ECOS	18
+26	-4.002410208431611	lp_max_spa	ECOS	40
+27	-3.971328328182273	lp_max_spa	ECOS	26
+28	-3.9578590213931246	lp_max_spa	ECOS	22
+29	-4.857754340568853	lp_max_spa	ECOS	44
+30	-4.008351705713167	lp_max_spa	ECOS	10
+31	-4.478855062343249	lp_max_spa	ECOS	51
+32	-3.923215765802564	lp_max_spa	ECOS	36
+33	-4.044275680357248	lp_max_spa	ECOS	38
+34	-4.043682083459502	lp_max_spa	ECOS	9
+35	-3.537806299707487	lp_max_spa	ECOS	14
+36	-3.3825362397386582	lp_max_spa	ECOS	5
+37	-4.1266431339124585	lp_max_spa	ECOS	41
+38	-3.2077596134717483	lp_max_spa	ECOS	16
+39	-3.2476436924218874	lp_max_spa	ECOS	31
+40	-3.090198054787924	lp_max_spa	ECOS	15
+41	-2.9908797744358173	lp_max_spa	ECOS	24
+42	-2.8606874028756963	lp_max_spa	ECOS	11
+43	-2.7847976786926516	lp_max_spa	ECOS	34
+44	-2.462465175391865	lp_max_spa	ECOS	46
+45	-2.1580198866389346	lp_max_spa	ECOS	17
+46	-1.7644528987869412	lp_max_spa	ECOS	19
+47	-1.6428125900168724	lp_max_spa	ECOS	37
+48	-1.5924470568765927	lp_max_spa	ECOS	2
+49	-1.5343448529994665	lp_max_spa	ECOS	55
+50	-1.4424938720583411	lp_max_spa	ECOS	7
+51	-1.3507104069452356	lp_max_spa	ECOS	39
+52	-1.2686626914848962	lp_max_spa	ECOS	6
+53	-1.2275078621633715	lp_max_spa	ECOS	12
+54	-1.110902917292905	lp_max_spa	ECOS	4
+55	-1.0287644438552397	lp_max_spa	ECOS	29
+1	-900.0	lp_max_spa	OSQP	47
+2	-900.0	lp_max_spa	OSQP	1
+3	-900.0	lp_max_spa	OSQP	52
+4	-4.434524809174055	lp_max_spa	OSQP	3
+5	-900.0	lp_max_spa	OSQP	28
+6	-900.0	lp_max_spa	OSQP	48
+7	-900.0	lp_max_spa	OSQP	42
+8	-3.9286986176636867	lp_max_spa	OSQP	21
+9	-900.0	lp_max_spa	OSQP	43
+10	-900.0	lp_max_spa	OSQP	20
+11	-900.0	lp_max_spa	OSQP	54
+12	-900.0	lp_max_spa	OSQP	50
+13	-900.0	lp_max_spa	OSQP	35
+14	-900.0	lp_max_spa	OSQP	45
+15	-900.0	lp_max_spa	OSQP	30
+16	-900.0	lp_max_spa	OSQP	32
+17	-3.5269849631683923	lp_max_spa	OSQP	25
+18	-900.0	lp_max_spa	OSQP	33
+19	-3.438349024566876	lp_max_spa	OSQP	13
+20	-900.0	lp_max_spa	OSQP	53
+21	-900.0	lp_max_spa	OSQP	27
+22	-900.0	lp_max_spa	OSQP	8
+23	-900.0	lp_max_spa	OSQP	49
+24	-4.935165339652131	lp_max_spa	OSQP	23
+25	-3.5928239390489463	lp_max_spa	OSQP	18
+26	-900.0	lp_max_spa	OSQP	40
+27	-900.0	lp_max_spa	OSQP	26
+28	-900.0	lp_max_spa	OSQP	22
+29	-900.0	lp_max_spa	OSQP	44
+30	-4.008305661896752	lp_max_spa	OSQP	10
+31	-900.0	lp_max_spa	OSQP	51
+32	-900.0	lp_max_spa	OSQP	36
+33	-900.0	lp_max_spa	OSQP	38
+34	-900.0	lp_max_spa	OSQP	9
+35	-900.0	lp_max_spa	OSQP	14
+36	-3.37894813229749	lp_max_spa	OSQP	5
+37	-900.0	lp_max_spa	OSQP	41
+38	-3.2077631302502483	lp_max_spa	OSQP	16
+39	-3.1090976915518	lp_max_spa	OSQP	31
+40	-3.1699318489666672	lp_max_spa	OSQP	15
+41	-3.0180695917324383	lp_max_spa	OSQP	24
+42	-2.8282659147415528	lp_max_spa	OSQP	11
+43	-2.7565767939683674	lp_max_spa	OSQP	34
+44	-2.4379060868509583	lp_max_spa	OSQP	46
+45	-2.1580198988597434	lp_max_spa	OSQP	17
+46	-1.7625707267360597	lp_max_spa	OSQP	19
+47	-1.6428126895565207	lp_max_spa	OSQP	37
+48	-1.5924470357668206	lp_max_spa	OSQP	2
+49	-1.5343448162823536	lp_max_spa	OSQP	55
+50	-1.4424939045309342	lp_max_spa	OSQP	7
+51	-1.3507103844412414	lp_max_spa	OSQP	39
+52	-1.2686627167430526	lp_max_spa	OSQP	6
+53	-1.2275078860219748	lp_max_spa	OSQP	12
+54	-1.1109029335285796	lp_max_spa	OSQP	4
+55	-1.0287644545287478	lp_max_spa	OSQP	29
+1	-4.982478942053268	lp_max_spa	ProxSDP	47
+2	-900.0	lp_max_spa	ProxSDP	1
+3	-900.0	lp_max_spa	ProxSDP	52
+4	-4.682255069787012	lp_max_spa	ProxSDP	3
+5	-4.900228996065745	lp_max_spa	ProxSDP	28
+6	-4.207312985548933	lp_max_spa	ProxSDP	48
+7	-900.0	lp_max_spa	ProxSDP	42
+8	-900.0	lp_max_spa	ProxSDP	21
+9	-4.428623500824653	lp_max_spa	ProxSDP	43
+10	-900.0	lp_max_spa	ProxSDP	20
+11	-900.0	lp_max_spa	ProxSDP	54
+12	-900.0	lp_max_spa	ProxSDP	50
+13	-4.429096768454046	lp_max_spa	ProxSDP	35
+14	-4.86175692679563	lp_max_spa	ProxSDP	45
+15	-4.639109689772142	lp_max_spa	ProxSDP	30
+16	-4.140169995446193	lp_max_spa	ProxSDP	32
+17	-4.133889142869201	lp_max_spa	ProxSDP	25
+18	-900.0	lp_max_spa	ProxSDP	33
+19	-3.70100334033705	lp_max_spa	ProxSDP	13
+20	-900.0	lp_max_spa	ProxSDP	53
+21	-4.115596547824065	lp_max_spa	ProxSDP	27
+22	-4.336081221143116	lp_max_spa	ProxSDP	8
+23	-4.321986878809299	lp_max_spa	ProxSDP	49
+24	-4.150839511848046	lp_max_spa	ProxSDP	23
+25	-4.311874052859215	lp_max_spa	ProxSDP	18
+26	-4.312476109769245	lp_max_spa	ProxSDP	40
+27	-4.313376263835115	lp_max_spa	ProxSDP	26
+28	-4.313631858659254	lp_max_spa	ProxSDP	22
+29	-900.0	lp_max_spa	ProxSDP	44
+30	-4.224503558692451	lp_max_spa	ProxSDP	10
+31	-4.139286040043399	lp_max_spa	ProxSDP	51
+32	-4.322357063794482	lp_max_spa	ProxSDP	36
+33	-4.617601407391511	lp_max_spa	ProxSDP	38
+34	-4.599011965036294	lp_max_spa	ProxSDP	9
+35	-3.82168005266353	lp_max_spa	ProxSDP	14
+36	-3.382730807531184	lp_max_spa	ProxSDP	5
+37	-4.313060723721008	lp_max_spa	ProxSDP	41
+38	-3.300046792720401	lp_max_spa	ProxSDP	16
+39	-3.231791915675445	lp_max_spa	ProxSDP	31
+40	-3.077385622553414	lp_max_spa	ProxSDP	15
+41	-2.9554529653182757	lp_max_spa	ProxSDP	24
+42	-2.843787667935584	lp_max_spa	ProxSDP	11
+43	-2.76951777862973	lp_max_spa	ProxSDP	34
+44	-2.4500864643359206	lp_max_spa	ProxSDP	46
+45	-2.1529220439503742	lp_max_spa	ProxSDP	17
+46	-1.7640823025429258	lp_max_spa	ProxSDP	19
+47	-1.6429213719950146	lp_max_spa	ProxSDP	37
+48	-1.5925055361947509	lp_max_spa	ProxSDP	2
+49	-1.534487985150825	lp_max_spa	ProxSDP	55
+50	-1.4424939048855527	lp_max_spa	ProxSDP	7
+51	-1.3508041800034734	lp_max_spa	ProxSDP	39
+52	-1.2686373510978577	lp_max_spa	ProxSDP	6
+53	-1.2274924617210787	lp_max_spa	ProxSDP	12
+54	-1.1109165407235986	lp_max_spa	ProxSDP	4
+55	-1.028776335127287	lp_max_spa	ProxSDP	29
+1	-900.0	lp_max_spa	Tulip	47
+2	-900.0	lp_max_spa	Tulip	1
+3	-900.0	lp_max_spa	Tulip	52
+4	-900.0	lp_max_spa	Tulip	3
+5	-900.0	lp_max_spa	Tulip	28
+6	-900.0	lp_max_spa	Tulip	48
+7	-900.0	lp_max_spa	Tulip	42
+8	-900.0	lp_max_spa	Tulip	21
+9	-900.0	lp_max_spa	Tulip	43
+10	-900.0	lp_max_spa	Tulip	20
+11	-900.0	lp_max_spa	Tulip	54
+12	-900.0	lp_max_spa	Tulip	50
+13	-900.0	lp_max_spa	Tulip	35
+14	-900.0	lp_max_spa	Tulip	45
+15	-900.0	lp_max_spa	Tulip	30
+16	-900.0	lp_max_spa	Tulip	32
+17	-900.0	lp_max_spa	Tulip	25
+18	-900.0	lp_max_spa	Tulip	33
+19	-900.0	lp_max_spa	Tulip	13
+20	-900.0	lp_max_spa	Tulip	53
+21	-900.0	lp_max_spa	Tulip	27
+22	-900.0	lp_max_spa	Tulip	8
+23	-900.0	lp_max_spa	Tulip	49
+24	-900.0	lp_max_spa	Tulip	23
+25	-900.0	lp_max_spa	Tulip	18
+26	-900.0	lp_max_spa	Tulip	40
+27	-900.0	lp_max_spa	Tulip	26
+28	-900.0	lp_max_spa	Tulip	22
+29	-900.0	lp_max_spa	Tulip	44
+30	-4.008310674848841	lp_max_spa	Tulip	10
+31	-900.0	lp_max_spa	Tulip	51
+32	-900.0	lp_max_spa	Tulip	36
+33	-900.0	lp_max_spa	Tulip	38
+34	-900.0	lp_max_spa	Tulip	9
+35	-900.0	lp_max_spa	Tulip	14
+36	-900.0	lp_max_spa	Tulip	5
+37	-900.0	lp_max_spa	Tulip	41
+38	-3.207763143306621	lp_max_spa	Tulip	16
+39	-900.0	lp_max_spa	Tulip	31
+40	-900.0	lp_max_spa	Tulip	15
+41	-900.0	lp_max_spa	Tulip	24
+42	-900.0	lp_max_spa	Tulip	11
+43	-900.0	lp_max_spa	Tulip	34
+44	-900.0	lp_max_spa	Tulip	46
+45	-2.1580198988597434	lp_max_spa	Tulip	17
+46	-900.0	lp_max_spa	Tulip	19
+47	-1.6428126895565207	lp_max_spa	Tulip	37
+48	-1.5924470357668206	lp_max_spa	Tulip	2
+49	-1.5343448228053682	lp_max_spa	Tulip	55
+50	-1.4424939045309342	lp_max_spa	Tulip	7
+51	-1.3507103856122133	lp_max_spa	Tulip	39
+52	-1.2686627173870035	lp_max_spa	Tulip	6
+53	-1.2275078860219748	lp_max_spa	Tulip	12
+54	-1.110902932827664	lp_max_spa	Tulip	4
+55	-1.0287644545287478	lp_max_spa	Tulip	29
+1	-900.0	lp_min_spa	GLPK	47
+2	-900.0	lp_min_spa	GLPK	1
+3	-900.0	lp_min_spa	GLPK	52
+4	-5.080545342485123	lp_min_spa	GLPK	3
+5	-4.717231535622325	lp_min_spa	GLPK	28
+6	-4.267826777331205	lp_min_spa	GLPK	48
+7	-5.400332814145658	lp_min_spa	GLPK	42
+8	-4.844287617901172	lp_min_spa	GLPK	21
+9	-4.309571474249239	lp_min_spa	GLPK	43
+10	-4.531503782797087	lp_min_spa	GLPK	20
+11	-900.0	lp_min_spa	GLPK	54
+12	-5.410335476240614	lp_min_spa	GLPK	50
+13	-4.424803078070842	lp_min_spa	GLPK	35
+14	-900.0	lp_min_spa	GLPK	45
+15	-4.54814607096207	lp_min_spa	GLPK	30
+16	-4.205603505621746	lp_min_spa	GLPK	32
+17	-4.025560663272986	lp_min_spa	GLPK	25
+18	-900.0	lp_min_spa	GLPK	33
+19	-4.101530537915237	lp_min_spa	GLPK	13
+20	-900.0	lp_min_spa	GLPK	53
+21	-4.630036193885214	lp_min_spa	GLPK	27
+22	-4.380279401437175	lp_min_spa	GLPK	8
+23	-4.241538405155157	lp_min_spa	GLPK	49
+24	-4.31277346923159	lp_min_spa	GLPK	23
+25	-4.080108050129324	lp_min_spa	GLPK	18
+26	-4.048964075545529	lp_min_spa	GLPK	40
+27	-4.175141495186954	lp_min_spa	GLPK	26
+28	-4.143166426425058	lp_min_spa	GLPK	22
+29	-900.0	lp_min_spa	GLPK	44
+30	-4.008928183945317	lp_min_spa	GLPK	10
+31	-4.862563323203243	lp_min_spa	GLPK	51
+32	-4.33804476328073	lp_min_spa	GLPK	36
+33	-4.239415427814898	lp_min_spa	GLPK	38
+34	-4.744705143224329	lp_min_spa	GLPK	9
+35	-3.544715844613545	lp_min_spa	GLPK	14
+36	-3.3610749787640306	lp_min_spa	GLPK	5
+37	-4.0794452080319905	lp_min_spa	GLPK	41
+38	-3.2076624516942025	lp_min_spa	GLPK	16
+39	-3.23758669858511	lp_min_spa	GLPK	31
+40	-3.106882493403765	lp_min_spa	GLPK	15
+41	-2.9770211005599836	lp_min_spa	GLPK	24
+42	-2.8487693362274604	lp_min_spa	GLPK	11
+43	-2.7746189228831883	lp_min_spa	GLPK	34
+44	-2.4451899110491992	lp_min_spa	GLPK	46
+45	-2.1581283053218603	lp_min_spa	GLPK	17
+46	-1.7647932768967274	lp_min_spa	GLPK	19
+47	-1.6429169129563288	lp_min_spa	GLPK	37
+48	-1.5925321686157974	lp_min_spa	GLPK	2
+49	-1.5344403159480435	lp_min_spa	GLPK	55
+50	-1.44259894539803	lp_min_spa	GLPK	7
+51	-1.350809682151769	lp_min_spa	GLPK	39
+52	-1.2687604539957469	lp_min_spa	GLPK	6
+53	-1.2276094153090942	lp_min_spa	GLPK	12
+54	-1.1110064188334063	lp_min_spa	GLPK	4
+55	-1.028864281996395	lp_min_spa	GLPK	29
+1	-900.0	lp_min_spa	Gurobi	47
+2	-900.0	lp_min_spa	Gurobi	1
+3	-900.0	lp_min_spa	Gurobi	52
+4	-900.0	lp_min_spa	Gurobi	3
+5	-900.0	lp_min_spa	Gurobi	28
+6	-900.0	lp_min_spa	Gurobi	48
+7	-900.0	lp_min_spa	Gurobi	42
+8	-900.0	lp_min_spa	Gurobi	21
+9	-900.0	lp_min_spa	Gurobi	43
+10	-900.0	lp_min_spa	Gurobi	20
+11	-4.434526285860291	lp_min_spa	Gurobi	54
+12	-900.0	lp_min_spa	Gurobi	50
+13	-900.0	lp_min_spa	Gurobi	35
+14	-900.0	lp_min_spa	Gurobi	45
+15	-900.0	lp_min_spa	Gurobi	30
+16	-900.0	lp_min_spa	Gurobi	32
+17	-900.0	lp_min_spa	Gurobi	25
+18	-900.0	lp_min_spa	Gurobi	33
+19	-900.0	lp_min_spa	Gurobi	13
+20	-900.0	lp_min_spa	Gurobi	53
+21	-900.0	lp_min_spa	Gurobi	27
+22	-900.0	lp_min_spa	Gurobi	8
+23	-900.0	lp_min_spa	Gurobi	49
+24	-900.0	lp_min_spa	Gurobi	23
+25	-900.0	lp_min_spa	Gurobi	18
+26	-900.0	lp_min_spa	Gurobi	40
+27	-900.0	lp_min_spa	Gurobi	26
+28	-900.0	lp_min_spa	Gurobi	22
+29	-3.928460770283104	lp_min_spa	Gurobi	44
+30	-4.008310674848841	lp_min_spa	Gurobi	10
+31	-3.887895323510516	lp_min_spa	Gurobi	51
+32	-3.037624732169587	lp_min_spa	Gurobi	36
+33	-3.476349430862615	lp_min_spa	Gurobi	38
+34	-900.0	lp_min_spa	Gurobi	9
+35	-3.4383530334877097	lp_min_spa	Gurobi	14
+36	-3.37894813229749	lp_min_spa	Gurobi	5
+37	-900.0	lp_min_spa	Gurobi	41
+38	-3.207763143306621	lp_min_spa	Gurobi	16
+39	-3.222855747057174	lp_min_spa	Gurobi	31
+40	-3.0253968422464177	lp_min_spa	Gurobi	15
+41	-2.900864435488555	lp_min_spa	Gurobi	24
+42	-2.8282656903322216	lp_min_spa	Gurobi	11
+43	-2.756577282260625	lp_min_spa	Gurobi	34
+44	-2.611332327296372	lp_min_spa	Gurobi	46
+45	-2.1580198988597434	lp_min_spa	Gurobi	17
+46	-1.7625707196062872	lp_min_spa	Gurobi	19
+47	-1.6428126895565207	lp_min_spa	Gurobi	37
+48	-1.5924470357668206	lp_min_spa	Gurobi	2
+49	-1.5343448228053682	lp_min_spa	Gurobi	55
+50	-1.4424939045309342	lp_min_spa	Gurobi	7
+51	-1.3507103856122133	lp_min_spa	Gurobi	39
+52	-1.2686627173870035	lp_min_spa	Gurobi	6
+53	-1.2275078860219748	lp_min_spa	Gurobi	12
+54	-1.110902932827664	lp_min_spa	Gurobi	4
+55	-1.0287644545287478	lp_min_spa	Gurobi	29
+1	-900.0	lp_min_spa	SCIP	47
+2	-900.0	lp_min_spa	SCIP	1
+3	-900.0	lp_min_spa	SCIP	52
+4	-900.0	lp_min_spa	SCIP	3
+5	-900.0	lp_min_spa	SCIP	28
+6	-900.0	lp_min_spa	SCIP	48
+7	-900.0	lp_min_spa	SCIP	42
+8	-7.779376959448743	lp_min_spa	SCIP	21
+9	-900.0	lp_min_spa	SCIP	43
+10	-900.0	lp_min_spa	SCIP	20
+11	-4.434524809174055	lp_min_spa	SCIP	54
+12	-900.0	lp_min_spa	SCIP	50
+13	-3.9286986176636867	lp_min_spa	SCIP	35
+14	-900.0	lp_min_spa	SCIP	45
+15	-900.0	lp_min_spa	SCIP	30
+16	-900.0	lp_min_spa	SCIP	32
+17	-900.0	lp_min_spa	SCIP	25
+18	-900.0	lp_min_spa	SCIP	33
+19	-3.438349024566876	lp_min_spa	SCIP	13
+20	-900.0	lp_min_spa	SCIP	53
+21	-3.8879456137897375	lp_min_spa	SCIP	27
+22	-900.0	lp_min_spa	SCIP	8
+23	-900.0	lp_min_spa	SCIP	49
+24	-900.0	lp_min_spa	SCIP	23
+25	-3.3618022096469735	lp_min_spa	SCIP	18
+26	-900.0	lp_min_spa	SCIP	40
+27	-900.0	lp_min_spa	SCIP	26
+28	-900.0	lp_min_spa	SCIP	22
+29	-900.0	lp_min_spa	SCIP	44
+30	-4.008310674848841	lp_min_spa	SCIP	10
+31	-900.0	lp_min_spa	SCIP	51
+32	-900.0	lp_min_spa	SCIP	36
+33	-3.4763246239152297	lp_min_spa	SCIP	38
+34	-900.0	lp_min_spa	SCIP	9
+35	-900.0	lp_min_spa	SCIP	14
+36	-3.37894813229749	lp_min_spa	SCIP	5
+37	-900.0	lp_min_spa	SCIP	41
+38	-3.207763143306621	lp_min_spa	SCIP	16
+39	-3.32875808385126	lp_min_spa	SCIP	31
+40	-3.293713224807571	lp_min_spa	SCIP	15
+41	-2.9008659217763704	lp_min_spa	SCIP	24
+42	-2.8282656903322216	lp_min_spa	SCIP	11
+43	-2.756577282260625	lp_min_spa	SCIP	34
+44	-2.456704561392531	lp_min_spa	SCIP	46
+45	-2.1580198988597434	lp_min_spa	SCIP	17
+46	-1.7625707267360597	lp_min_spa	SCIP	19
+47	-1.6428126895565207	lp_min_spa	SCIP	37
+48	-1.5924470357668206	lp_min_spa	SCIP	2
+49	-1.5343448228053682	lp_min_spa	SCIP	55
+50	-1.4424939045309342	lp_min_spa	SCIP	7
+51	-1.3507103856122133	lp_min_spa	SCIP	39
+52	-1.2686627173870035	lp_min_spa	SCIP	6
+53	-1.2275078860219748	lp_min_spa	SCIP	12
+54	-1.110902932827664	lp_min_spa	SCIP	4
+55	-1.0287644545287478	lp_min_spa	SCIP	29
+1	-900.0	lp_min_spa	CDDLib	47
+2	-900.0	lp_min_spa	CDDLib	1
+3	-900.0	lp_min_spa	CDDLib	52
+4	-900.0	lp_min_spa	CDDLib	3
+5	-900.0	lp_min_spa	CDDLib	28
+6	-900.0	lp_min_spa	CDDLib	48
+7	-900.0	lp_min_spa	CDDLib	42
+8	-900.0	lp_min_spa	CDDLib	21
+9	-900.0	lp_min_spa	CDDLib	43
+10	-900.0	lp_min_spa	CDDLib	20
+11	-4.4345248091784075	lp_min_spa	CDDLib	54
+12	-900.0	lp_min_spa	CDDLib	50
+13	-900.0	lp_min_spa	CDDLib	35
+14	-900.0	lp_min_spa	CDDLib	45
+15	-900.0	lp_min_spa	CDDLib	30
+16	-900.0	lp_min_spa	CDDLib	32
+17	-900.0	lp_min_spa	CDDLib	25
+18	-900.0	lp_min_spa	CDDLib	33
+19	-900.0	lp_min_spa	CDDLib	13
+20	-900.0	lp_min_spa	CDDLib	53
+21	-900.0	lp_min_spa	CDDLib	27
+22	-900.0	lp_min_spa	CDDLib	8
+23	-900.0	lp_min_spa	CDDLib	49
+24	-3.8878897909819248	lp_min_spa	CDDLib	23
+25	-900.0	lp_min_spa	CDDLib	18
+26	-900.0	lp_min_spa	CDDLib	40
+27	-900.0	lp_min_spa	CDDLib	26
+28	-900.0	lp_min_spa	CDDLib	22
+29	-3.9284889549000166	lp_min_spa	CDDLib	44
+30	-4.008305661896758	lp_min_spa	CDDLib	10
+31	-900.0	lp_min_spa	CDDLib	51
+32	-3.037625238824955	lp_min_spa	CDDLib	36
+33	-3.4763582345652244	lp_min_spa	CDDLib	38
+34	-900.0	lp_min_spa	CDDLib	9
+35	-3.438349024566876	lp_min_spa	CDDLib	14
+36	-3.3789480492860258	lp_min_spa	CDDLib	5
+37	-900.0	lp_min_spa	CDDLib	41
+38	-3.207763143306621	lp_min_spa	CDDLib	16
+39	-3.222897493629339	lp_min_spa	CDDLib	31
+40	-3.0895110308464377	lp_min_spa	CDDLib	15
+41	-2.900863845177356	lp_min_spa	CDDLib	24
+42	-2.8282652361591722	lp_min_spa	CDDLib	11
+43	-2.7565768137729965	lp_min_spa	CDDLib	34
+44	-2.5889351413113126	lp_min_spa	CDDLib	46
+45	-2.1580198988597434	lp_min_spa	CDDLib	17
+46	-1.7625707267360597	lp_min_spa	CDDLib	19
+47	-1.6428116242586182	lp_min_spa	CDDLib	37
+48	-1.592447046967122	lp_min_spa	CDDLib	2
+49	-1.534345660194076	lp_min_spa	CDDLib	55
+50	-1.4424939045309342	lp_min_spa	CDDLib	7
+51	-1.350710937361423	lp_min_spa	CDDLib	39
+52	-1.2686627173870035	lp_min_spa	CDDLib	6
+53	-1.2275078974104032	lp_min_spa	CDDLib	12
+54	-1.1109029335285796	lp_min_spa	CDDLib	4
+55	-1.0287644554818496	lp_min_spa	CDDLib	29
+1	-5.509339424154272	lp_min_spa	ECOS	47
+2	-5.521090231087005	lp_min_spa	ECOS	1
+3	-5.46026667065205	lp_min_spa	ECOS	52
+4	-5.3082199420562945	lp_min_spa	ECOS	3
+5	-5.125954281030543	lp_min_spa	ECOS	28
+6	-4.917600862018235	lp_min_spa	ECOS	48
+7	-5.329584942850652	lp_min_spa	ECOS	42
+8	-5.094244417528706	lp_min_spa	ECOS	21
+9	-4.8474649525126985	lp_min_spa	ECOS	43
+10	-5.3412439482837994	lp_min_spa	ECOS	20
+11	-5.306393549215314	lp_min_spa	ECOS	54
+12	-5.027124735795887	lp_min_spa	ECOS	50
+13	-4.78567960085019	lp_min_spa	ECOS	35
+14	-4.9019966187911	lp_min_spa	ECOS	45
+15	-4.681629632517943	lp_min_spa	ECOS	30
+16	-4.329047747555195	lp_min_spa	ECOS	32
+17	-4.343269121449762	lp_min_spa	ECOS	25
+18	-5.4635652453055545	lp_min_spa	ECOS	33
+19	-4.127320665737802	lp_min_spa	ECOS	13
+20	-4.84550324675425	lp_min_spa	ECOS	53
+21	-4.525296694428589	lp_min_spa	ECOS	27
+22	-5.332005567541386	lp_min_spa	ECOS	8
+23	-4.022744741483026	lp_min_spa	ECOS	49
+24	-4.54111088861847	lp_min_spa	ECOS	23
+25	-4.011254894154655	lp_min_spa	ECOS	18
+26	-4.00241599472123	lp_min_spa	ECOS	40
+27	-3.971330751956662	lp_min_spa	ECOS	26
+28	-3.95785873406252	lp_min_spa	ECOS	22
+29	-4.85770007512766	lp_min_spa	ECOS	44
+30	-4.0083662798664665	lp_min_spa	ECOS	10
+31	-4.4788449530643115	lp_min_spa	ECOS	51
+32	-3.92321463775757	lp_min_spa	ECOS	36
+33	-4.044273990978788	lp_min_spa	ECOS	38
+34	-4.043677674648895	lp_min_spa	ECOS	9
+35	-3.5378138324569237	lp_min_spa	ECOS	14
+36	-3.3825386410110885	lp_min_spa	ECOS	5
+37	-4.126621820309478	lp_min_spa	ECOS	41
+38	-3.2077618391936635	lp_min_spa	ECOS	16
+39	-3.2476413648542772	lp_min_spa	ECOS	31
+40	-3.0901982323236226	lp_min_spa	ECOS	15
+41	-2.9908802823055494	lp_min_spa	ECOS	24
+42	-2.860686827300191	lp_min_spa	ECOS	11
+43	-2.784797821524244	lp_min_spa	ECOS	34
+44	-2.462465461895776	lp_min_spa	ECOS	46
+45	-2.1580201261569862	lp_min_spa	ECOS	17
+46	-1.7644530180899967	lp_min_spa	ECOS	19
+47	-1.6428126680155644	lp_min_spa	ECOS	37
+48	-1.5924470369176633	lp_min_spa	ECOS	2
+49	-1.5343449252161974	lp_min_spa	ECOS	55
+50	-1.4424939372763426	lp_min_spa	ECOS	7
+51	-1.3507104542607282	lp_min_spa	ECOS	39
+52	-1.2686627325525461	lp_min_spa	ECOS	6
+53	-1.227507906428675	lp_min_spa	ECOS	12
+54	-1.1109029347275894	lp_min_spa	ECOS	4
+55	-1.0287644572460781	lp_min_spa	ECOS	29
+1	-900.0	lp_min_spa	OSQP	47
+2	-900.0	lp_min_spa	OSQP	1
+3	-900.0	lp_min_spa	OSQP	52
+4	-4.434524809174055	lp_min_spa	OSQP	3
+5	-900.0	lp_min_spa	OSQP	28
+6	-900.0	lp_min_spa	OSQP	48
+7	-900.0	lp_min_spa	OSQP	42
+8	-3.9286986176636867	lp_min_spa	OSQP	21
+9	-900.0	lp_min_spa	OSQP	43
+10	-900.0	lp_min_spa	OSQP	20
+11	-900.0	lp_min_spa	OSQP	54
+12	-900.0	lp_min_spa	OSQP	50
+13	-900.0	lp_min_spa	OSQP	35
+14	-900.0	lp_min_spa	OSQP	45
+15	-900.0	lp_min_spa	OSQP	30
+16	-900.0	lp_min_spa	OSQP	32
+17	-3.5269849631683923	lp_min_spa	OSQP	25
+18	-900.0	lp_min_spa	OSQP	33
+19	-3.438349024566876	lp_min_spa	OSQP	13
+20	-900.0	lp_min_spa	OSQP	53
+21	-900.0	lp_min_spa	OSQP	27
+22	-900.0	lp_min_spa	OSQP	8
+23	-900.0	lp_min_spa	OSQP	49
+24	-4.935165339652131	lp_min_spa	OSQP	23
+25	-3.5928239390489463	lp_min_spa	OSQP	18
+26	-900.0	lp_min_spa	OSQP	40
+27	-900.0	lp_min_spa	OSQP	26
+28	-900.0	lp_min_spa	OSQP	22
+29	-900.0	lp_min_spa	OSQP	44
+30	-4.008305661896752	lp_min_spa	OSQP	10
+31	-900.0	lp_min_spa	OSQP	51
+32	-900.0	lp_min_spa	OSQP	36
+33	-900.0	lp_min_spa	OSQP	38
+34	-900.0	lp_min_spa	OSQP	9
+35	-900.0	lp_min_spa	OSQP	14
+36	-3.37894813229749	lp_min_spa	OSQP	5
+37	-900.0	lp_min_spa	OSQP	41
+38	-3.2077631302502483	lp_min_spa	OSQP	16
+39	-3.1090976915518	lp_min_spa	OSQP	31
+40	-3.1699318489666672	lp_min_spa	OSQP	15
+41	-3.0180695917324383	lp_min_spa	OSQP	24
+42	-2.8282659147415528	lp_min_spa	OSQP	11
+43	-2.7565767939683674	lp_min_spa	OSQP	34
+44	-2.4379060868509583	lp_min_spa	OSQP	46
+45	-2.1580198988597434	lp_min_spa	OSQP	17
+46	-1.7625707267360597	lp_min_spa	OSQP	19
+47	-1.6428126895565207	lp_min_spa	OSQP	37
+48	-1.5924470357668206	lp_min_spa	OSQP	2
+49	-1.5343448162823536	lp_min_spa	OSQP	55
+50	-1.4424939045309342	lp_min_spa	OSQP	7
+51	-1.3507103844412414	lp_min_spa	OSQP	39
+52	-1.2686627167430526	lp_min_spa	OSQP	6
+53	-1.2275078860219748	lp_min_spa	OSQP	12
+54	-1.1109029335285796	lp_min_spa	OSQP	4
+55	-1.0287644545287478	lp_min_spa	OSQP	29
+1	-5.572536573861454	lp_min_spa	ProxSDP	47
+2	-900.0	lp_min_spa	ProxSDP	1
+3	-900.0	lp_min_spa	ProxSDP	52
+4	-4.590344202595539	lp_min_spa	ProxSDP	3
+5	-4.571387312217972	lp_min_spa	ProxSDP	28
+6	-4.233425521029985	lp_min_spa	ProxSDP	48
+7	-4.995414219549893	lp_min_spa	ProxSDP	42
+8	-4.948767822692366	lp_min_spa	ProxSDP	21
+9	-4.36810699215758	lp_min_spa	ProxSDP	43
+10	-4.964623411764454	lp_min_spa	ProxSDP	20
+11	-5.0005151124522635	lp_min_spa	ProxSDP	54
+12	-4.953346493799608	lp_min_spa	ProxSDP	50
+13	-4.369304807088878	lp_min_spa	ProxSDP	35
+14	-900.0	lp_min_spa	ProxSDP	45
+15	-4.302446012306736	lp_min_spa	ProxSDP	30
+16	-4.089218377720953	lp_min_spa	ProxSDP	32
+17	-4.086541152184935	lp_min_spa	ProxSDP	25
+18	-900.0	lp_min_spa	ProxSDP	33
+19	-4.180798783453252	lp_min_spa	ProxSDP	13
+20	-900.0	lp_min_spa	ProxSDP	53
+21	-4.465215209537971	lp_min_spa	ProxSDP	27
+22	-4.38468496568722	lp_min_spa	ProxSDP	8
+23	-4.181430835474252	lp_min_spa	ProxSDP	49
+24	-4.4559031851408575	lp_min_spa	ProxSDP	23
+25	-4.176561306160765	lp_min_spa	ProxSDP	18
+26	-4.178122713104859	lp_min_spa	ProxSDP	40
+27	-4.180179545562527	lp_min_spa	ProxSDP	26
+28	-4.180057060187762	lp_min_spa	ProxSDP	22
+29	-900.0	lp_min_spa	ProxSDP	44
+30	-4.217997425371382	lp_min_spa	ProxSDP	10
+31	-4.466713680604314	lp_min_spa	ProxSDP	51
+32	-4.182209776262818	lp_min_spa	ProxSDP	36
+33	-4.794899342859638	lp_min_spa	ProxSDP	38
+34	-4.781472483052253	lp_min_spa	ProxSDP	9
+35	-3.522378859536038	lp_min_spa	ProxSDP	14
+36	-3.353224588148678	lp_min_spa	ProxSDP	5
+37	-4.179635228362001	lp_min_spa	ProxSDP	41
+38	-3.301999216662767	lp_min_spa	ProxSDP	16
+39	-3.2306228461149162	lp_min_spa	ProxSDP	31
+40	-3.0754562833456274	lp_min_spa	ProxSDP	15
+41	-2.963816993406004	lp_min_spa	ProxSDP	24
+42	-2.850386476253534	lp_min_spa	ProxSDP	11
+43	-2.775399058524581	lp_min_spa	ProxSDP	34
+44	-2.4505885227013695	lp_min_spa	ProxSDP	46
+45	-2.1529773147920745	lp_min_spa	ProxSDP	17
+46	-1.764519573817358	lp_min_spa	ProxSDP	19
+47	-1.6428772268016008	lp_min_spa	ProxSDP	37
+48	-1.592515912608717	lp_min_spa	ProxSDP	2
+49	-1.534477335982156	lp_min_spa	ProxSDP	55
+50	-1.4424939048853627	lp_min_spa	ProxSDP	7
+51	-1.3507972035654867	lp_min_spa	ProxSDP	39
+52	-1.2686639406119329	lp_min_spa	ProxSDP	6
+53	-1.227473965618101	lp_min_spa	ProxSDP	12
+54	-1.110928375992738	lp_min_spa	ProxSDP	4
+55	-1.0287622520813096	lp_min_spa	ProxSDP	29
+1	-900.0	lp_min_spa	Tulip	47
+2	-900.0	lp_min_spa	Tulip	1
+3	-900.0	lp_min_spa	Tulip	52
+4	-900.0	lp_min_spa	Tulip	3
+5	-900.0	lp_min_spa	Tulip	28
+6	-900.0	lp_min_spa	Tulip	48
+7	-900.0	lp_min_spa	Tulip	42
+8	-900.0	lp_min_spa	Tulip	21
+9	-900.0	lp_min_spa	Tulip	43
+10	-900.0	lp_min_spa	Tulip	20
+11	-900.0	lp_min_spa	Tulip	54
+12	-900.0	lp_min_spa	Tulip	50
+13	-900.0	lp_min_spa	Tulip	35
+14	-900.0	lp_min_spa	Tulip	45
+15	-900.0	lp_min_spa	Tulip	30
+16	-900.0	lp_min_spa	Tulip	32
+17	-900.0	lp_min_spa	Tulip	25
+18	-900.0	lp_min_spa	Tulip	33
+19	-900.0	lp_min_spa	Tulip	13
+20	-900.0	lp_min_spa	Tulip	53
+21	-900.0	lp_min_spa	Tulip	27
+22	-900.0	lp_min_spa	Tulip	8
+23	-900.0	lp_min_spa	Tulip	49
+24	-900.0	lp_min_spa	Tulip	23
+25	-900.0	lp_min_spa	Tulip	18
+26	-900.0	lp_min_spa	Tulip	40
+27	-900.0	lp_min_spa	Tulip	26
+28	-900.0	lp_min_spa	Tulip	22
+29	-900.0	lp_min_spa	Tulip	44
+30	-4.008310674848841	lp_min_spa	Tulip	10
+31	-900.0	lp_min_spa	Tulip	51
+32	-900.0	lp_min_spa	Tulip	36
+33	-900.0	lp_min_spa	Tulip	38
+34	-900.0	lp_min_spa	Tulip	9
+35	-900.0	lp_min_spa	Tulip	14
+36	-900.0	lp_min_spa	Tulip	5
+37	-900.0	lp_min_spa	Tulip	41
+38	-3.207763143306621	lp_min_spa	Tulip	16
+39	-900.0	lp_min_spa	Tulip	31
+40	-900.0	lp_min_spa	Tulip	15
+41	-900.0	lp_min_spa	Tulip	24
+42	-900.0	lp_min_spa	Tulip	11
+43	-900.0	lp_min_spa	Tulip	34
+44	-900.0	lp_min_spa	Tulip	46
+45	-2.1580198988597434	lp_min_spa	Tulip	17
+46	-900.0	lp_min_spa	Tulip	19
+47	-1.6428126895565207	lp_min_spa	Tulip	37
+48	-1.5924470357668206	lp_min_spa	Tulip	2
+49	-1.5343448228053682	lp_min_spa	Tulip	55
+50	-1.4424939045309342	lp_min_spa	Tulip	7
+51	-1.3507103856122133	lp_min_spa	Tulip	39
+52	-1.2686627173870035	lp_min_spa	Tulip	6
+53	-1.2275078860219748	lp_min_spa	Tulip	12
+54	-1.110902932827664	lp_min_spa	Tulip	4
+55	-1.0287644545287478	lp_min_spa	Tulip	29
+1	-900.0	milp	Gurobi	47
+2	-900.0	milp	Gurobi	1
+3	-900.0	milp	Gurobi	52
+4	-4.434524809174055	milp	Gurobi	3
+5	-3.9286982953267198	milp	Gurobi	28
+6	-900.0	milp	Gurobi	48
+7	-900.0	milp	Gurobi	42
+8	-900.0	milp	Gurobi	21
+9	-900.0	milp	Gurobi	43
+10	-900.0	milp	Gurobi	20
+11	-900.0	milp	Gurobi	54
+12	-900.0	milp	Gurobi	50
+13	-900.0	milp	Gurobi	35
+14	-900.0	milp	Gurobi	45
+15	-4.935167914399129	milp	Gurobi	30
+16	-3.775403593110413	milp	Gurobi	32
+17	-900.0	milp	Gurobi	25
+18	-900.0	milp	Gurobi	33
+19	-3.4383530334877097	milp	Gurobi	13
+20	-900.0	milp	Gurobi	53
+21	-900.0	milp	Gurobi	27
+22	-900.0	milp	Gurobi	8
+23	-3.4147317209247756	milp	Gurobi	49
+24	-900.0	milp	Gurobi	23
+25	-900.0	milp	Gurobi	18
+26	-900.0	milp	Gurobi	40
+27	-900.0	milp	Gurobi	26
+28	-900.0	milp	Gurobi	22
+29	-900.0	milp	Gurobi	44
+30	-4.008310674848841	milp	Gurobi	10
+31	-900.0	milp	Gurobi	51
+32	-900.0	milp	Gurobi	36
+33	-900.0	milp	Gurobi	38
+34	-900.0	milp	Gurobi	9
+35	-900.0	milp	Gurobi	14
+36	-3.3789480492860258	milp	Gurobi	5
+37	-900.0	milp	Gurobi	41
+38	-3.207763143306621	milp	Gurobi	16
+39	-3.6702003965161163	milp	Gurobi	31
+40	-3.025366313804094	milp	Gurobi	15
+41	-2.900863845177407	milp	Gurobi	24
+42	-2.8282659147415528	milp	Gurobi	11
+43	-2.756577282260625	milp	Gurobi	34
+44	-2.4379060725375785	milp	Gurobi	46
+45	-2.1580198988597434	milp	Gurobi	17
+46	-1.7625707196062872	milp	Gurobi	19
+47	-1.6428126895565207	milp	Gurobi	37
+48	-1.5924470357668206	milp	Gurobi	2
+49	-1.5343448228053682	milp	Gurobi	55
+50	-1.4424939045309342	milp	Gurobi	7
+51	-1.3507103856122133	milp	Gurobi	39
+52	-1.2686627173870035	milp	Gurobi	6
+53	-1.2275078860219748	milp	Gurobi	12
+54	-1.110902932827664	milp	Gurobi	4
+55	-1.0287644545287478	milp	Gurobi	29

@@ -40,14 +40,14 @@ directory (`reproduce-efm-paper-2022/src/`).
 
 Figures are generated via:
 
-1. `$ sh figure-01.tex`
-2. `$ sh figure-02.tex`
+1. `$ sh figure-01.sh`
+2. `$ sh figure-02.sh`
 
 ### Figure 3
 
 Figure is generated via:
 
-1. `sh figure-03.tex`
+1. `sh figure-03.sh`
 
 ### Figure 4
 
@@ -56,6 +56,39 @@ Figure is generated via:
 3. `$ julia main-efm-weights-sphingo-optimization.jl`
 
 Figures are generated via:
+
+1. FILL
+2. FILL
+
+### Supplementary Figure 1
+
+1. `$ julia main-sphingo-network-validation.jl`
+2. `$ julia main-efm-weights-sphingo-markov.jl`
+3. `$ julia main-efm-weights-sphingo-optimization.jl`
+
+Figures are generated via:
+
+1. `sh supplementary-01.sh`
+
+### Supplementary Figure 2
+
+1. `$ julia main-sphingo-network-validation.jl`
+2. `$ julia main-efm-weights-sphingo-markov.jl`
+3. `$ julia main-efm-weights-sphingo-optimization.jl`
+
+Figures are generated via:
+
+1. `sh supplementary-02.sh`
+
+### Supplementary Table 1
+
+1. `$ julia main-sphingo-network-validation.jl`
+2. `$ julia main-efm-weights-sphingo-markov.jl`
+
+Table is generated via:
+
+1. `sh supplementary-03.sh`
+
 
 
 ## Reference

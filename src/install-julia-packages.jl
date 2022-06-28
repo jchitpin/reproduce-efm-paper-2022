@@ -24,7 +24,9 @@ Pkg.add(#
      "RowEchelon", # for some matrix property calculations
      "PrettyTables", # printing formatted tables to REPL
      "DifferentialEquations", "SBML", "Plots", # validating sphingolipid model
-     "GLMakie" # plotting backend for ElementaryFluxModes
+     "BenchmarkTools", # benchmarking
+     "GLMakie", # plotting backend for ElementaryFluxModes
+     "NumericIO" # formatting numbers for printing tables
   ]
 )
 # ------------------------------------------------------------------------------

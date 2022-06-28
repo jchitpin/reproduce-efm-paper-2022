@@ -13,15 +13,24 @@ function optimization_inner(#
   efms_log10 = ϕ .|> x -> log10.(x)
   efms_prop_log10 = efms_prop .|> x -> log10.(x)
 
-  # Mean squared log10 reconstruction error
-  error = [log10(sum(((A * ϕ[i] .- b).^2)) / length(ϕ[i])) for i in 1:length(ϕ)]
+  # Mean squared log10 reconstruction error over individual fluxes
+  error_ind = [#
+    #log10(sum(((A * ϕ[i] .- b).^2)) / length(ϕ[i])) for i in 1:length(ϕ)
+    log10((sum(((A * ϕ[i] .- b).^2)) / length(b))) for i in 1:length(ϕ)
+  ]
+
+  # Log10 reconstruction error over total fluxes
+  error_tot = [#
+    log10(abs(sum(A * ϕ[i]) - sum(b))) for i in 1:length(ϕ)
+  ]
 
   res = (#
     efms_raw=ϕ,
     efms_prop=efms_prop,
     efms_raw_log=efms_log10,
     efms_prop_log=efms_prop_log10,
-    efms_raw_error=error
+    efms_raw_error_ind=error_ind,
+    efms_raw_error_tot=error_tot
   )
   return res
 end
