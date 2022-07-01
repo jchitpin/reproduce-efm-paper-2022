@@ -1,7 +1,7 @@
 #!/usr/bin/env
 
 DIR_FIGURE="$(pwd)/../figures/supplementary-03"
-DIR_DATA="$(pwd)/../figures/supplementary-03/data"
+DIR_DATA="$(pwd)/../data/"
 
 echo "Compiling Supplementary Figure 3"
 cd $DIR_DATA

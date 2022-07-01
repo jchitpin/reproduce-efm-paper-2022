@@ -1,0 +1,120 @@
+\pgfplotstableread[col sep=tab]{../../data/scatterplot-fold-change.csv}\mydata
+
+\pgfplotsset{%
+  mc/.style={only marks, fill opacity=1.0, mark size=2, mark=o, fill=white},
+  sk/.style={only marks, fill opacity=1.0, mark size=2, mark=square*, fill=white!0!black},
+  or/.style={only marks, fill opacity=1.0, mark size=2, mark=square*, fill=white!20!black},
+  ru/.style={only marks, fill opacity=1.0, mark size=2, mark=square*, fill=white!40!black},
+  re/.style={only marks, fill opacity=1.0, mark size=2, mark=square*, fill=white!60!black},
+  no/.style={only marks, fill opacity=1.0, mark size=2, mark=square*, fill=white!80!black}
+}
+
+\begin{tikzpicture}
+
+  \begin{groupplot}[%
+    group style={%
+      vertical sep=0pt,
+      horizontal sep=0pt,
+      group size=6 by 1,
+      x descriptions at=edge bottom,
+      y descriptions at=edge left,
+    },
+    xtick pos=left,
+    ytick pos=left,
+    %xmin=0,
+    ymin=-17,
+    ymax=12,
+    width=1.11cm,
+    height=7.175cm,
+    scale only axis,
+    title style={%
+      at={(0.5,0)},
+      anchor=north,
+      yshift=-6pt
+    },
+    xmajorticks=false,
+    ylabel shift={-6 pt},
+    %ylabel style={font=\scriptsize},
+    %ylabel={$\log_{2}(w_{ad} / w_{wt})$},
+    %ylabel={$\log_{2}$(disease weight / wildtype weight)}
+    ylabel={Fold change $(\log_2)$}
+  ]
+
+    \nextgroupplot[title=1]
+      \draw[dashed,thin] (axis cs:\pgfkeysvalueof{/pgfplots/xmin},-2) -- (axis cs:\pgfkeysvalueof{/pgfplots/xmax},-2);
+      \draw[dashed,thin] (axis cs:\pgfkeysvalueof{/pgfplots/xmin},+2) -- (axis cs:\pgfkeysvalueof{/pgfplots/xmax},+2);
+      \addplot[mc, restrict x to domain=1:11] table [x index=0, y index=1, col sep=tab, skip first n=0] \mydata;
+      \addplot[sk, restrict x to domain=1:11] table [x index=0, y index=2, col sep=tab, skip first n=0] \mydata;
+      \addplot[or, restrict x to domain=1:11] table [x index=0, y index=3, col sep=tab, skip first n=0] \mydata;
+      \addplot[ru, restrict x to domain=1:11] table [x index=0, y index=4, col sep=tab, skip first n=0] \mydata;
+      \addplot[re, restrict x to domain=1:11] table [x index=0, y index=5, col sep=tab, skip first n=0] \mydata;
+      \addplot[no, restrict x to domain=1:11] table [x index=0, y index=6, col sep=tab, skip first n=0] \mydata;
+    \nextgroupplot[title=2, ytick style={/pgfplots/major tick length=0pt}]
+      \draw[dashed,thin] (axis cs:\pgfkeysvalueof{/pgfplots/xmin},-2) -- (axis cs:\pgfkeysvalueof{/pgfplots/xmax},-2);
+      \draw[dashed,thin] (axis cs:\pgfkeysvalueof{/pgfplots/xmin},+2) -- (axis cs:\pgfkeysvalueof{/pgfplots/xmax},+2);
+      \addplot[mc, restrict x to domain=12:13] table [x index=0, y index=1, col sep=tab, skip first n=0] \mydata;
+      \addplot[sk, restrict x to domain=12:13] table [x index=0, y index=2, col sep=tab, skip first n=0] \mydata;
+      \addplot[or, restrict x to domain=12:13] table [x index=0, y index=3, col sep=tab, skip first n=0] \mydata;
+      \addplot[ru, restrict x to domain=12:13] table [x index=0, y index=4, col sep=tab, skip first n=0] \mydata;
+      \addplot[re, restrict x to domain=12:13] table [x index=0, y index=5, col sep=tab, skip first n=0] \mydata;
+      \addplot[no, restrict x to domain=12:13] table [x index=0, y index=6, col sep=tab, skip first n=0] \mydata;
+    \nextgroupplot[title=3, ytick style={/pgfplots/major tick length=0pt}]
+      \draw[dashed,thin] (axis cs:\pgfkeysvalueof{/pgfplots/xmin},-2) -- (axis cs:\pgfkeysvalueof{/pgfplots/xmax},-2);
+      \draw[dashed,thin] (axis cs:\pgfkeysvalueof{/pgfplots/xmin},+2) -- (axis cs:\pgfkeysvalueof{/pgfplots/xmax},+2);
+      \addplot[mc, restrict x to domain=14:20] table [x index=0, y index=1, col sep=tab, skip first n=0] \mydata;
+      \addplot[sk, restrict x to domain=14:20] table [x index=0, y index=2, col sep=tab, skip first n=0] \mydata;
+      \addplot[or, restrict x to domain=14:20] table [x index=0, y index=3, col sep=tab, skip first n=0] \mydata;
+      \addplot[ru, restrict x to domain=14:20] table [x index=0, y index=4, col sep=tab, skip first n=0] \mydata;
+      \addplot[re, restrict x to domain=14:20] table [x index=0, y index=5, col sep=tab, skip first n=0] \mydata;
+      \addplot[no, restrict x to domain=14:20] table [x index=0, y index=6, col sep=tab, skip first n=0] \mydata;
+    \nextgroupplot[title=4, ytick style={/pgfplots/major tick length=0pt}]
+      \draw[dashed,thin] (axis cs:\pgfkeysvalueof{/pgfplots/xmin},-2) -- (axis cs:\pgfkeysvalueof{/pgfplots/xmax},-2);
+      \draw[dashed,thin] (axis cs:\pgfkeysvalueof{/pgfplots/xmin},+2) -- (axis cs:\pgfkeysvalueof{/pgfplots/xmax},+2);
+      \addplot[mc, restrict x to domain=21:24] table [x index=0, y index=1, col sep=tab, skip first n=0] \mydata;
+      \addplot[sk, restrict x to domain=21:24] table [x index=0, y index=2, col sep=tab, skip first n=0] \mydata;
+      \addplot[or, restrict x to domain=21:24] table [x index=0, y index=3, col sep=tab, skip first n=0] \mydata;
+      \addplot[ru, restrict x to domain=21:24] table [x index=0, y index=4, col sep=tab, skip first n=0] \mydata;
+      \addplot[re, restrict x to domain=21:24] table [x index=0, y index=5, col sep=tab, skip first n=0] \mydata;
+      \addplot[no, restrict x to domain=21:24] table [x index=0, y index=6, col sep=tab, skip first n=0] \mydata;
+    \nextgroupplot[title=5, ytick style={/pgfplots/major tick length=0pt}]
+      \draw[dashed,thin] (axis cs:\pgfkeysvalueof{/pgfplots/xmin},-2) -- (axis cs:\pgfkeysvalueof{/pgfplots/xmax},-2);
+      \draw[dashed,thin] (axis cs:\pgfkeysvalueof{/pgfplots/xmin},+2) -- (axis cs:\pgfkeysvalueof{/pgfplots/xmax},+2);
+      \addplot[mc, restrict x to domain=25:47] table [x index=0, y index=1, col sep=tab, skip first n=0] \mydata;
+      \addplot[sk, restrict x to domain=25:47] table [x index=0, y index=2, col sep=tab, skip first n=0] \mydata;
+      \addplot[or, restrict x to domain=25:47] table [x index=0, y index=3, col sep=tab, skip first n=0] \mydata;
+      \addplot[ru, restrict x to domain=25:47] table [x index=0, y index=4, col sep=tab, skip first n=0] \mydata;
+      \addplot[re, restrict x to domain=25:47] table [x index=0, y index=5, col sep=tab, skip first n=0] \mydata;
+      \addplot[no, restrict x to domain=25:47] table [x index=0, y index=6, col sep=tab, skip first n=0] \mydata;
+    \nextgroupplot[title=6, ytick style={/pgfplots/major tick length=0pt}]
+      \draw[dashed,thin] (axis cs:\pgfkeysvalueof{/pgfplots/xmin},-2) -- (axis cs:\pgfkeysvalueof{/pgfplots/xmax},-2);
+      \draw[dashed,thin] (axis cs:\pgfkeysvalueof{/pgfplots/xmin},+2) -- (axis cs:\pgfkeysvalueof{/pgfplots/xmax},+2);
+      \addplot[mc, restrict x to domain=48:55] table [x index=0, y index=1, col sep=tab, skip first n=0] \mydata;
+      \addplot[sk, restrict x to domain=48:55] table [x index=0, y index=2, col sep=tab, skip first n=0] \mydata;
+      \addplot[or, restrict x to domain=48:55] table [x index=0, y index=3, col sep=tab, skip first n=0] \mydata;
+      \addplot[ru, restrict x to domain=48:55] table [x index=0, y index=4, col sep=tab, skip first n=0] \mydata;
+      \addplot[re, restrict x to domain=48:55] table [x index=0, y index=5, col sep=tab, skip first n=0] \mydata;
+      \addplot[no, restrict x to domain=48:55] table [x index=0, y index=6, col sep=tab, skip first n=0] \mydata;
+  \end{groupplot}
+  % X/Y labels and title
+  \node [white, below=4.8cm,anchor=south,rotate=0] at ($(group c6r1.south west)!0.5!(group c2r1.north west)$) {EFM indices sorted by compartments spanned};
+  \node [below=4.615cm,anchor=south,rotate=0] at ($(group c6r1.south west)!0.5!(group c2r1.north west)$) {EFM indices sorted by compartments spanned};
+  \node [above=2.900cm,anchor=south,rotate=0,fill=white] at ($(group c6r1.south west)!0.5!(group c2r1.north west)$) {\textbf{Disease vs wildtype}};
+
+  % Attempted to plot the dominant EFMs explaining 95% fluxes but not readable
+  %\node[anchor=north,font=\tiny] at (0.090,3.8) {$\uparrow$}; % 1
+  %\node[anchor=north,font=\tiny] at (0.185,3.8) {$\uparrow$}; % 2
+  %\node[anchor=north,font=\tiny] at (0.280,3.8) {$\uparrow$}; % 3
+  %\node[anchor=north,font=\tiny] at (0.375,3.8) {$\uparrow$}; % 4
+  %\node[anchor=north,font=\tiny] at (0.475,3.8) {$\uparrow$}; % 5
+  %\node[anchor=north,font=\tiny] at (0.570,3.8) {$\uparrow$}; % 6
+  %\node[anchor=north,font=\tiny] at (0.665,3.8) {$\uparrow$}; % 7
+  %\node[anchor=north,font=\tiny] at (0.760,3.8) {$\uparrow$}; % 8
+  %\node[anchor=north,font=\tiny] at (0.855,3.8) {$\uparrow$}; % 9
+  %\node[anchor=north,font=\tiny] at (0.950,3.8) {$\uparrow$}; % 10
+  %\node[anchor=north,font=\tiny] at (2.620,3.8) {$\uparrow$}; % 16
+  %\node[anchor=north,font=\tiny] at (2.620,3.8) {$\uparrow$}; % 18
+  %\node[anchor=north,font=\tiny] at (2.620,3.8) {$\uparrow$}; % 38
+
+\end{tikzpicture}
+
+

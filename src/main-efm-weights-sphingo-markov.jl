@@ -94,9 +94,9 @@ CSV.write(#
 # ------------------------------------------------------------------------------
 
 ## LOG10 SQUARED RECONSTRUCTION ERROR FOR INDIVIDUAL FLUXES --------------------
-# log₁₀(∑((Ax-v)²)/|v|) = -6.80 (wildtype)
+# log₁₀(∑((Ax-v)²)/|v|) = -14.13 (wildtype)
 error_wt = log10((sum(((A_wt * res_wt.w .- fluxes_wt).^2)) / length(fluxes_wt)))
-# log₁₀(∑((Ax-v)²)/|v|) = -7.01 (disease)
+# log₁₀(∑((Ax-v)²)/|v|) = -13.62 (disease)
 error_ad = log10((sum(((A_ad * res_ad.w .- fluxes_ad).^2)) / length(fluxes_ad)))
 CSV.write(#
   "../data/efm-error-ind-wt-ad-markov.csv",
@@ -106,9 +106,9 @@ CSV.write(#
 # ------------------------------------------------------------------------------
 
 ## LOG10 SQUARED RECONSTRUCTION ERROR FOR TOTAL FLUXES -------------------------
-# log₁₀(|∑(Ax) - ∑(v)|) = -15.65 (wildtype)
+# log₁₀(|∑(Ax) - ∑(v)|) = -15.35 (wildtype)
 error_wt_total = log10(abs(sum(A_wt * res_wt.w) - sum(fluxes_wt)))
-# log₁₀(|∑(Ax) - ∑(v)|) = -15.35 (disease)
+# log₁₀(|∑(Ax) - ∑(v)|) = -Inf (disease)
 error_ad_total = log10(abs(sum(A_ad * res_ad.w) - sum(fluxes_ad)))
 CSV.write(#
   "../data/efm-error-total-wt-ad-markov.csv",

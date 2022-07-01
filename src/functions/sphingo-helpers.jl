@@ -98,7 +98,7 @@ function aggregate_efm_zero_freq(mc::Vector{Float64}, combined)
   idx_mc = sortperm(mc)
   g1(x) = replace!(y -> isinf(y) ? -900 : y, x)
   #g2(x) = replace!(y -> y <= -10 ? -900 : y, x) # do not count very small EFMs as zero for this plot!
-  s(x) = findall(==(-900), g2(g1(x))[idx_mc])
+  s(x) = findall(==(-900), g1(x)[idx_mc])
   function u(x::Vector{Float64})
     y = zeros(length(x))
     y[s(x)] .= 1
@@ -295,7 +295,7 @@ function markov_table(#
     Tables.table(#
       results
     ),
-    header = ["EFM", "\$w_{wt}\$", "\$w_{ad}\$", "\$\\log_{2}(w_{ad}/w_{wt})\$", "\$w_{ad} - w_{wt}\$", "\\# compartments", "EFM length"],
+    header = ["EFM", "{\$w_{wt}\$}", "{\$w_{ad}\$}", "{\$\\log_{2}(w_{ad}/w_{wt})\$}", "{\$w_{ad} - w_{wt}\$}", "\\# compartments", "EFM length"],
     delim = '\t'
   )
 end

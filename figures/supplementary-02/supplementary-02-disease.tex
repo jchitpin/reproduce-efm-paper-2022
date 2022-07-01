@@ -9,7 +9,7 @@
 
 \begin{figure}[h]
 
-  \pgfplotstableread[col sep=comma]{data/error-ad-tot.csv}\mydata
+  \pgfplotstableread[col sep=comma]{../../data/error-ad-tot.csv}\mydata
 
   \begin{tikzpicture}
 
@@ -42,7 +42,7 @@
       rotate=90,
       font=\tiny
     },
-    extra y ticks=15.35,
+    extra y ticks=20,
     extra y tick labels={{}},
     extra y tick style={%
       ymajorgrids=true,
@@ -69,7 +69,7 @@
   \addplot[draw=black,fill=white!75!black, nodes near coords] table[x index=0,y index=8] \mydata; % ProxSDP solver
   \addplot[draw=black,fill=white!75!black, nodes near coords] table[x index=0,y index=9] \mydata; % Tulip solver
 
-  \node[black,text width=6.0cm,font=\tiny\linespread{1.0}\selectfont] at (3.15,16.01) {Markov precision\\= 15.35};
+  \node[black,text width=6.0cm,font=\tiny\linespread{1.0}\selectfont] at (3.15,15.00) {Markov precision\\= $\log_{10}(0)$};
 
   \end{axis}
 

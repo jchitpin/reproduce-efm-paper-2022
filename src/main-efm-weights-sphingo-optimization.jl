@@ -77,14 +77,14 @@ no_ad = optimization_no(A, v2, milp_solvers)
 
 # EXPORT LOG10 RECONSTRUCTION ERRORS -------------------------------------------
 # Markov precision over individual fluxes
-error_wt_ad_mc_ind = vec(# error is -6.80 and -7.01 for wildtype/disease
+error_wt_ad_mc_ind = vec(# error is -14.13 and -13.62 for wildtype/disease
   CSV.read(#
     "../data/efm-error-ind-wt-ad-markov.csv", Tables.matrix, header=false
   )
 )
 
 # Markov precision over total fluxes
-error_wt_ad_mc_tot = vec(# error is -15.65 and -15.35 for wildtype/disease
+error_wt_ad_mc_tot = vec(# error is -15.35 and -Inf for wildtype/disease
   CSV.read(#
     "../data/efm-error-total-wt-ad-markov.csv", Tables.matrix, header=false
   )
@@ -206,8 +206,8 @@ CSV.write(#
 
 ## ZERO WEIGHT PROBABILITY -----------------------------------------------------
 # Mean probability of all optimization methods/solvers assigning a zero weight
-mean_zeros_wt = sum(sum(bars_wt, dims=2)) / size(bars_wt,1) # 0.40
-mean_zeros_ad = sum(sum(bars_ad, dims=2)) / size(bars_ad,1) # 0.44
+mean_zeros_wt = sum(sum(bars_wt, dims=2)) / size(bars_wt,1) # 0.32
+mean_zeros_ad = sum(sum(bars_ad, dims=2)) / size(bars_ad,1) # 0.35
 # ------------------------------------------------------------------------------
 
 ## PERCENTAGE OF FLUX EXPLAINED BY EACH EFM WEIGHT -----------------------------
@@ -228,25 +228,37 @@ mc_top_wt = efm_flux_percentage_top(w_raw_wt, A, 0.95)
 mc_top_ad = efm_flux_percentage_top(w_raw_wt, A, 0.95)
 mc_top_wt == mc_top_ad
 
+
+# -900 is treated as a placeholder for missing values in pgfplots
+g1(x) = replace(y -> isinf(y) ? -900 : y, x)
+g2(x) = replace(y -> isnan(y) ? -900 : y, x)
+sk = g2(g1(log2.(sk_ad.efms_raw[1]./sk_wt.efms_raw[1])))
+or = g2(g1(log2.(or_ad.efms_raw[1]./or_wt.efms_raw[1])))
+ru = g2(g1(log2.(ru_ad.efms_raw[3]./ru_wt.efms_raw[3])))
+re = g2(g1(log2.(re_ad.efms_raw[3]./re_wt.efms_raw[3])))
+no = g2(g1(log2.(no_ad.efms_raw[1]./no_wt.efms_raw[1])))
+
+# w is the sorting index, x is just 1:size(dat,1)
+# y is the log2 fold change of ad/wt based on column 4 in dat
+# z is the grouping index based on column 6 in dat
 w, x, y, z = groupsort(dat, 4, 6)
-sk = log2.(sk_ad.efms_raw[1]./sk_wt.efms_raw[1])
-or = log2.(or_ad.efms_raw[1]./or_wt.efms_raw[1])
-ru = log2.(ru_ad.efms_raw[3]./ru_wt.efms_raw[3])
-re = log2.(re_ad.efms_raw[3]./re_wt.efms_raw[3])
-no = log2.(no_ad.efms_raw[1]./no_wt.efms_raw[1])
 
-using Plots
-plot(x, [y, sk[w], or[w], ru[w], re[w], no[w]], seriestype = :scatter, title = "log₂(ad/wt)")
+#using Plots
+#plot(x, [y, sk[w], or[w], ru[w], re[w], no[w]], seriestype = :scatter, title = "log₂(ad/wt)")
+#plot(dat[:,1], sort(dat[:,4]), seriestype = :scatter, title = "log₂(ad/wt)")
+#plot(dat[:,1], sort(dat[:,5]), seriestype = :scatter, title = "ad-wt")
 
-findall(in(mc_top_wt), w)
+# Indices of the highest EFM weights explaining 95% fluxes in Markov ad/wt
+findall(in(mc_top_wt), w) # indices 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 16, 18, 38
+top_efm = ["" for i in 1:length(w)]
+top_efm[findall(in(mc_top_wt), w)] .= "*"
 
-
-
-
-plot(dat[:,1], dat[:,4][idx1], seriestype = :scatter, title = "log₂(ad/wt)")
-plot(dat[:,1], dat[:,5][idx2], seriestype = :scatter, title = "ad-wt")
-
-
+CSV.write(#
+  "../data/scatterplot-fold-change.csv",
+  Tables.table(hcat(x, y, sk[w], or[w], ru[w], re[w], no[w], top_efm)),
+  header = ["x", "mc", "sk", "or", "ru", "re", "no", "top_efm_cutoff"],
+  delim = '\t'
+)
 
 # ------------------------------------------------------------------------------
 
