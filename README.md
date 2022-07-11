@@ -90,8 +90,8 @@ Table is generated via:
 
 ### Supplementary Figure 4
 
-1. `$ matlab -nodisplay -nosplash -nodesktop -r benchmark_efm_matlab.m
-2. `$ julia benchmark-efm-julia.jl
+1. `$ matlab -nodisplay -nosplash -nodesktop -r benchmark_efm_matlab.m`
+2. `$ julia benchmark-efm-julia.jl`
 
 Figure is generated via:
 
