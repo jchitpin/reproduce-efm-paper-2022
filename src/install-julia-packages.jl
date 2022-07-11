@@ -21,6 +21,7 @@ Pkg.add(#
      "GLPK", "Gurobi", "SCIP", "COSMO", # solvers
      "OSQP", "CDDLib", "ECOS", "ProxSDP", "Tulip", # solvers
      "CSV", "Tables", # importing/exporting data as text files/matrices
+     "DelimitedFiles", # exporting data
      "RowEchelon", # for some matrix property calculations
      "PrettyTables", # printing formatted tables to REPL
      "DifferentialEquations", "SBML", "Plots", # validating sphingolipid model

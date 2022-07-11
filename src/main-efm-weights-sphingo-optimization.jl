@@ -14,7 +14,7 @@ cd("/home/jchitpin/Documents/PhD/Projects/reproduce-efm-paper-2022/src/")
 # ------------------------------------------------------------------------------
 
 ## JULIA PACKAGES AND FUNCTIONS ------------------------------------------------
-using Tables, CSV
+using Tables, CSV, Plots
 using JuMP
 using GLPK, Gurobi, SCIP, COSMO, OSQP, CDDLib, ECOS, ProxSDP, Tulip
 include.(filter(contains(r".jl$"), readdir("functions"; join=true)))
@@ -90,63 +90,66 @@ error_wt_ad_mc_tot = vec(# error is -15.35 and -Inf for wildtype/disease
   )
 )
 
-# Optimization-based error (wildtype)
+# Markov and optimization-based error (wildtype)
 combined_error_wt_ind = hcat(#
   [#
-    [-sk_wt.efms_raw_error_ind; repeat([""], 7)],
-    [-or_wt.efms_raw_error_ind; repeat([""], 7)],
-    [""; -ru_wt.efms_raw_error_ind],
-    [""; -re_wt.efms_raw_error_ind],
-    [""; ""; -no_wt.efms_raw_error_ind; repeat([""], 6)]
+    [-error_wt_ad_mc_ind[1]; repeat([""], 9)],
+    [""; -sk_wt.efms_raw_error_ind; repeat([""], 7)],
+    [""; -or_wt.efms_raw_error_ind; repeat([""], 7)],
+    [""; ""; -ru_wt.efms_raw_error_ind],
+    [""; ""; -re_wt.efms_raw_error_ind],
+    [""; ""; ""; -no_wt.efms_raw_error_ind; repeat([""], 6)]
   ]...
 )
 combined_error_wt_ind = permutedims(string.(combined_error_wt_ind))
-combined_error_wt_ind = hcat(string.(collect(1:5)), combined_error_wt_ind)
+combined_error_wt_ind = hcat(string.(collect(1:6)), combined_error_wt_ind)
 CSV.write(#
   "../data/error-wt-ind.csv", Tables.table(combined_error_wt_ind), header=false
 )
-
 combined_error_wt_tot = hcat(#
   [#
-    [-sk_wt.efms_raw_error_tot; repeat([""], 7)],
-    [-or_wt.efms_raw_error_tot; repeat([""], 7)],
-    [""; -ru_wt.efms_raw_error_tot],
-    [""; -re_wt.efms_raw_error_tot],
-    [""; ""; -no_wt.efms_raw_error_tot; repeat([""], 6)]
+    [-error_wt_ad_mc_tot[1]; repeat([""], 9)],
+    [""; -sk_wt.efms_raw_error_tot; repeat([""], 7)],
+    [""; -or_wt.efms_raw_error_tot; repeat([""], 7)],
+    [""; ""; -ru_wt.efms_raw_error_tot],
+    [""; ""; -re_wt.efms_raw_error_tot],
+    [""; ""; ""; -no_wt.efms_raw_error_tot; repeat([""], 6)]
   ]...
 )
 combined_error_wt_tot = permutedims(string.(combined_error_wt_tot))
-combined_error_wt_tot = hcat(string.(collect(1:5)), combined_error_wt_tot)
+combined_error_wt_tot = hcat(string.(collect(1:6)), combined_error_wt_tot)
 CSV.write(#
   "../data/error-wt-tot.csv", Tables.table(combined_error_wt_tot), header=false
 )
 
-# Optimization-based error (disease)
+# Markov and optimization-based error (disease)
 combined_error_ad_ind = hcat(#
   [#
-    [-sk_ad.efms_raw_error_ind; repeat([""], 7)],
-    [-or_ad.efms_raw_error_ind; repeat([""], 7)],
-    [""; -ru_ad.efms_raw_error_ind],
-    [""; -re_ad.efms_raw_error_ind],
-    [""; ""; -no_ad.efms_raw_error_ind; repeat([""], 6)]
+    [-error_wt_ad_mc_ind[2]; repeat([""], 9)],
+    [""; -sk_ad.efms_raw_error_ind; repeat([""], 7)],
+    [""; -or_ad.efms_raw_error_ind; repeat([""], 7)],
+    [""; ""; -ru_ad.efms_raw_error_ind],
+    [""; ""; -re_ad.efms_raw_error_ind],
+    [""; ""; ""; -no_ad.efms_raw_error_ind; repeat([""], 6)]
   ]...
 )
 combined_error_ad_ind = permutedims(string.(combined_error_ad_ind))
-combined_error_ad_ind = hcat(string.(collect(1:5)), combined_error_ad_ind)
+combined_error_ad_ind = hcat(string.(collect(1:6)), combined_error_ad_ind)
 CSV.write(#
   "../data/error-ad-ind.csv", Tables.table(combined_error_ad_ind), header=false
 )
 combined_error_ad_tot = hcat(#
   [#
-    [-sk_ad.efms_raw_error_tot; repeat([""], 7)],
-    [-or_ad.efms_raw_error_tot; repeat([""], 7)],
-    [""; -ru_ad.efms_raw_error_tot],
-    [""; -re_ad.efms_raw_error_tot],
-    [""; ""; -no_ad.efms_raw_error_tot; repeat([""], 6)]
+    [-error_wt_ad_mc_tot[2]; repeat([""], 9)],
+    [""; -sk_ad.efms_raw_error_tot; repeat([""], 7)],
+    [""; -or_ad.efms_raw_error_tot; repeat([""], 7)],
+    [""; ""; -ru_ad.efms_raw_error_tot],
+    [""; ""; -re_ad.efms_raw_error_tot],
+    [""; ""; ""; -no_ad.efms_raw_error_tot; repeat([""], 6)]
   ]...
 )
 combined_error_ad_tot = permutedims(string.(combined_error_ad_tot))
-combined_error_ad_tot = hcat(string.(collect(1:5)), combined_error_ad_tot)
+combined_error_ad_tot = hcat(string.(collect(1:6)), combined_error_ad_tot)
 CSV.write(#
   "../data/error-ad-tot.csv", Tables.table(combined_error_ad_tot), header=false
 )
@@ -165,7 +168,8 @@ aggregate_efm_values(#
   w_log_ad,
   combined_ad,
   :efms_raw_log,
-  "../data/scatterplot-total-efm-weights-ad-log.csv"
+  "../data/scatterplot-total-efm-weights-ad-log.csv",
+  sortperm(w_log_wt)
 )
 # ------------------------------------------------------------------------------
 
@@ -182,7 +186,8 @@ aggregate_efm_values(#
   p_log_ad,
   combined_ad,
   :efms_prop_log,
-  "../data/scatterplot-total-efm-proport-ad-log.csv"
+  "../data/scatterplot-total-efm-proport-ad-log.csv",
+  sortperm(p_log_wt)
 )
 # ------------------------------------------------------------------------------
 
@@ -195,7 +200,7 @@ CSV.write(#
   delim = '\t'
 )
 
-bars_ad = aggregate_efm_zero_freq(w_log_ad, combined_ad)
+bars_ad = aggregate_efm_zero_freq(w_log_ad, combined_ad, sortperm(w_log_wt))
 CSV.write(#
   "../data/barplot-zero-weight-freq-ad.csv",
   Tables.table(hcat(1:size(bars_ad)[1], bars_ad)),
@@ -208,6 +213,9 @@ CSV.write(#
 # Mean probability of all optimization methods/solvers assigning a zero weight
 mean_zeros_wt = sum(sum(bars_wt, dims=2)) / size(bars_wt,1) # 0.32
 mean_zeros_ad = sum(sum(bars_ad, dims=2)) / size(bars_ad,1) # 0.35
+
+vec(sum(bars_wt .* 21, dims=1)) ./ [2, 2, 8, 8, 1] # average zero weights per method
+vec(sum(bars_ad .* 21, dims=1)) ./ [2, 2, 8, 8, 1] # average zero weights per method
 # ------------------------------------------------------------------------------
 
 ## PERCENTAGE OF FLUX EXPLAINED BY EACH EFM WEIGHT -----------------------------
@@ -220,14 +228,80 @@ sum(num_efms_explain_flux_wt[2:end]) / length(num_efms_explain_flux_wt[2:end])
 sum(num_efms_explain_flux_ad[2:end]) / length(num_efms_explain_flux_ad[2:end])
 # ------------------------------------------------------------------------------
 
+
 ## DIFFERENCE BETWEEN MARKOV WILDTYPE AND DISEASE EFM WEIGHTS ------------------
 # Run main-efm-weights-sphingo-markov.jl first to get this text file
 dat = CSV.read("../data/table-markov-sphingo.csv", Tables.matrix, header=true)
 
-mc_top_wt = efm_flux_percentage_top(w_raw_wt, A, 0.95)
-mc_top_ad = efm_flux_percentage_top(w_raw_wt, A, 0.95)
-mc_top_wt == mc_top_ad
+aa = (w_raw_wt .* vec(sum(A, dims=1)))
+aa = aa ./ sum(aa)
+sum(sort(aa, rev=true)[1:9]) # Top 9 EFMs in wildtype explain 85.8% of fluxes
+id = sortperm(aa, rev=true)
+bb = (w_raw_ad .* vec(sum(A, dims=1)))
+bb = bb ./ sum(bb)
+sum(bb[id][1:9]) # Top 9 EFMs in wildtype explain 86.7% of fluxes of disease
 
+mc_top_wt = efm_flux_percentage_top(w_raw_wt, A, 0.95) # 13 EFMs
+mc_top_ad = efm_flux_percentage_top(w_raw_ad, A, 0.95) # 13 EFMs
+mc_top_shared = intersect(Set(mc_top_wt), Set(mc_top_ad)) # top 11/13 shared
+
+# Top EFMs unique to wildtype
+mc_top_wt[findall(!in(mc_top_shared), mc_top_wt)] # EFMs 18 and 35
+
+# Top EFMs unique to disease
+mc_top_wt[findall(!in(mc_top_shared), mc_top_ad)] # EFMs 11 and 13
+
+# Number of extreme fold changes (greater or equal than 2 fold)
+sum(abs.(f(w_raw_ad, w_raw_wt, id)) .> 2) # 17
+id = .!isinf.(f(sk_ad.efms_raw[1], sk_wt.efms_raw[1], sortperm(sk_wt.efms_raw[1])))
+sum(abs.(f(sk_ad.efms_raw[1], sk_wt.efms_raw[1], sortperm(sk_wt.efms_raw[1]))[id]) .> 2) # 10
+id = .!isinf.(f(or_ad.efms_raw[1], or_wt.efms_raw[1], sortperm(or_wt.efms_raw[1])))
+sum(abs.(f(or_ad.efms_raw[1], or_wt.efms_raw[1], sortperm(or_wt.efms_raw[1]))[id]) .> 2) # 8
+id = .!isinf.(f(ru_ad.efms_raw[1], ru_wt.efms_raw[1], sortperm(ru_wt.efms_raw[1])))
+sum(abs.(f(ru_ad.efms_raw[1], ru_wt.efms_raw[1], sortperm(ru_wt.efms_raw[1]))[id]) .> 2) # 10
+id = .!isinf.(f(re_ad.efms_raw[1], re_wt.efms_raw[1], sortperm(re_wt.efms_raw[1])))
+sum(abs.(f(re_ad.efms_raw[1], re_wt.efms_raw[1], sortperm(re_wt.efms_raw[1]))[id]) .> 2) # 10
+id = .!isinf.(f(no_ad.efms_raw[1], no_wt.efms_raw[1], sortperm(no_wt.efms_raw[1])))
+sum(abs.(f(no_ad.efms_raw[1], no_wt.efms_raw[1], sortperm(no_wt.efms_raw[1]))[id]) .> 2) # 6
+
+# Export data (X-axis is EFMs sorted by flux contribution; Y-axis is fold change)
+f(x,y,i) = log2.((x ./ y))[i]
+g(x,y) = log10.(sort(x .* y))/sum(x .* y)
+id = sortperm(w_raw_wt)
+
+res = [#
+  g(w_raw_wt, vec(sum(A, dims=1))) f(w_raw_ad, w_raw_wt, id) repeat(["Markov"], length(w_raw_wt));
+  g(sk_wt.efms_raw[1], vec(sum(A, dims=1))) f(sk_ad.efms_raw[1], sk_wt.efms_raw[1], sortperm(sk_wt.efms_raw[1])) repeat(["L2_norm_COSMO"], length(w_raw_wt));
+  g(or_wt.efms_raw[1], vec(sum(A, dims=1))) f(or_ad.efms_raw[1], or_wt.efms_raw[1], sortperm(or_wt.efms_raw[1])) repeat(["qp_max_spa_COSMO"], length(w_raw_wt));
+  g(ru_wt.efms_raw[3], vec(sum(A, dims=1))) f(ru_ad.efms_raw[3], ru_wt.efms_raw[3], sortperm(ru_wt.efms_raw[3])) repeat(["lp_max_spa_SCIP"], length(w_raw_wt));
+  g(re_wt.efms_raw[3], vec(sum(A, dims=1))) f(re_ad.efms_raw[3], re_wt.efms_raw[3], sortperm(re_wt.efms_raw[3])) repeat(["lp_min_spa_SCIP"], length(w_raw_wt));
+  g(no_wt.efms_raw[1], vec(sum(A, dims=1))) f(no_ad.efms_raw[1], no_wt.efms_raw[1], sortperm(no_wt.efms_raw[1])) repeat(["milp_Gurobi"], length(w_raw_wt));
+]
+
+CSV.write(#
+  "../data/scatterplot-fc-flux-contribution.csv",
+  Tables.table(res),
+  header = ["x", "y", "method"],
+  delim = '\t'
+)
+
+p1 = plot(g(w_raw_wt, vec(sum(A, dims=1))), f(w_raw_ad, w_raw_wt, id), seriestype = :scatter, legend = :none, markercolor = :red, xlim = (-7, 0), ylim = (-20, 10), xlabel = "EFMs sorted by how much flux they explain log₁₀(%)", ylabel = "Fold change log₂(AD/WT)")
+plot!(g.(sk_wt.efms_raw[[1]], Ref(vec(sum(A, dims=1)))), f.(sk_ad.efms_raw[[1]], sk_wt.efms_raw[[1]], sortperm.(sk_wt.efms_raw[[1]])), seriestype = :scatter, markercolor = :blue)
+plot!(g.(or_wt.efms_raw[[1]], Ref(vec(sum(A, dims=1)))), f.(or_ad.efms_raw[[1]], or_wt.efms_raw[[1]], sortperm.(or_wt.efms_raw[[1]])), seriestype = :scatter, markercolor = :green)
+plot!(g.(ru_wt.efms_raw[[3]], Ref(vec(sum(A, dims=1)))), f.(ru_ad.efms_raw[[3]], ru_wt.efms_raw[[3]], sortperm.(ru_wt.efms_raw[[3]])), seriestype = :scatter, markercolor = :orange)
+plot!(g.(re_wt.efms_raw[[3]], Ref(vec(sum(A, dims=1)))), f.(re_ad.efms_raw[[3]], re_wt.efms_raw[[3]], sortperm.(re_wt.efms_raw[[3]])), seriestype = :scatter, markercolor = :purple)
+plot!(g.(no_wt.efms_raw, Ref(vec(sum(A, dims=1)))), f.(no_ad.efms_raw, no_wt.efms_raw, sortperm.(no_wt.efms_raw)), seriestype = :scatter, markercolor = :yellow)
+plot!([-7; 0], [2.0; 2.0], lw=1, lc=:black, legend=false, line=(:dash))
+plot!([-7; 0], [-2.0; -2.0], lw=1, lc=:black, legend=false, line=(:dash))
+# ------------------------------------------------------------------------------
+
+
+
+
+
+
+
+## UNUSED
 
 # -900 is treated as a placeholder for missing values in pgfplots
 g1(x) = replace(y -> isinf(y) ? -900 : y, x)
@@ -243,10 +317,13 @@ no = g2(g1(log2.(no_ad.efms_raw[1]./no_wt.efms_raw[1])))
 # z is the grouping index based on column 6 in dat
 w, x, y, z = groupsort(dat, 4, 6)
 
-#using Plots
-#plot(x, [y, sk[w], or[w], ru[w], re[w], no[w]], seriestype = :scatter, title = "log₂(ad/wt)")
-#plot(dat[:,1], sort(dat[:,4]), seriestype = :scatter, title = "log₂(ad/wt)")
-#plot(dat[:,1], sort(dat[:,5]), seriestype = :scatter, title = "ad-wt")
+# Temporary
+using Plots
+plot(x, [y, sk[w], or[w], ru[w], re[w], no[w]], seriestype = :scatter, title = "log₂(ad/wt)", ylim=(-10, 10))
+plot(dat[:,1], sort(dat[:,4]), seriestype = :scatter, title = "log₂(ad/wt)")
+plot(dat[:,1], sort(dat[:,5]), seriestype = :scatter, title = "ad-wt")
+
+plot(log10.(dat[:,2]), log10.(dat[:,3]), seriestype = :scatter)
 
 # Indices of the highest EFM weights explaining 95% fluxes in Markov ad/wt
 findall(in(mc_top_wt), w) # indices 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 16, 18, 38

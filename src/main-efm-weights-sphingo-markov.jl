@@ -14,7 +14,7 @@ cd("/home/jchitpin/Documents/PhD/Projects/reproduce-efm-paper-2022/src/")
 
 ## JULIA PACKAGES AND FUNCTIONS ------------------------------------------------
 using ElementaryFluxModes
-using Tables, CSV, NumericIO, JuMP
+using Tables, CSV, NumericIO, JuMP, DelimitedFiles
 include.(filter(contains(r".jl$"), readdir("functions"; join=true)))
 # ------------------------------------------------------------------------------
 
@@ -96,6 +96,7 @@ CSV.write(#
 ## LOG10 SQUARED RECONSTRUCTION ERROR FOR INDIVIDUAL FLUXES --------------------
 # log₁₀(∑((Ax-v)²)/|v|) = -14.13 (wildtype)
 error_wt = log10((sum(((A_wt * res_wt.w .- fluxes_wt).^2)) / length(fluxes_wt)))
+
 # log₁₀(∑((Ax-v)²)/|v|) = -13.62 (disease)
 error_ad = log10((sum(((A_ad * res_ad.w .- fluxes_ad).^2)) / length(fluxes_ad)))
 CSV.write(#
@@ -121,4 +122,13 @@ CSV.write(#
 markov_table(res_wt.w, res_ad.w, res_wt.e, mets, "../data/table-markov-sphingo.csv")
 matrix2table("../data/table-markov-sphingo.csv", "../data/table-markov-sphingo.tex")
 # ------------------------------------------------------------------------------
+
+## EFM METABOLITES/REACTIONS ---------------------------------------------------
+efms_mets = [mets[res_wt.e[i]] for i in 1:length(res_wt.e)]
+efms_mets = [join(efms_mets[i], " \$\\rightarrow\$ ") for i in 1:length(efms_mets)]
+efms_mets = [string(i) * " & " * efms_mets[i] * "\\\\ \\hline" for i in 1:length(efms_mets)]
+efms_mets[end] = efms_mets[end][1:53]
+writedlm("../data/efm-metabolites.tex", efms_mets)
+# ------------------------------------------------------------------------------
+
 

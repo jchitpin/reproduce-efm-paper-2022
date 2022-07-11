@@ -56,8 +56,7 @@ E11 = CSV.read("../data/stoich-20-80-efm-matrix.csv", Tables.matrix, header=fals
 
 ## BENCHMARKING JULIA CODE TO ENUMERATE EFMS AND ASSIGN WEIGHTS ----------------
 # Set benchmarking parameters for 100 samples
-BenchmarkTools.DEFAULT_PARAMETERS.seconds = 12_000
-BenchmarkTools.DEFAULT_PARAMETERS.seconds = 500
+BenchmarkTools.DEFAULT_PARAMETERS.seconds = 12_000 # benchmark stops if time limit exceeded
 BenchmarkTools.DEFAULT_PARAMETERS.samples = 100
 B1 = @benchmark steady_state_efm_distribution(S01, v01)
 B2 = @benchmark steady_state_efm_distribution(S02, v02)

@@ -5,18 +5,17 @@ function aggregate_efm_values(#
   mc::Vector{Float64},
   combined,
   type::Symbol,
-  fname::String
+  fname::String,
+  idx_mc::Vector{Int64}=sortperm(mc)
 )
   @assert(length(combined) == 5, "Expected results from 5 objective function.")
 
   # Order data by Markov and transform and remove infinities
-  idx_mc = sortperm(mc)
+  #idx_mc = sortperm(mc)
   if type ∈ [:efms_raw_log, :efms_prop_log]
     g1(x) = replace(y -> isinf(y) ? -900 : y, x)
     g2(x) = replace(y -> y <= -10 ? -900 : y, x) # very small EFMs are effectively zero and are omitted from this plot
     t(x) = g2(g1(x))[idx_mc]
-  #elseif type ∈ [:efms_raw, :efms_prop]
-    #t(x) = x[idx_mc]
   else
     @assert(false, "type symbol value incorrect.")
   end
@@ -93,9 +92,13 @@ function aggregate_efm_values(#
   )
 end
 
-function aggregate_efm_zero_freq(mc::Vector{Float64}, combined)
+function aggregate_efm_zero_freq(#
+  mc::Vector{Float64},
+  combined,
+  idx_mc::Vector{Int64}=sortperm(mc)
+)
 
-  idx_mc = sortperm(mc)
+  #idx_mc = sortperm(mc)
   g1(x) = replace!(y -> isinf(y) ? -900 : y, x)
   #g2(x) = replace!(y -> y <= -10 ? -900 : y, x) # do not count very small EFMs as zero for this plot!
   s(x) = findall(==(-900), g1(x)[idx_mc])
@@ -149,6 +152,32 @@ function efm_flux_percentage(#
   end
   num_efms_explaining_cutoff = f.(combined_vals)
   return num_efms_explaining_cutoff
+end
+
+function efm_flux_percentage_top(#
+  mc::Vector{Float64},
+  efm::Matrix{<:Real},
+  cutoff::Float64
+)
+  @assert(cutoff >= 0.0 && cutoff <= 1.0, "cutoff must be a percentage.")
+
+  t(x) = x .* vec(sum(efms, dims=1))
+  u(x) = x / sum(x)
+  v(x) = sort(x, rev=true)
+  w(x) = sortperm(x, rev=true)
+
+  function f(x)
+    i = 0
+    j = 0.0
+    while j <= cutoff
+      i += 1
+      j = j + x[i]
+    end
+    return i
+  end
+  top_i_efms = f(v(u(t(mc))))
+
+  return w(mc)[1:top_i_efms] # indices of top EFMs explaining cutoff
 end
 
 function compare_efms(#
@@ -284,7 +313,7 @@ function markov_table(#
   col_5_idx = ad_w .- wt_w
   col_5_idx = formatted.(ad_w .- wt_w, :SCI, ndigits=4, charset=:ASCII)
   col_6_idx = string.(compartment_spanned(efms, mets))
-  col_7_idx = string.(length.(efms))
+  col_7_idx = string.((length.(efms) .- 1))
 
   results = hcat(#
     col_1_idx, col_2_idx, col_3_idx, col_4_idx, col_5_idx, col_6_idx, col_7_idx
@@ -310,31 +339,7 @@ function compartment_spanned(efms::Vector{Vector{Int64}}, mets::Vector{String15}
   return efms_length
 end
 
-function efm_flux_percentage_top(#
-  mc::Vector{Float64},
-  efm::Matrix{<:Real},
-  cutoff::Float64
-)
-  @assert(cutoff >= 0.0 && cutoff <= 1.0, "cutoff must be a percentage.")
 
-  t(x) = x .* vec(sum(efms, dims=1))
-  u(x) = x / sum(x)
-  v(x) = sort(x, rev=true)
-  w(x) = sortperm(x, rev=true)
-
-  function f(x)
-    i = 0
-    j = 0.0
-    while j <= cutoff
-      i += 1
-      j = j + x[i]
-    end
-    return i
-  end
-  top_i_efms = f(v(u(t(mc))))
-
-  return w(mc)[1:top_i_efms] # indices of top EFMs explaining cutoff
-end
 
 function groupsort(M::Matrix{<:Real}, y1::Int64, c1::Int64)
 

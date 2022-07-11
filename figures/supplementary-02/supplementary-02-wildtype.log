@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.6.6)  30 JUN 2022 19:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.6.6)  5 JUL 2022 10:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -379,50 +379,68 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 PGFPlots: reading {../../data/error-wt-tot.csv}
+NOTE: coordinate (2,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
 NOTE: coordinate (3,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
 NOTE: coordinate (4,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
 NOTE: coordinate (5,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (6,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (4,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
 NOTE: coordinate (5,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (6,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (6,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
 NOTE: coordinate (1,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
 NOTE: coordinate (2,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
 NOTE: coordinate (1,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
 NOTE: coordinate (2,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (5,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (6,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
 NOTE: coordinate (1,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
 NOTE: coordinate (2,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (5,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (6,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
 NOTE: coordinate (1,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
 NOTE: coordinate (2,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (5,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (6,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
 NOTE: coordinate (1,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
 NOTE: coordinate (2,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (5,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (6,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
 NOTE: coordinate (1,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
 NOTE: coordinate (2,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (5,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (6,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
 NOTE: coordinate (1,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
 NOTE: coordinate (2,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (5,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (6,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 74.
+(Font)              <9> on input line 77.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 74.
+(Font)              <6> on input line 77.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 77.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 77.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./supplementary-02-wildtype.aux) ) 
 Here is how much of TeX's memory you used:
- 24980 strings out of 478238
- 659581 string characters out of 5850457
- 1065543 words of memory out of 5000000
- 42863 multiletter control sequences out of 15000+600000
- 469567 words of font info for 29 fonts, out of 8000000 for 9000
+ 25005 strings out of 478238
+ 660057 string characters out of 5850457
+ 1068066 words of memory out of 5000000
+ 42882 multiletter control sequences out of 15000+600000
+ 471390 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,20n,117p,747b,2391s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on supplementary-02-wildtype.pdf (1 page, 86805 bytes).
+ 99i,20n,117p,747b,2390s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on supplementary-02-wildtype.pdf (1 page, 95627 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
