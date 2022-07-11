@@ -1,6 +1,6 @@
 #!/usr/bin/env
 
-DIR_FIGURE="$(pwd)/../figures/figure-04-weights-3-panel"
+DIR_FIGURE="$(pwd)/../figures/figure-04"
 
 echo "Compiling Figure 4"
 cd $DIR_FIGURE

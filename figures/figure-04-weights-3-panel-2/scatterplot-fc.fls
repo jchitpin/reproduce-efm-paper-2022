@@ -1,5 +1,0 @@
-PWD /home/jchitpin/Documents/PhD/Projects/reproduce-efm-paper-2022/figures/figure-04-weights-3-panel-2
-INPUT /usr/share/texmf-dist/web2c/texmf.cnf
-INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT scatterplot-fc.tex
-OUTPUT scatterplot-fc.log

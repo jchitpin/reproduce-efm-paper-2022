@@ -57,8 +57,7 @@ Figure is generated via:
 
 Figures are generated via:
 
-1. FILL
-2. FILL
+1. `sh figure-04.sh`
 
 ### Supplementary Figure 1
 
@@ -99,6 +98,9 @@ Figure is generated via:
 1. `sh supplementary-04.sh`
 
 ## Reference
+
+Justin G Chitpin and Theodore J Perkins, *Title*, biorXiv preprint **biorXiv:XXXX.XXXXXX**, <URL>, 2022.
+
 
 ## Acknowledgements
 

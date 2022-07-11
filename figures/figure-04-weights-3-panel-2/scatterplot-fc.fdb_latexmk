@@ -1,9 +1,0 @@
-# Fdb version 3
-["pdflatex"] 1657219355 "scatterplot-fc.tex" "scatterplot-fc.pdf" "scatterplot-fc" 1657219355
-  "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1654522880 2927656 9aa8a8dfe94aba0bf6ded34a6e8786bd ""
-  "scatterplot-fc.aux" 1657218925 32 3985256e7290058c681f74d7a3565a19 ""
-  "scatterplot-fc.tex" 1657219340 1609 cb58f7ba0b9eb85b72b8f90fc8330dd7 ""
-  (generated)
-  "scatterplot-fc.log"
-  "scatterplot-fc.pdf"
