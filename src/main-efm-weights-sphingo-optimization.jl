@@ -285,6 +285,7 @@ CSV.write(#
   delim = '\t'
 )
 
+# Figure 4 panel c plot
 p1 = plot(g(w_raw_wt, vec(sum(A, dims=1))), f(w_raw_ad, w_raw_wt, id), seriestype = :scatter, legend = :none, markercolor = :red, xlim = (-7, 0), ylim = (-20, 10), xlabel = "EFMs sorted by how much flux they explain log₁₀(%)", ylabel = "Fold change log₂(AD/WT)")
 plot!(g.(sk_wt.efms_raw[[1]], Ref(vec(sum(A, dims=1)))), f.(sk_ad.efms_raw[[1]], sk_wt.efms_raw[[1]], sortperm.(sk_wt.efms_raw[[1]])), seriestype = :scatter, markercolor = :blue)
 plot!(g.(or_wt.efms_raw[[1]], Ref(vec(sum(A, dims=1)))), f.(or_ad.efms_raw[[1]], or_wt.efms_raw[[1]], sortperm.(or_wt.efms_raw[[1]])), seriestype = :scatter, markercolor = :green)
@@ -294,68 +295,4 @@ plot!(g.(no_wt.efms_raw, Ref(vec(sum(A, dims=1)))), f.(no_ad.efms_raw, no_wt.efm
 plot!([-7; 0], [2.0; 2.0], lw=1, lc=:black, legend=false, line=(:dash))
 plot!([-7; 0], [-2.0; -2.0], lw=1, lc=:black, legend=false, line=(:dash))
 # ------------------------------------------------------------------------------
-
-
-
-
-
-
-
-## UNUSED
-
-# -900 is treated as a placeholder for missing values in pgfplots
-g1(x) = replace(y -> isinf(y) ? -900 : y, x)
-g2(x) = replace(y -> isnan(y) ? -900 : y, x)
-sk = g2(g1(log2.(sk_ad.efms_raw[1]./sk_wt.efms_raw[1])))
-or = g2(g1(log2.(or_ad.efms_raw[1]./or_wt.efms_raw[1])))
-ru = g2(g1(log2.(ru_ad.efms_raw[3]./ru_wt.efms_raw[3])))
-re = g2(g1(log2.(re_ad.efms_raw[3]./re_wt.efms_raw[3])))
-no = g2(g1(log2.(no_ad.efms_raw[1]./no_wt.efms_raw[1])))
-
-# w is the sorting index, x is just 1:size(dat,1)
-# y is the log2 fold change of ad/wt based on column 4 in dat
-# z is the grouping index based on column 6 in dat
-w, x, y, z = groupsort(dat, 4, 6)
-
-# Temporary
-using Plots
-plot(x, [y, sk[w], or[w], ru[w], re[w], no[w]], seriestype = :scatter, title = "log₂(ad/wt)", ylim=(-10, 10))
-plot(dat[:,1], sort(dat[:,4]), seriestype = :scatter, title = "log₂(ad/wt)")
-plot(dat[:,1], sort(dat[:,5]), seriestype = :scatter, title = "ad-wt")
-
-plot(log10.(dat[:,2]), log10.(dat[:,3]), seriestype = :scatter)
-
-# Indices of the highest EFM weights explaining 95% fluxes in Markov ad/wt
-findall(in(mc_top_wt), w) # indices 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 16, 18, 38
-top_efm = ["" for i in 1:length(w)]
-top_efm[findall(in(mc_top_wt), w)] .= "*"
-
-CSV.write(#
-  "../data/scatterplot-fold-change.csv",
-  Tables.table(hcat(x, y, sk[w], or[w], ru[w], re[w], no[w], top_efm)),
-  header = ["x", "mc", "sk", "or", "ru", "re", "no", "top_efm_cutoff"],
-  delim = '\t'
-)
-
-# ------------------------------------------------------------------------------
-
-
-
-
-
-## CORRELATING WILDTYPE AND DISEASE EFM WEIGHTS --------------------------------
-correlate_efm_values(#
-  w_log_wt,
-  w_log_ad,
-  combined_wt,
-  combined_ad,
-  :efms_prop_log,
-  "../data/scatterplot-correlate-efm-weights-log.csv"
-)
-# ------------------------------------------------------------------------------
-
-
-
-
-
 
