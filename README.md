@@ -104,9 +104,10 @@ Justin G Chitpin and Theodore J Perkins, *Title*, biorXiv preprint **biorXiv:XXX
 
 ## Acknowledgements
 
-This work was supported in part by [grant] from [agency]. J.G.C. was
-supported by an NSERC CREATE Matrix Metabolomics Scholarship and
-an NSERC Alexander Graham Bell Canada Graduate Scholarship.
+We acknowledge the support of the Natural Sciences and Engineering
+Research Council of Canada (NSERC), Discovery grant RGPIN-2019-0660 to
+T.J.P. J.G.C. was supported by an NSERC CREATE Matrix Metabolomics Scholarship
+and an NSERC Alexander Graham Bell Canada Graduate Scholarship.
 
 
 
