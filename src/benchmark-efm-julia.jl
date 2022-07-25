@@ -12,7 +12,7 @@ cd("/home/jchitpin/Documents/PhD/Projects/reproduce-efm-paper-2022/src/")
 # ------------------------------------------------------------------------------
 
 ## JULIA PACKAGES AND FUNCTIONS ------------------------------------------------
-using ElementaryFluxModes
+using MarkovWeightedEFMs
 using Tables, CSV, JuMP
 using BenchmarkTools
 include.(filter(contains(r".jl$"), readdir("functions"; join=true)))
@@ -135,7 +135,7 @@ CSV.write(#
   delim = '\t'
 )
 CSV.write(#
-  "../data/scatterplot-benchmark-elementaryfluxmodes.jl.csv",
+  "../data/scatterplot-benchmark-markovweightedefms.jl.csv",
   Tables.table(res2[1:6,:]),
   header = ["efms", "julia"],
   delim = '\t'

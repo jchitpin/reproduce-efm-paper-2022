@@ -12,7 +12,7 @@ cd("/home/jchitpin/Documents/PhD/Projects/reproduce-efm-paper-2022/src/")
 # ------------------------------------------------------------------------------
 
 ## JULIA PACKAGES AND FUNCTIONS ------------------------------------------------
-using ElementaryFluxModes
+using MarkovWeightedEFMs
 using Tables, CSV
 using GLMakie
 # ------------------------------------------------------------------------------

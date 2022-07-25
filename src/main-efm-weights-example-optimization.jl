@@ -21,7 +21,7 @@ include.(filter(contains(r".jl$"), readdir("functions"; join=true)))
 # Goal is to create system of linear EFM weight equations for example networks
 # 1 and 2 with the following format: A * w == v
 
-# Load EFM matrix from ElementaryFluxModes (rows are reactions; cols are EFMs)
+# Load EFM matrix from MarkovWeightedEFMs (rows are reactions; cols are EFMs)
 A1 = CSV.read("../data/efm-matrix-example-1.csv", Tables.matrix, header=false)
 A2 = CSV.read("../data/efm-matrix-example-2.csv", Tables.matrix, header=false)
 

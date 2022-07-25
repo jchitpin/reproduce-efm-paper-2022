@@ -4,13 +4,13 @@
 #     Note: GLMakie may return an error if OpenGL is not installed.
 #     See https://github.com/JuliaPlots/GLMakie.jl for troubleshooting.
 #     It is only required for one optional plotting function in
-#     ElementaryFluxModes.jl.
+#     MarkovWeightedEFMs.jl.
 #     Note: Gurobi is the only licensed solver that must be manually installed
 # ------------------------------------------------------------------------------
 
-## INSTALLING ElementaryFluxModes.jl -------------------------------------------
+## INSTALLING MarkovWeightedEFMs.jl -------------------------------------------
 using Pkg
-Pkg.add(url="https://github.com/jchitpin/ElementaryFluxModes.jl.git")
+Pkg.add(url="https://github.com/jchitpin/MarkovWeightedEFMs.jl.git")
 # ------------------------------------------------------------------------------
 
 ## INSTALLING PACKAGE DEPENDENCIES ---------------------------------------------
@@ -26,7 +26,7 @@ Pkg.add(#
      "PrettyTables", # printing formatted tables to REPL
      "DifferentialEquations", "SBML", "Plots", # validating sphingolipid model
      "BenchmarkTools", # benchmarking
-     "GLMakie", # plotting backend for ElementaryFluxModes
+     "GLMakie", # plotting backend for MarkovWeightedEFMs
      "NumericIO" # formatting numbers for printing tables
   ]
 )

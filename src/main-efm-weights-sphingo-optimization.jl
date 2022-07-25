@@ -252,6 +252,7 @@ mc_top_wt[findall(!in(mc_top_shared), mc_top_wt)] # EFMs 18 and 35
 mc_top_wt[findall(!in(mc_top_shared), mc_top_ad)] # EFMs 11 and 13
 
 # Number of extreme fold changes (greater or equal than 2 fold)
+f(x,y,i) = log2.((x ./ y))[i]
 sum(abs.(f(w_raw_ad, w_raw_wt, id)) .> 2) # 17
 id = .!isinf.(f(sk_ad.efms_raw[1], sk_wt.efms_raw[1], sortperm(sk_wt.efms_raw[1])))
 sum(abs.(f(sk_ad.efms_raw[1], sk_wt.efms_raw[1], sortperm(sk_wt.efms_raw[1]))[id]) .> 2) # 10
