@@ -99,7 +99,7 @@ Figure is generated via:
 
 ## Reference
 
-Justin G Chitpin and Theodore J Perkins, *Title*, biorXiv preprint **biorXiv:XXXX.XXXXXX**, <URL>, 2022.
+Justin G. Chitpin and Theodore J. Perkins, *A Markov constraint to uniquely identify elementary flux mode weights in unimolecular metabolic networks*, biorXiv preprint **biorXiv:2022.07.25.501464**, doi: https://doi.org/10.1101/2022.07.25.501464.
 
 
 ## Acknowledgements
